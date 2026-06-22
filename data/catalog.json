@@ -1,6 +1,7945 @@
 {
-  "refreshedAt": "1970-01-01T00:00:00.000Z",
+  "refreshedAt": "2026-06-22T20:50:13.522Z",
   "source": "hut-reservation.org",
-  "huts": [],
+  "huts": [
+    {
+      "hutId": 603,
+      "hutName": "Aarbiwak SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.5555,  8.1522",
+      "coordinates": {
+        "lat": 46.5555,
+        "lon": 8.1522
+      },
+      "altitude": "2731 m",
+      "serviced": null,
+      "totalBedsInfo": "17",
+      "info": null
+    },
+    {
+      "hutId": 728,
+      "hutName": "Aclas Dafora",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.695155, 9.638081",
+      "coordinates": {
+        "lat": 46.695155,
+        "lon": 9.638081
+      },
+      "altitude": "1680 m.ü.M.",
+      "serviced": null,
+      "totalBedsInfo": "14",
+      "info": null
+    },
+    {
+      "hutId": 491,
+      "hutName": "Adamek-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.492209,13.583920",
+      "coordinates": {
+        "lat": 47.492209,
+        "lon": 13.58392
+      },
+      "altitude": "2196 m",
+      "serviced": null,
+      "totalBedsInfo": "89",
+      "info": null
+    },
+    {
+      "hutId": 408,
+      "hutName": "Adolf-Noßberger-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.953985/12.781181",
+      "coordinates": {
+        "lat": 46.953985,
+        "lon": 12.781181
+      },
+      "altitude": "2488 m",
+      "serviced": null,
+      "totalBedsInfo": "30",
+      "info": null
+    },
+    {
+      "hutId": 550,
+      "hutName": "Agroturissem Alp d'Err",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.571345/9.692372",
+      "coordinates": {
+        "lat": 46.571345,
+        "lon": 9.692372
+      },
+      "altitude": "2178 m",
+      "serviced": null,
+      "totalBedsInfo": "16",
+      "info": null
+    },
+    {
+      "hutId": 710,
+      "hutName": " Albert-Heim-Hütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.60890/8.46355",
+      "coordinates": {
+        "lat": 46.6089,
+        "lon": 8.46355
+      },
+      "altitude": "2543",
+      "serviced": null,
+      "totalBedsInfo": "60",
+      "info": null
+    },
+    {
+      "hutId": 208,
+      "hutName": "Almagellerhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.107616, 8.007675",
+      "coordinates": {
+        "lat": 46.107616,
+        "lon": 8.007675
+      },
+      "altitude": "2894 m",
+      "serviced": null,
+      "totalBedsInfo": "120",
+      "info": null
+    },
+    {
+      "hutId": 416,
+      "hutName": "Almtaler Haus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.754855/14.017935",
+      "coordinates": {
+        "lat": 47.754855,
+        "lon": 14.017935
+      },
+      "altitude": "714 m",
+      "serviced": null,
+      "totalBedsInfo": "59",
+      "info": null
+    },
+    {
+      "hutId": 411,
+      "hutName": "Alois-Günther-Haus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.5743, 15.7906",
+      "coordinates": {
+        "lat": 47.5743,
+        "lon": 15.7906
+      },
+      "altitude": "1782 m",
+      "serviced": null,
+      "totalBedsInfo": "24",
+      "info": null
+    },
+    {
+      "hutId": 303,
+      "hutName": "Alpenrose-Hütte Zillertal",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.025345/11.801511",
+      "coordinates": {
+        "lat": 47.025345,
+        "lon": 11.801511
+      },
+      "altitude": "1878m",
+      "serviced": null,
+      "totalBedsInfo": "73",
+      "info": null
+    },
+    {
+      "hutId": 114,
+      "hutName": "Alpenrosenhütte im Brixental",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.419968/12.237699",
+      "coordinates": {
+        "lat": 47.419968,
+        "lon": 12.237699
+      },
+      "altitude": "1555 m",
+      "serviced": null,
+      "totalBedsInfo": "52",
+      "info": null
+    },
+    {
+      "hutId": 630,
+      "hutName": "Alpe Pozza \"Vincenzo Lancia\"",
+      "hutCountry": "IT",
+      "coordinatesRaw": "45.827309, 11.144719",
+      "coordinates": {
+        "lat": 45.827309,
+        "lon": 11.144719
+      },
+      "altitude": "1.802 m",
+      "serviced": null,
+      "totalBedsInfo": "48",
+      "info": null
+    },
+    {
+      "hutId": 722,
+      "hutName": "Alpe Rossiglion",
+      "hutCountry": "CH",
+      "coordinatesRaw": "43.308/9.0880",
+      "coordinates": {
+        "lat": 43.308,
+        "lon": 9.088
+      },
+      "altitude": "1959",
+      "serviced": null,
+      "totalBedsInfo": "20",
+      "info": null
+    },
+    {
+      "hutId": 467,
+      "hutName": "Alpwirtschaft Tanzboden",
+      "hutCountry": "CH",
+      "coordinatesRaw": "47.22/09.10",
+      "coordinates": {
+        "lat": 47.22,
+        "lon": 9.1
+      },
+      "altitude": "1443 m",
+      "serviced": null,
+      "totalBedsInfo": "17",
+      "info": null
+    },
+    {
+      "hutId": 625,
+      "hutName": "Altissimo \"Damiano Chiesa\"",
+      "hutCountry": "IT",
+      "coordinatesRaw": "45.810375, 10.890379",
+      "coordinates": {
+        "lat": 45.810375,
+        "lon": 10.890379
+      },
+      "altitude": "2.060 m",
+      "serviced": null,
+      "totalBedsInfo": "35",
+      "info": null
+    },
+    {
+      "hutId": 395,
+      "hutName": "Anhalter Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.301383/10.667783",
+      "coordinates": {
+        "lat": 47.301383,
+        "lon": 10.667783
+      },
+      "altitude": "2040 m",
+      "serviced": null,
+      "totalBedsInfo": "74",
+      "info": null
+    },
+    {
+      "hutId": 146,
+      "hutName": "Annaberger Haus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.873668, 15.421109",
+      "coordinates": {
+        "lat": 47.873668,
+        "lon": 15.421109
+      },
+      "altitude": "1.377 m",
+      "serviced": null,
+      "totalBedsInfo": "40",
+      "info": null
+    },
+    {
+      "hutId": 657,
+      "hutName": "Antica Osteria Dazio",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.44363, 8.66209",
+      "coordinates": {
+        "lat": 46.44363,
+        "lon": 8.66209
+      },
+      "altitude": "1'291 m",
+      "serviced": null,
+      "totalBedsInfo": "27",
+      "info": null
+    },
+    {
+      "hutId": 172,
+      "hutName": "Anton-Karg-Haus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.580049 /12.277278",
+      "coordinates": {
+        "lat": 47.580049,
+        "lon": 12.277278
+      },
+      "altitude": "829 m",
+      "serviced": null,
+      "totalBedsInfo": "91",
+      "info": null
+    },
+    {
+      "hutId": 381,
+      "hutName": "Arbenbiwak SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.031364/7.665059",
+      "coordinates": {
+        "lat": 46.031364,
+        "lon": 7.665059
+      },
+      "altitude": "3224 m",
+      "serviced": null,
+      "totalBedsInfo": "15",
+      "info": null
+    },
+    {
+      "hutId": 711,
+      "hutName": "Arthur-von-Schmid-Haus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.989098/13.267216",
+      "coordinates": {
+        "lat": 46.989098,
+        "lon": 13.267216
+      },
+      "altitude": "2.281m",
+      "serviced": null,
+      "totalBedsInfo": "59",
+      "info": null
+    },
+    {
+      "hutId": 63,
+      "hutName": "Ascher Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.066483, 10.504789",
+      "coordinates": {
+        "lat": 47.066483,
+        "lon": 10.504789
+      },
+      "altitude": "2256 m",
+      "serviced": null,
+      "totalBedsInfo": "26",
+      "info": null
+    },
+    {
+      "hutId": 235,
+      "hutName": "Augsburger Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.16, 10.49",
+      "coordinates": {
+        "lat": 47.16,
+        "lon": 10.49
+      },
+      "altitude": "2298m",
+      "serviced": null,
+      "totalBedsInfo": "54",
+      "info": null
+    },
+    {
+      "hutId": 589,
+      "hutName": "Äugstenhütte",
+      "hutCountry": "CH",
+      "coordinatesRaw": "47.027371/ 9.106704",
+      "coordinates": {
+        "lat": 47.027371,
+        "lon": 9.106704
+      },
+      "altitude": "1500 m",
+      "serviced": null,
+      "totalBedsInfo": "26",
+      "info": null
+    },
+    {
+      "hutId": 613,
+      "hutName": "August-Schuster-Haus",
+      "hutCountry": "DE",
+      "coordinatesRaw": "47.583752/10.992427",
+      "coordinates": {
+        "lat": 47.583752,
+        "lon": 10.992427
+      },
+      "altitude": "1564 m",
+      "serviced": null,
+      "totalBedsInfo": "40",
+      "info": null
+    },
+    {
+      "hutId": 262,
+      "hutName": "Austria-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.4243/13.6001",
+      "coordinates": {
+        "lat": 47.4243,
+        "lon": 13.6001
+      },
+      "altitude": "1638 m",
+      "serviced": null,
+      "totalBedsInfo": "44",
+      "info": null
+    },
+    {
+      "hutId": 23,
+      "hutName": "Bächlitalhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "66.4688/15.9878",
+      "coordinates": {
+        "lat": 66.4688,
+        "lon": 15.9878
+      },
+      "altitude": "2328 m",
+      "serviced": null,
+      "totalBedsInfo": "70",
+      "info": null
+    },
+    {
+      "hutId": 401,
+      "hutName": "Badener Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.08119 / 12.42568",
+      "coordinates": {
+        "lat": 47.08119,
+        "lon": 12.42568
+      },
+      "altitude": "2608 m",
+      "serviced": null,
+      "totalBedsInfo": "49",
+      "info": null
+    },
+    {
+      "hutId": 174,
+      "hutName": "Bad Kissinger Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.534444, 10.562778",
+      "coordinates": {
+        "lat": 47.534444,
+        "lon": 10.562778
+      },
+      "altitude": "1.788 m",
+      "serviced": null,
+      "totalBedsInfo": "50",
+      "info": null
+    },
+    {
+      "hutId": 21,
+      "hutName": "Badushütte",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.636553/8.668352",
+      "coordinates": {
+        "lat": 46.636553,
+        "lon": 8.668352
+      },
+      "altitude": "2503 m",
+      "serviced": null,
+      "totalBedsInfo": "18",
+      "info": null
+    },
+    {
+      "hutId": 579,
+      "hutName": "Balmhornhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.451224, 7.689617",
+      "coordinates": {
+        "lat": 46.451224,
+        "lon": 7.689617
+      },
+      "altitude": "1956 m",
+      "serviced": null,
+      "totalBedsInfo": "20",
+      "info": null
+    },
+    {
+      "hutId": 349,
+      "hutName": "Baltschiederklause SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.395051/7.889815",
+      "coordinates": {
+        "lat": 46.395051,
+        "lon": 7.889815
+      },
+      "altitude": "2783 m",
+      "serviced": null,
+      "totalBedsInfo": "50",
+      "info": null
+    },
+    {
+      "hutId": 188,
+      "hutName": "Barmer Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.917220, 12.16904",
+      "coordinates": {
+        "lat": 46.91722,
+        "lon": 12.16904
+      },
+      "altitude": "2.610",
+      "serviced": null,
+      "totalBedsInfo": "38",
+      "info": null
+    },
+    {
+      "hutId": 715,
+      "hutName": "Base Camp SAC Uto",
+      "hutCountry": "CH",
+      "coordinatesRaw": "47.380688, 8.542386",
+      "coordinates": {
+        "lat": 47.380688,
+        "lon": 8.542386
+      },
+      "altitude": null,
+      "serviced": null,
+      "totalBedsInfo": "150",
+      "info": null
+    },
+    {
+      "hutId": 201,
+      "hutName": "Bayreuther Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.444722 / 11.820833",
+      "coordinates": {
+        "lat": 47.444722,
+        "lon": 11.820833
+      },
+      "altitude": "1576 m",
+      "serviced": null,
+      "totalBedsInfo": "54",
+      "info": null
+    },
+    {
+      "hutId": 531,
+      "hutName": "Berggasthaus Brüsti",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.8432/8.60702",
+      "coordinates": {
+        "lat": 46.8432,
+        "lon": 8.60702
+      },
+      "altitude": "1525 m",
+      "serviced": null,
+      "totalBedsInfo": "30",
+      "info": null
+    },
+    {
+      "hutId": 347,
+      "hutName": "Berghaus Alpenrösli",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.87/89.37",
+      "coordinates": {
+        "lat": 46.87,
+        "lon": 89.37
+      },
+      "altitude": "1775",
+      "serviced": null,
+      "totalBedsInfo": "60",
+      "info": null
+    },
+    {
+      "hutId": 679,
+      "hutName": "Berghaus Alpiglen",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.600038, 8.001995",
+      "coordinates": {
+        "lat": 46.600038,
+        "lon": 8.001995
+      },
+      "altitude": "1616",
+      "serviced": null,
+      "totalBedsInfo": "49",
+      "info": null
+    },
+    {
+      "hutId": 663,
+      "hutName": "Berghaus Bäregg",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.600492 / 8.060145",
+      "coordinates": {
+        "lat": 46.600492,
+        "lon": 8.060145
+      },
+      "altitude": "1775 m",
+      "serviced": null,
+      "totalBedsInfo": "28",
+      "info": null
+    },
+    {
+      "hutId": 438,
+      "hutName": "Berghaus Kleinwalsertal",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.34875, 10.14565",
+      "coordinates": {
+        "lat": 47.34875,
+        "lon": 10.14565
+      },
+      "altitude": "1.250 m",
+      "serviced": null,
+      "totalBedsInfo": "45",
+      "info": null
+    },
+    {
+      "hutId": 52,
+      "hutName": "Berghaus Männdlenen",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.66/07.96",
+      "coordinates": {
+        "lat": 46.66,
+        "lon": 7.96
+      },
+      "altitude": "2344 m",
+      "serviced": null,
+      "totalBedsInfo": "34",
+      "info": null
+    },
+    {
+      "hutId": 99,
+      "hutName": "Bergheim Au",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.318 / 9.963",
+      "coordinates": {
+        "lat": 47.318,
+        "lon": 9.963
+      },
+      "altitude": "824 m",
+      "serviced": null,
+      "totalBedsInfo": "65",
+      "info": null
+    },
+    {
+      "hutId": 549,
+      "hutName": "Berghütte Hohsaas",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.13926 / 7.991636",
+      "coordinates": {
+        "lat": 46.13926,
+        "lon": 7.991636
+      },
+      "altitude": "3142 m",
+      "serviced": null,
+      "totalBedsInfo": "72",
+      "info": null
+    },
+    {
+      "hutId": 161,
+      "hutName": "Berglihütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.566799, 8.020535",
+      "coordinates": {
+        "lat": 46.566799,
+        "lon": 8.020535
+      },
+      "altitude": "3299 m",
+      "serviced": null,
+      "totalBedsInfo": "20",
+      "info": null
+    },
+    {
+      "hutId": 107,
+      "hutName": "Bergsteigerunterkunft Lauschige Ecke",
+      "hutCountry": "DE",
+      "coordinatesRaw": "47.622288 /12.976388",
+      "coordinates": {
+        "lat": 47.622288,
+        "lon": 12.976388
+      },
+      "altitude": "600 m",
+      "serviced": null,
+      "totalBedsInfo": "14",
+      "info": null
+    },
+    {
+      "hutId": 475,
+      "hutName": "Berg- und Skiheim Brixen im Thale",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.454383/12.260491",
+      "coordinates": {
+        "lat": 47.454383,
+        "lon": 12.260491
+      },
+      "altitude": "800 m",
+      "serviced": null,
+      "totalBedsInfo": "53",
+      "info": null
+    },
+    {
+      "hutId": 538,
+      "hutName": "Berg- und Skiheim Brixen im Thale - Ferienwohnung",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.454383/12.260491",
+      "coordinates": {
+        "lat": 47.454383,
+        "lon": 12.260491
+      },
+      "altitude": "800 m",
+      "serviced": null,
+      "totalBedsInfo": "10",
+      "info": null
+    },
+    {
+      "hutId": 105,
+      "hutName": "Berliner Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.024515, 11.812803",
+      "coordinates": {
+        "lat": 47.024515,
+        "lon": 11.812803
+      },
+      "altitude": "2042 m",
+      "serviced": null,
+      "totalBedsInfo": "140",
+      "info": null
+    },
+    {
+      "hutId": 649,
+      "hutName": "Berta-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.518164/13.960374",
+      "coordinates": {
+        "lat": 46.518164,
+        "lon": 13.960374
+      },
+      "altitude": "1527",
+      "serviced": null,
+      "totalBedsInfo": "32",
+      "info": null
+    },
+    {
+      "hutId": 72,
+      "hutName": "Bettelwurf-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.339, 11.507",
+      "coordinates": {
+        "lat": 47.339,
+        "lon": 11.507
+      },
+      "altitude": "2077 m",
+      "serviced": null,
+      "totalBedsInfo": "60",
+      "info": null
+    },
+    {
+      "hutId": 222,
+      "hutName": "Biberacher Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.257716, 10.028680",
+      "coordinates": {
+        "lat": 47.257716,
+        "lon": 10.02868
+      },
+      "altitude": "1846 m",
+      "serviced": null,
+      "totalBedsInfo": "70",
+      "info": null
+    },
+    {
+      "hutId": 572,
+      "hutName": "Bielefelder Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.207222/10.933056",
+      "coordinates": {
+        "lat": 47.207222,
+        "lon": 10.933056
+      },
+      "altitude": "2150 m",
+      "serviced": null,
+      "totalBedsInfo": "50",
+      "info": null
+    },
+    {
+      "hutId": 254,
+      "hutName": "Bifertenhütte AACB",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.814491/9.026486",
+      "coordinates": {
+        "lat": 46.814491,
+        "lon": 9.026486
+      },
+      "altitude": "2482 m",
+      "serviced": null,
+      "totalBedsInfo": "23",
+      "info": null
+    },
+    {
+      "hutId": 264,
+      "hutName": "Binntalhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.374922, 8.291807",
+      "coordinates": {
+        "lat": 46.374922,
+        "lon": 8.291807
+      },
+      "altitude": "2265 m",
+      "serviced": null,
+      "totalBedsInfo": "50",
+      "info": null
+    },
+    {
+      "hutId": 745,
+      "hutName": "Bivacco Corte Rossa",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.26/08.41",
+      "coordinates": {
+        "lat": 46.26,
+        "lon": 8.41
+      },
+      "altitude": "2004",
+      "serviced": null,
+      "totalBedsInfo": "8",
+      "info": null
+    },
+    {
+      "hutId": 598,
+      "hutName": "Bivacco Piano della Parete",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.438706, 9.080077",
+      "coordinates": {
+        "lat": 46.438706,
+        "lon": 9.080077
+      },
+      "altitude": "2720 m",
+      "serviced": null,
+      "totalBedsInfo": "10",
+      "info": null
+    },
+    {
+      "hutId": 288,
+      "hutName": "Bivouac de l'Envers des Dorées",
+      "hutCountry": "CH",
+      "coordinatesRaw": "45.979796/7.048766",
+      "coordinates": {
+        "lat": 45.979796,
+        "lon": 7.048766
+      },
+      "altitude": "2983 m",
+      "serviced": null,
+      "totalBedsInfo": "18",
+      "info": null
+    },
+    {
+      "hutId": 602,
+      "hutName": "Biwak - Enzianhütte Rhön",
+      "hutCountry": "DE",
+      "coordinatesRaw": "50.52, 9.91",
+      "coordinates": {
+        "lat": 50.52,
+        "lon": 9.91
+      },
+      "altitude": "760 m",
+      "serviced": null,
+      "totalBedsInfo": "8",
+      "info": null
+    },
+    {
+      "hutId": 81,
+      "hutName": "Blaueishütte",
+      "hutCountry": "DE",
+      "coordinatesRaw": "47.5868, 12.8695",
+      "coordinates": {
+        "lat": 47.5868,
+        "lon": 12.8695
+      },
+      "altitude": "1650 m",
+      "serviced": null,
+      "totalBedsInfo": "80",
+      "info": null
+    },
+    {
+      "hutId": 1,
+      "hutName": "Blüemlisalphütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.3036, 7.4617",
+      "coordinates": {
+        "lat": 46.3036,
+        "lon": 7.4617
+      },
+      "altitude": "2840 m",
+      "serviced": null,
+      "totalBedsInfo": "100",
+      "info": null
+    },
+    {
+      "hutId": 631,
+      "hutName": "Bocca di Trat \"Nino Pernici\"",
+      "hutCountry": "IT",
+      "coordinatesRaw": "45.926631, 10.768671",
+      "coordinates": {
+        "lat": 45.926631,
+        "lon": 10.768671
+      },
+      "altitude": "1.601 m",
+      "serviced": null,
+      "totalBedsInfo": "20",
+      "info": null
+    },
+    {
+      "hutId": 218,
+      "hutName": "Bodenschneidhaus",
+      "hutCountry": "DE",
+      "coordinatesRaw": "47.67891, 11.84845",
+      "coordinates": {
+        "lat": 47.67891,
+        "lon": 11.84845
+      },
+      "altitude": "1365",
+      "serviced": null,
+      "totalBedsInfo": "48",
+      "info": null
+    },
+    {
+      "hutId": 608,
+      "hutName": "Boé",
+      "hutCountry": "IT",
+      "coordinatesRaw": "46.514614, 11.823281",
+      "coordinates": {
+        "lat": 46.514614,
+        "lon": 11.823281
+      },
+      "altitude": "2.871 m",
+      "serviced": null,
+      "totalBedsInfo": "76",
+      "info": null
+    },
+    {
+      "hutId": 485,
+      "hutName": "Bonn-Matreier Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.038877, 12.427530",
+      "coordinates": {
+        "lat": 47.038877,
+        "lon": 12.42753
+      },
+      "altitude": "2750 m",
+      "serviced": null,
+      "totalBedsInfo": "44",
+      "info": null
+    },
+    {
+      "hutId": 156,
+      "hutName": "Bordierhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.14465, 7.84980",
+      "coordinates": {
+        "lat": 46.14465,
+        "lon": 7.8498
+      },
+      "altitude": "2886 m",
+      "serviced": null,
+      "totalBedsInfo": "44",
+      "info": null
+    },
+    {
+      "hutId": 596,
+      "hutName": "Bosruck-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.639379/14.366294",
+      "coordinates": {
+        "lat": 47.639379,
+        "lon": 14.366294
+      },
+      "altitude": "1036m",
+      "serviced": null,
+      "totalBedsInfo": "30",
+      "info": null
+    },
+    {
+      "hutId": 181,
+      "hutName": "Brandenburger Haus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.844450/10.778050",
+      "coordinates": {
+        "lat": 46.84445,
+        "lon": 10.77805
+      },
+      "altitude": "3277 m",
+      "serviced": null,
+      "totalBedsInfo": "60",
+      "info": null
+    },
+    {
+      "hutId": 366,
+      "hutName": "Braunschweiger Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.93540/10.91048",
+      "coordinates": {
+        "lat": 46.9354,
+        "lon": 10.91048
+      },
+      "altitude": "2.759m",
+      "serviced": null,
+      "totalBedsInfo": "158",
+      "info": null
+    },
+    {
+      "hutId": 143,
+      "hutName": "Bremer Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.994893, 11.263324",
+      "coordinates": {
+        "lat": 46.994893,
+        "lon": 11.263324
+      },
+      "altitude": "2.413 m",
+      "serviced": null,
+      "totalBedsInfo": "69",
+      "info": null
+    },
+    {
+      "hutId": 732,
+      "hutName": "Brisenhaus",
+      "hutCountry": "CH",
+      "coordinatesRaw": "8.464166/46.914917",
+      "coordinates": {
+        "lat": 8.464166,
+        "lon": 46.914917
+      },
+      "altitude": "1753",
+      "serviced": null,
+      "totalBedsInfo": "45",
+      "info": null
+    },
+    {
+      "hutId": 9,
+      "hutName": "Britanniahütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.060106, 7.93507",
+      "coordinates": {
+        "lat": 46.060106,
+        "lon": 7.93507
+      },
+      "altitude": "3030 m",
+      "serviced": null,
+      "totalBedsInfo": "101",
+      "info": null
+    },
+    {
+      "hutId": 389,
+      "hutName": "Brixner Hütte",
+      "hutCountry": "IT",
+      "coordinatesRaw": "46.912911, 11.620518",
+      "coordinates": {
+        "lat": 46.912911,
+        "lon": 11.620518
+      },
+      "altitude": "2282 m",
+      "serviced": null,
+      "totalBedsInfo": "28",
+      "info": null
+    },
+    {
+      "hutId": 206,
+      "hutName": "Brochhütte",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.68073/8.13902",
+      "coordinates": {
+        "lat": 46.68073,
+        "lon": 8.13902
+      },
+      "altitude": "1499 m",
+      "serviced": null,
+      "totalBedsInfo": "43",
+      "info": null
+    },
+    {
+      "hutId": 286,
+      "hutName": "Brunnenkopfhäuser",
+      "hutCountry": "DE",
+      "coordinatesRaw": "47.581269/10.927067",
+      "coordinates": {
+        "lat": 47.581269,
+        "lon": 10.927067
+      },
+      "altitude": "1602 m",
+      "serviced": null,
+      "totalBedsInfo": "26",
+      "info": null
+    },
+    {
+      "hutId": 37,
+      "hutName": "Brunnihütte",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.50273/8.24384",
+      "coordinates": {
+        "lat": 46.50273,
+        "lon": 8.24384
+      },
+      "altitude": "1860 m",
+      "serviced": null,
+      "totalBedsInfo": "40",
+      "info": null
+    },
+    {
+      "hutId": 210,
+      "hutName": "Brünnsteinhaus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.644600, 12.098450",
+      "coordinates": {
+        "lat": 47.6446,
+        "lon": 12.09845
+      },
+      "altitude": "1360 m",
+      "serviced": null,
+      "totalBedsInfo": "48",
+      "info": null
+    },
+    {
+      "hutId": 474,
+      "hutName": "Burghütte",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.450992/8.135312",
+      "coordinates": {
+        "lat": 46.450992,
+        "lon": 8.135312
+      },
+      "altitude": "1750 m",
+      "serviced": null,
+      "totalBedsInfo": "32",
+      "info": null
+    },
+    {
+      "hutId": 511,
+      "hutName": "Cabane Arpitettaz CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.101306/7.679483",
+      "coordinates": {
+        "lat": 46.101306,
+        "lon": 7.679483
+      },
+      "altitude": "2786 m",
+      "serviced": null,
+      "totalBedsInfo": "32",
+      "info": null
+    },
+    {
+      "hutId": 413,
+      "hutName": "Cabane Balavaux",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.157 / 7.278",
+      "coordinates": {
+        "lat": 46.157,
+        "lon": 7.278
+      },
+      "altitude": "2042 m",
+      "serviced": null,
+      "totalBedsInfo": "22",
+      "info": null
+    },
+    {
+      "hutId": 67,
+      "hutName": "Cabane Barraud",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.284576, 7.163000",
+      "coordinates": {
+        "lat": 46.284576,
+        "lon": 7.163
+      },
+      "altitude": "1956 m",
+      "serviced": null,
+      "totalBedsInfo": "28",
+      "info": null
+    },
+    {
+      "hutId": 681,
+      "hutName": "Cabane Bertol CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.00604/7.52772",
+      "coordinates": {
+        "lat": 46.00604,
+        "lon": 7.52772
+      },
+      "altitude": "3311",
+      "serviced": null,
+      "totalBedsInfo": "80",
+      "info": null
+    },
+    {
+      "hutId": 573,
+      "hutName": "Cabane de Bounavaux",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.533463/7.132362",
+      "coordinates": {
+        "lat": 46.533463,
+        "lon": 7.132362
+      },
+      "altitude": "1636 m",
+      "serviced": null,
+      "totalBedsInfo": "36",
+      "info": null
+    },
+    {
+      "hutId": 379,
+      "hutName": "Cabane de Chanrion CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "45.939266/7.380848",
+      "coordinates": {
+        "lat": 45.939266,
+        "lon": 7.380848
+      },
+      "altitude": "2462 m",
+      "serviced": null,
+      "totalBedsInfo": "59",
+      "info": null
+    },
+    {
+      "hutId": 668,
+      "hutName": "Cabane de la Barmaz",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.061406/7.386067",
+      "coordinates": {
+        "lat": 46.061406,
+        "lon": 7.386067
+      },
+      "altitude": "2458 m",
+      "serviced": null,
+      "totalBedsInfo": "36",
+      "info": null
+    },
+    {
+      "hutId": 436,
+      "hutName": "Cabane de la Dent Blanche CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.02027/7.6008",
+      "coordinates": {
+        "lat": 46.02027,
+        "lon": 7.6008
+      },
+      "altitude": "3507 m",
+      "serviced": null,
+      "totalBedsInfo": "34",
+      "info": null
+    },
+    {
+      "hutId": 277,
+      "hutName": "Cabane de l'A Neuve CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "45.949231, 7.066975",
+      "coordinates": {
+        "lat": 45.949231,
+        "lon": 7.066975
+      },
+      "altitude": "2735 m",
+      "serviced": null,
+      "totalBedsInfo": "20",
+      "info": null
+    },
+    {
+      "hutId": 569,
+      "hutName": "Cabane de la Tourche",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.21461/7.06186",
+      "coordinates": {
+        "lat": 46.21461,
+        "lon": 7.06186
+      },
+      "altitude": "2198 m",
+      "serviced": null,
+      "totalBedsInfo": "50",
+      "info": null
+    },
+    {
+      "hutId": 473,
+      "hutName": "Cabane de Prafleuri",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.074947, 7.378778",
+      "coordinates": {
+        "lat": 46.074947,
+        "lon": 7.378778
+      },
+      "altitude": "2662 m",
+      "serviced": null,
+      "totalBedsInfo": "59",
+      "info": null
+    },
+    {
+      "hutId": 706,
+      "hutName": "Cabane de Prarochet",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.185205/7.145079",
+      "coordinates": {
+        "lat": 46.185205,
+        "lon": 7.145079
+      },
+      "altitude": "2556",
+      "serviced": null,
+      "totalBedsInfo": "15",
+      "info": null
+    },
+    {
+      "hutId": 382,
+      "hutName": "Cabane de Saleinaz CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "45.976355/7.070281",
+      "coordinates": {
+        "lat": 45.976355,
+        "lon": 7.070281
+      },
+      "altitude": "2691 m",
+      "serviced": null,
+      "totalBedsInfo": "48",
+      "info": null
+    },
+    {
+      "hutId": 690,
+      "hutName": "Cabane des Audannes",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.34347, 7.38415",
+      "coordinates": {
+        "lat": 46.34347,
+        "lon": 7.38415
+      },
+      "altitude": "2'503m",
+      "serviced": null,
+      "totalBedsInfo": "49",
+      "info": null
+    },
+    {
+      "hutId": 575,
+      "hutName": "Cabane des Clés",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.340481/7.01209",
+      "coordinates": {
+        "lat": 46.340481,
+        "lon": 7.01209
+      },
+      "altitude": "1352 m",
+      "serviced": null,
+      "totalBedsInfo": "20",
+      "info": null
+    },
+    {
+      "hutId": 22,
+      "hutName": "Cabane des Diablerets CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.346472 / 7.214233",
+      "coordinates": {
+        "lat": 46.346472,
+        "lon": 7.214233
+      },
+      "altitude": "2486 m",
+      "serviced": null,
+      "totalBedsInfo": "32",
+      "info": null
+    },
+    {
+      "hutId": 10,
+      "hutName": "Cabane des Dix CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.011066, 7.417683",
+      "coordinates": {
+        "lat": 46.011066,
+        "lon": 7.417683
+      },
+      "altitude": "2928 m",
+      "serviced": null,
+      "totalBedsInfo": "90",
+      "info": null
+    },
+    {
+      "hutId": 726,
+      "hutName": "Cabane des Ecoulaies",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.063535, 7.379731",
+      "coordinates": {
+        "lat": 46.063535,
+        "lon": 7.379731
+      },
+      "altitude": "2575",
+      "serviced": null,
+      "totalBedsInfo": "22",
+      "info": null
+    },
+    {
+      "hutId": 574,
+      "hutName": "Cabane des Marindes",
+      "hutCountry": "CH",
+      "coordinatesRaw": "58.7775/15.3880",
+      "coordinates": {
+        "lat": 58.7775,
+        "lon": 15.388
+      },
+      "altitude": "1868 m",
+      "serviced": null,
+      "totalBedsInfo": "37",
+      "info": null
+    },
+    {
+      "hutId": 566,
+      "hutName": "Cabane de Sorniot",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.169803, 7.094961",
+      "coordinates": {
+        "lat": 46.169803,
+        "lon": 7.094961
+      },
+      "altitude": "2064 m",
+      "serviced": null,
+      "totalBedsInfo": "46",
+      "info": null
+    },
+    {
+      "hutId": 394,
+      "hutName": "Cabane d’Essertze",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.148057, 7.371963",
+      "coordinates": {
+        "lat": 46.148057,
+        "lon": 7.371963
+      },
+      "altitude": "2191 m",
+      "serviced": null,
+      "totalBedsInfo": "24",
+      "info": null
+    },
+    {
+      "hutId": 226,
+      "hutName": "Cabane des Vignettes CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "45.989976, 7.474725",
+      "coordinates": {
+        "lat": 45.989976,
+        "lon": 7.474725
+      },
+      "altitude": "3160 m",
+      "serviced": null,
+      "totalBedsInfo": "100",
+      "info": null
+    },
+    {
+      "hutId": 48,
+      "hutName": "Cabane des Violettes CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.342819, 7.498651",
+      "coordinates": {
+        "lat": 46.342819,
+        "lon": 7.498651
+      },
+      "altitude": "2209 m",
+      "serviced": null,
+      "totalBedsInfo": "26",
+      "info": null
+    },
+    {
+      "hutId": 494,
+      "hutName": "Cabane de Tracuit CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.130270/7.679355",
+      "coordinates": {
+        "lat": 46.13027,
+        "lon": 7.679355
+      },
+      "altitude": "3256 m",
+      "serviced": null,
+      "totalBedsInfo": "96",
+      "info": null
+    },
+    {
+      "hutId": 400,
+      "hutName": "Cabane de Valsorey CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "45.930778, 7.271748",
+      "coordinates": {
+        "lat": 45.930778,
+        "lon": 7.271748
+      },
+      "altitude": "3037 m",
+      "serviced": null,
+      "totalBedsInfo": "50",
+      "info": null
+    },
+    {
+      "hutId": 279,
+      "hutName": "Cabane d'Orny CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.000705, 7.034627",
+      "coordinates": {
+        "lat": 46.000705,
+        "lon": 7.034627
+      },
+      "altitude": "2831 m",
+      "serviced": null,
+      "totalBedsInfo": "80",
+      "info": null
+    },
+    {
+      "hutId": 406,
+      "hutName": "Cabane du Carroz",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.2840/6.0721",
+      "coordinates": {
+        "lat": 46.284,
+        "lon": 6.0721
+      },
+      "altitude": "1508 m",
+      "serviced": null,
+      "totalBedsInfo": "18",
+      "info": null
+    },
+    {
+      "hutId": 333,
+      "hutName": "Cabane du Fenestral",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.189072 / 7.100621",
+      "coordinates": {
+        "lat": 46.189072,
+        "lon": 7.100621
+      },
+      "altitude": "2453 m",
+      "serviced": null,
+      "totalBedsInfo": "31",
+      "info": null
+    },
+    {
+      "hutId": 311,
+      "hutName": "Cabane du Mont d’Or",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.722757/6.336052",
+      "coordinates": {
+        "lat": 46.722757,
+        "lon": 6.336052
+      },
+      "altitude": "1377 m",
+      "serviced": null,
+      "totalBedsInfo": "20",
+      "info": null
+    },
+    {
+      "hutId": 278,
+      "hutName": "Cabane du Mountet CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.060689/7.653619",
+      "coordinates": {
+        "lat": 46.060689,
+        "lon": 7.653619
+      },
+      "altitude": "2886 m",
+      "serviced": null,
+      "totalBedsInfo": "90",
+      "info": null
+    },
+    {
+      "hutId": 281,
+      "hutName": "Cabane du Trient CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.000063, 7.043639",
+      "coordinates": {
+        "lat": 46.000063,
+        "lon": 7.043639
+      },
+      "altitude": "3170 m",
+      "serviced": null,
+      "totalBedsInfo": "90",
+      "info": null
+    },
+    {
+      "hutId": 280,
+      "hutName": "Cabane Rambert CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.230205/ 7.134205",
+      "coordinates": {
+        "lat": 46.230205,
+        "lon": 7.134205
+      },
+      "altitude": "2582 m",
+      "serviced": null,
+      "totalBedsInfo": "38",
+      "info": null
+    },
+    {
+      "hutId": 176,
+      "hutName": "Calandahütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.883185, 9.482227",
+      "coordinates": {
+        "lat": 46.883185,
+        "lon": 9.482227
+      },
+      "altitude": "2073 m",
+      "serviced": null,
+      "totalBedsInfo": "29",
+      "info": null
+    },
+    {
+      "hutId": 26,
+      "hutName": "Camona da Maighels CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.62547/8.69007",
+      "coordinates": {
+        "lat": 46.62547,
+        "lon": 8.69007
+      },
+      "altitude": "2310 m",
+      "serviced": null,
+      "totalBedsInfo": "83",
+      "info": null
+    },
+    {
+      "hutId": 240,
+      "hutName": "Camona da Punteglias CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.77722, 8.95607",
+      "coordinates": {
+        "lat": 46.77722,
+        "lon": 8.95607
+      },
+      "altitude": "2311 m",
+      "serviced": null,
+      "totalBedsInfo": "26",
+      "info": null
+    },
+    {
+      "hutId": 42,
+      "hutName": "Capanna Adula CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.499200, 8.995615",
+      "coordinates": {
+        "lat": 46.4992,
+        "lon": 8.995615
+      },
+      "altitude": "2012 m",
+      "serviced": null,
+      "totalBedsInfo": "24",
+      "info": null
+    },
+    {
+      "hutId": 583,
+      "hutName": "Capanna Adula UTOE",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.29431 / 9.0275",
+      "coordinates": {
+        "lat": 46.29431,
+        "lon": 9.0275
+      },
+      "altitude": "2393 m",
+      "serviced": null,
+      "totalBedsInfo": "52",
+      "info": null
+    },
+    {
+      "hutId": 477,
+      "hutName": "Capanna Alp da Canaa",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.25045 / 8.63499",
+      "coordinates": {
+        "lat": 46.25045,
+        "lon": 8.63499
+      },
+      "altitude": "1843 m",
+      "serviced": null,
+      "totalBedsInfo": "20",
+      "info": null
+    },
+    {
+      "hutId": 479,
+      "hutName": "Capanna Alpe Nimi",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.25221 / 8.76752",
+      "coordinates": {
+        "lat": 46.25221,
+        "lon": 8.76752
+      },
+      "altitude": "1718 m",
+      "serviced": null,
+      "totalBedsInfo": "18",
+      "info": null
+    },
+    {
+      "hutId": 447,
+      "hutName": "Capanna Alpe Sponda",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.41847/8.78584",
+      "coordinates": {
+        "lat": 46.41847,
+        "lon": 8.78584
+      },
+      "altitude": "1997 m",
+      "serviced": null,
+      "totalBedsInfo": "34",
+      "info": null
+    },
+    {
+      "hutId": 198,
+      "hutName": "Capanna Alzasca CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.271332, 8.589253",
+      "coordinates": {
+        "lat": 46.271332,
+        "lon": 8.589253
+      },
+      "altitude": "1734 m",
+      "serviced": null,
+      "totalBedsInfo": "20",
+      "info": null
+    },
+    {
+      "hutId": 510,
+      "hutName": "Capanna Arena",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.23269 / 8.51456",
+      "coordinates": {
+        "lat": 46.23269,
+        "lon": 8.51456
+      },
+      "altitude": "1689 m",
+      "serviced": null,
+      "totalBedsInfo": "30",
+      "info": null
+    },
+    {
+      "hutId": 8,
+      "hutName": "Capanna Basòdino (Robiei) CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.439556, 8.514077",
+      "coordinates": {
+        "lat": 46.439556,
+        "lon": 8.514077
+      },
+      "altitude": "1856 m",
+      "serviced": null,
+      "totalBedsInfo": "59",
+      "info": null
+    },
+    {
+      "hutId": 49,
+      "hutName": "Capanna Bovarina",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.56027/8.88841",
+      "coordinates": {
+        "lat": 46.56027,
+        "lon": 8.88841
+      },
+      "altitude": "1870 m",
+      "serviced": null,
+      "totalBedsInfo": "35",
+      "info": null
+    },
+    {
+      "hutId": 565,
+      "hutName": "Capanna Brogoldone",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.154572/9.034788",
+      "coordinates": {
+        "lat": 46.154572,
+        "lon": 9.034788
+      },
+      "altitude": "1910",
+      "serviced": null,
+      "totalBedsInfo": "25",
+      "info": null
+    },
+    {
+      "hutId": 730,
+      "hutName": "Capanna Cadagno",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.54654/8.719669",
+      "coordinates": {
+        "lat": 46.54654,
+        "lon": 8.719669
+      },
+      "altitude": "1987",
+      "serviced": null,
+      "totalBedsInfo": "74",
+      "info": null
+    },
+    {
+      "hutId": 34,
+      "hutName": "Capanna Cadlimo CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.57173, 8.69484",
+      "coordinates": {
+        "lat": 46.57173,
+        "lon": 8.69484
+      },
+      "altitude": "2570 m",
+      "serviced": null,
+      "totalBedsInfo": "53",
+      "info": null
+    },
+    {
+      "hutId": 36,
+      "hutName": "Capanna Campo Tencia CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "69.9440/14.4470",
+      "coordinates": {
+        "lat": 69.944,
+        "lon": 14.447
+      },
+      "altitude": "2140 m",
+      "serviced": null,
+      "totalBedsInfo": "50",
+      "info": null
+    },
+    {
+      "hutId": 580,
+      "hutName": "Capanna Cava",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.35756 / 9.03036",
+      "coordinates": {
+        "lat": 46.35756,
+        "lon": 9.03036
+      },
+      "altitude": "2066 m",
+      "serviced": null,
+      "totalBedsInfo": "34",
+      "info": null
+    },
+    {
+      "hutId": 197,
+      "hutName": "Capanna Corno-Gries CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.467017, 8.409994",
+      "coordinates": {
+        "lat": 46.467017,
+        "lon": 8.409994
+      },
+      "altitude": "2338 m",
+      "serviced": null,
+      "totalBedsInfo": "46",
+      "info": null
+    },
+    {
+      "hutId": 20,
+      "hutName": "Capanna Cristallina CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.472528, 8.526301",
+      "coordinates": {
+        "lat": 46.472528,
+        "lon": 8.526301
+      },
+      "altitude": "2575 m",
+      "serviced": null,
+      "totalBedsInfo": "108",
+      "info": null
+    },
+    {
+      "hutId": 3,
+      "hutName": "Capanna da l'Albigna CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.331205, 9.655262",
+      "coordinates": {
+        "lat": 46.331205,
+        "lon": 9.655262
+      },
+      "altitude": "2336 m",
+      "serviced": null,
+      "totalBedsInfo": "84",
+      "info": null
+    },
+    {
+      "hutId": 18,
+      "hutName": "Capanna del Forno CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.331498 / 9.709716",
+      "coordinates": {
+        "lat": 46.331498,
+        "lon": 9.709716
+      },
+      "altitude": "2574 m",
+      "serviced": null,
+      "totalBedsInfo": "63",
+      "info": null
+    },
+    {
+      "hutId": 7,
+      "hutName": "Capanna di Sciora CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.30312/9.61635",
+      "coordinates": {
+        "lat": 46.30312,
+        "lon": 9.61635
+      },
+      "altitude": "2119",
+      "serviced": null,
+      "totalBedsInfo": "29",
+      "info": null
+    },
+    {
+      "hutId": 674,
+      "hutName": "Capanna Gambarogno",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.112331, 8.830570",
+      "coordinates": {
+        "lat": 46.112331,
+        "lon": 8.83057
+      },
+      "altitude": "1724 m",
+      "serviced": null,
+      "totalBedsInfo": "12",
+      "info": null
+    },
+    {
+      "hutId": 478,
+      "hutName": "Capanna Grossalp",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.316398 / 8.471349",
+      "coordinates": {
+        "lat": 46.316398,
+        "lon": 8.471349
+      },
+      "altitude": "1906 m",
+      "serviced": null,
+      "totalBedsInfo": "0",
+      "info": null
+    },
+    {
+      "hutId": 168,
+      "hutName": "Capanna Monte Bar",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.099995, 9.013999",
+      "coordinates": {
+        "lat": 46.099995,
+        "lon": 9.013999
+      },
+      "altitude": "1602 m",
+      "serviced": null,
+      "totalBedsInfo": "40",
+      "info": null
+    },
+    {
+      "hutId": 221,
+      "hutName": "Capanna Motterascio CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.594167/9.0005",
+      "coordinates": {
+        "lat": 46.594167,
+        "lon": 9.0005
+      },
+      "altitude": "2172 m",
+      "serviced": null,
+      "totalBedsInfo": "70",
+      "info": null
+    },
+    {
+      "hutId": 736,
+      "hutName": "Capanna Pian d’Alpe ",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.2341 / 8.5619",
+      "coordinates": {
+        "lat": 46.2341,
+        "lon": 8.5619
+      },
+      "altitude": "1764",
+      "serviced": null,
+      "totalBedsInfo": "19",
+      "info": null
+    },
+    {
+      "hutId": 399,
+      "hutName": "Capanna Piansecco CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.294/8.281",
+      "coordinates": {
+        "lat": 46.294,
+        "lon": 8.281
+      },
+      "altitude": "1982 m",
+      "serviced": null,
+      "totalBedsInfo": "42",
+      "info": null
+    },
+    {
+      "hutId": 419,
+      "hutName": "Capanna Poncione di Braga",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.42919/8.57221",
+      "coordinates": {
+        "lat": 46.42919,
+        "lon": 8.57221
+      },
+      "altitude": "2003 m",
+      "serviced": null,
+      "totalBedsInfo": "18",
+      "info": null
+    },
+    {
+      "hutId": 582,
+      "hutName": "Capanna Quarnei",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.473110, 9.023686",
+      "coordinates": {
+        "lat": 46.47311,
+        "lon": 9.023686
+      },
+      "altitude": "2107 m",
+      "serviced": null,
+      "totalBedsInfo": "50",
+      "info": null
+    },
+    {
+      "hutId": 38,
+      "hutName": "Capanna Sasc Furä CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "2.765110 / 1.131580",
+      "coordinates": {
+        "lat": 2.76511,
+        "lon": 1.13158
+      },
+      "altitude": "1904 m",
+      "serviced": null,
+      "totalBedsInfo": "36",
+      "info": null
+    },
+    {
+      "hutId": 135,
+      "hutName": "Capanna Scaletta",
+      "hutCountry": "CH",
+      "coordinatesRaw": "2.715043/1.162932",
+      "coordinates": {
+        "lat": 2.715043,
+        "lon": 1.162932
+      },
+      "altitude": "2205 m",
+      "serviced": null,
+      "totalBedsInfo": "54",
+      "info": null
+    },
+    {
+      "hutId": 435,
+      "hutName": "Capanna Tomeo",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.366081/8.688937",
+      "coordinates": {
+        "lat": 46.366081,
+        "lon": 8.688937
+      },
+      "altitude": "1739 m",
+      "serviced": null,
+      "totalBedsInfo": "28",
+      "info": null
+    },
+    {
+      "hutId": 642,
+      "hutName": "Caré Alto \"Dante Ongari\"",
+      "hutCountry": "IT",
+      "coordinatesRaw": "46.107651, 10.626103",
+      "coordinates": {
+        "lat": 46.107651,
+        "lon": 10.626103
+      },
+      "altitude": "2.450 m",
+      "serviced": null,
+      "totalBedsInfo": "74",
+      "info": null
+    },
+    {
+      "hutId": 293,
+      "hutName": "Carl-von-Stahl-Haus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.574750, 13.042617",
+      "coordinates": {
+        "lat": 47.57475,
+        "lon": 13.042617
+      },
+      "altitude": "1736hm",
+      "serviced": null,
+      "totalBedsInfo": "113",
+      "info": null
+    },
+    {
+      "hutId": 46,
+      "hutName": "Carschinahütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "47.007076, 9.827356",
+      "coordinates": {
+        "lat": 47.007076,
+        "lon": 9.827356
+      },
+      "altitude": "2236 m",
+      "serviced": null,
+      "totalBedsInfo": "62",
+      "info": null
+    },
+    {
+      "hutId": 628,
+      "hutName": "Casarota \"Livio Ciola\"",
+      "hutCountry": "IT",
+      "coordinatesRaw": "45.954421, 11.195494",
+      "coordinates": {
+        "lat": 45.954421,
+        "lon": 11.195494
+      },
+      "altitude": "1.569 m",
+      "serviced": null,
+      "totalBedsInfo": "24",
+      "info": null
+    },
+    {
+      "hutId": 694,
+      "hutName": "Cavardirashütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.742469 / 8.814237",
+      "coordinates": {
+        "lat": 46.742469,
+        "lon": 8.814237
+      },
+      "altitude": "2649",
+      "serviced": null,
+      "totalBedsInfo": "50",
+      "info": null
+    },
+    {
+      "hutId": 551,
+      "hutName": "Cesa da Sett",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.415417, 9.636980",
+      "coordinates": {
+        "lat": 46.415417,
+        "lon": 9.63698
+      },
+      "altitude": "2303 m ü. M.",
+      "serviced": null,
+      "totalBedsInfo": "16",
+      "info": null
+    },
+    {
+      "hutId": 645,
+      "hutName": "Cevedale \"Guido Larcher\"",
+      "hutCountry": "IT",
+      "coordinatesRaw": "46.436915, 10.665993",
+      "coordinates": {
+        "lat": 46.436915,
+        "lon": 10.665993
+      },
+      "altitude": "2.607 m",
+      "serviced": null,
+      "totalBedsInfo": "80",
+      "info": null
+    },
+    {
+      "hutId": 68,
+      "hutName": "Chalet Lacombe",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.388473, 7.042996",
+      "coordinates": {
+        "lat": 46.388473,
+        "lon": 7.042996
+      },
+      "altitude": "1653 m",
+      "serviced": null,
+      "totalBedsInfo": "22",
+      "info": null
+    },
+    {
+      "hutId": 680,
+      "hutName": "Chalet La Source",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.27510/7.08550",
+      "coordinates": {
+        "lat": 46.2751,
+        "lon": 7.0855
+      },
+      "altitude": "1168",
+      "serviced": null,
+      "totalBedsInfo": "19",
+      "info": null
+    },
+    {
+      "hutId": 50,
+      "hutName": "Chamanna Cluozza",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.662848, 10.117651",
+      "coordinates": {
+        "lat": 46.662848,
+        "lon": 10.117651
+      },
+      "altitude": "1882 m",
+      "serviced": null,
+      "totalBedsInfo": "61",
+      "info": null
+    },
+    {
+      "hutId": 386,
+      "hutName": "Chamanna Coaz CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.38169/9.82834",
+      "coordinates": {
+        "lat": 46.38169,
+        "lon": 9.82834
+      },
+      "altitude": "2610 m",
+      "serviced": null,
+      "totalBedsInfo": "55",
+      "info": null
+    },
+    {
+      "hutId": 391,
+      "hutName": "Chamanna da Boval CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.415199/9.925074",
+      "coordinates": {
+        "lat": 46.415199,
+        "lon": 9.925074
+      },
+      "altitude": "2495",
+      "serviced": null,
+      "totalBedsInfo": "80",
+      "info": null
+    },
+    {
+      "hutId": 25,
+      "hutName": "Chamanna d'Es-cha CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.611490, 9.902741",
+      "coordinates": {
+        "lat": 46.61149,
+        "lon": 9.902741
+      },
+      "altitude": "2594 m",
+      "serviced": null,
+      "totalBedsInfo": "42",
+      "info": null
+    },
+    {
+      "hutId": 290,
+      "hutName": "Chamanna Georgy",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.487882, 9.955766",
+      "coordinates": {
+        "lat": 46.487882,
+        "lon": 9.955766
+      },
+      "altitude": "3175 m",
+      "serviced": null,
+      "totalBedsInfo": "20",
+      "info": null
+    },
+    {
+      "hutId": 157,
+      "hutName": "Chamanna Jenatsch CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.530168, 9.720377",
+      "coordinates": {
+        "lat": 46.530168,
+        "lon": 9.720377
+      },
+      "altitude": "2652 m",
+      "serviced": null,
+      "totalBedsInfo": "70",
+      "info": null
+    },
+    {
+      "hutId": 182,
+      "hutName": "Chamonas d'Ela CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.618768, 9.691876",
+      "coordinates": {
+        "lat": 46.618768,
+        "lon": 9.691876
+      },
+      "altitude": "2252 m",
+      "serviced": null,
+      "totalBedsInfo": "26",
+      "info": null
+    },
+    {
+      "hutId": 78,
+      "hutName": "Chamonna Lischana CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.765583, 10.334556",
+      "coordinates": {
+        "lat": 46.765583,
+        "lon": 10.334556
+      },
+      "altitude": "2500 m",
+      "serviced": null,
+      "totalBedsInfo": "49",
+      "info": null
+    },
+    {
+      "hutId": 33,
+      "hutName": "Chamonna Tuoi CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.830744, 10.132428",
+      "coordinates": {
+        "lat": 46.830744,
+        "lon": 10.132428
+      },
+      "altitude": "2250 m",
+      "serviced": null,
+      "totalBedsInfo": "72",
+      "info": null
+    },
+    {
+      "hutId": 55,
+      "hutName": "Chelenalphütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.67171/8.43984",
+      "coordinates": {
+        "lat": 46.67171,
+        "lon": 8.43984
+      },
+      "altitude": "2350 m",
+      "serviced": null,
+      "totalBedsInfo": "40",
+      "info": null
+    },
+    {
+      "hutId": 554,
+      "hutName": "Chesa sut Baselgia, Stugl",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.650/9.731",
+      "coordinates": {
+        "lat": 46.65,
+        "lon": 9.731
+      },
+      "altitude": "1550 m.ü.M.",
+      "serviced": null,
+      "totalBedsInfo": "6",
+      "info": null
+    },
+    {
+      "hutId": 623,
+      "hutName": "Ciampedié",
+      "hutCountry": "IT",
+      "coordinatesRaw": "46.433865, 11.664272",
+      "coordinates": {
+        "lat": 46.433865,
+        "lon": 11.664272
+      },
+      "altitude": "2000 m",
+      "serviced": null,
+      "totalBedsInfo": "8",
+      "info": null
+    },
+    {
+      "hutId": 626,
+      "hutName": "Cima d'Asta \"Ottone Brentari\"",
+      "hutCountry": "IT",
+      "coordinatesRaw": "46.170309, 11.604395",
+      "coordinates": {
+        "lat": 46.170309,
+        "lon": 11.604395
+      },
+      "altitude": "2.480 m",
+      "serviced": null,
+      "totalBedsInfo": "57",
+      "info": null
+    },
+    {
+      "hutId": 132,
+      "hutName": "Clarahütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.01/12.14",
+      "coordinates": {
+        "lat": 47.01,
+        "lon": 12.14
+      },
+      "altitude": "2038 m",
+      "serviced": null,
+      "totalBedsInfo": "47",
+      "info": null
+    },
+    {
+      "hutId": 330,
+      "hutName": "Clubhaus Metsch",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.44/07.46",
+      "coordinates": {
+        "lat": 46.44,
+        "lon": 7.46
+      },
+      "altitude": "1775 m",
+      "serviced": null,
+      "totalBedsInfo": "16",
+      "info": null
+    },
+    {
+      "hutId": 363,
+      "hutName": "Clubheim Fälensee",
+      "hutCountry": "CH",
+      "coordinatesRaw": "47.25/09.42",
+      "coordinates": {
+        "lat": 47.25,
+        "lon": 9.42
+      },
+      "altitude": "1527 m",
+      "serviced": null,
+      "totalBedsInfo": "35",
+      "info": null
+    },
+    {
+      "hutId": 568,
+      "hutName": "Clubhütte Grubenalp",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.16038 / 7.94713",
+      "coordinates": {
+        "lat": 46.16038,
+        "lon": 7.94713
+      },
+      "altitude": "2300 m",
+      "serviced": null,
+      "totalBedsInfo": "14",
+      "info": null
+    },
+    {
+      "hutId": 445,
+      "hutName": "Cresta-Biwak SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.04474 / 8.03018",
+      "coordinates": {
+        "lat": 46.04474,
+        "lon": 8.03018
+      },
+      "altitude": "3025 m",
+      "serviced": null,
+      "totalBedsInfo": "6",
+      "info": null
+    },
+    {
+      "hutId": 165,
+      "hutName": "Cufercalhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.593356/9.359021",
+      "coordinates": {
+        "lat": 46.593356,
+        "lon": 9.359021
+      },
+      "altitude": "2385 m",
+      "serviced": null,
+      "totalBedsInfo": "23",
+      "info": null
+    },
+    {
+      "hutId": 228,
+      "hutName": "Dammahütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.644864, 8.457761",
+      "coordinates": {
+        "lat": 46.644864,
+        "lon": 8.457761
+      },
+      "altitude": "2439 m",
+      "serviced": null,
+      "totalBedsInfo": "19",
+      "info": null
+    },
+    {
+      "hutId": 256,
+      "hutName": "DAV-Haus-Spitzingsee",
+      "hutCountry": "DE",
+      "coordinatesRaw": "47.669957,11.882484",
+      "coordinates": {
+        "lat": 47.669957,
+        "lon": 11.882484
+      },
+      "altitude": "1124m",
+      "serviced": null,
+      "totalBedsInfo": "88",
+      "info": null
+    },
+    {
+      "hutId": 131,
+      "hutName": "Dessauer Hütte",
+      "hutCountry": "DE",
+      "coordinatesRaw": "50.897333,14.135762",
+      "coordinates": {
+        "lat": 50.897333,
+        "lon": 14.135762
+      },
+      "altitude": "281 m",
+      "serviced": null,
+      "totalBedsInfo": "30",
+      "info": null
+    },
+    {
+      "hutId": 11,
+      "hutName": "Doldenhornhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.48704,7.69739",
+      "coordinates": {
+        "lat": 46.48704,
+        "lon": 7.69739
+      },
+      "altitude": "1915 m",
+      "serviced": null,
+      "totalBedsInfo": "40",
+      "info": null
+    },
+    {
+      "hutId": 697,
+      "hutName": "Domhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.103031, 7.817705",
+      "coordinates": {
+        "lat": 46.103031,
+        "lon": 7.817705
+      },
+      "altitude": "2937",
+      "serviced": null,
+      "totalBedsInfo": "75",
+      "info": null
+    },
+    {
+      "hutId": 31,
+      "hutName": "Dossenhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.655219/8.169219",
+      "coordinates": {
+        "lat": 46.655219,
+        "lon": 8.169219
+      },
+      "altitude": "2663 m",
+      "serviced": null,
+      "totalBedsInfo": "45",
+      "info": null
+    },
+    {
+      "hutId": 393,
+      "hutName": "Douglasshütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.059684/9.754765",
+      "coordinates": {
+        "lat": 47.059684,
+        "lon": 9.754765
+      },
+      "altitude": "1.979 m",
+      "serviced": null,
+      "totalBedsInfo": "86",
+      "info": null
+    },
+    {
+      "hutId": 310,
+      "hutName": "Dreischusterhütte",
+      "hutCountry": "IT",
+      "coordinatesRaw": "46.67453, 12.29722",
+      "coordinates": {
+        "lat": 46.67453,
+        "lon": 12.29722
+      },
+      "altitude": "1639 m",
+      "serviced": null,
+      "totalBedsInfo": "47",
+      "info": null
+    },
+    {
+      "hutId": 692,
+      "hutName": "Dresdner Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.999726, 11.139388",
+      "coordinates": {
+        "lat": 46.999726,
+        "lon": 11.139388
+      },
+      "altitude": "2308 m",
+      "serviced": null,
+      "totalBedsInfo": "135",
+      "info": null
+    },
+    {
+      "hutId": 741,
+      "hutName": "Druesberghütte",
+      "hutCountry": "CH",
+      "coordinatesRaw": "47.020706 / 8.826148",
+      "coordinates": {
+        "lat": 47.020706,
+        "lon": 8.826148
+      },
+      "altitude": "1581",
+      "serviced": null,
+      "totalBedsInfo": "36",
+      "info": null
+    },
+    {
+      "hutId": 493,
+      "hutName": "Edelraute-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.439229, 14.432754",
+      "coordinates": {
+        "lat": 47.439229,
+        "lon": 14.432754
+      },
+      "altitude": "1725",
+      "serviced": null,
+      "totalBedsInfo": "51",
+      "info": null
+    },
+    {
+      "hutId": 125,
+      "hutName": "Edelweiss-Hütte am Schneeberg",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.791762,15",
+      "coordinates": {
+        "lat": 47.791762,
+        "lon": 15
+      },
+      "altitude": "1.235 m",
+      "serviced": null,
+      "totalBedsInfo": "25",
+      "info": null
+    },
+    {
+      "hutId": 650,
+      "hutName": "Elberfelder Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.97814, 12.76045",
+      "coordinates": {
+        "lat": 46.97814,
+        "lon": 12.76045
+      },
+      "altitude": "2346 m",
+      "serviced": null,
+      "totalBedsInfo": "55",
+      "info": null
+    },
+    {
+      "hutId": 729,
+      "hutName": "Enderlinhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "47.038784/9.551532",
+      "coordinates": {
+        "lat": 47.038784,
+        "lon": 9.551532
+      },
+      "altitude": "1501m",
+      "serviced": null,
+      "totalBedsInfo": "25",
+      "info": null
+    },
+    {
+      "hutId": 355,
+      "hutName": "Ennstaler-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.619119/14.676403",
+      "coordinates": {
+        "lat": 47.619119,
+        "lon": 14.676403
+      },
+      "altitude": "1543 m",
+      "serviced": null,
+      "totalBedsInfo": "38",
+      "info": null
+    },
+    {
+      "hutId": 576,
+      "hutName": "Enzianhütte/Rhön",
+      "hutCountry": "DE",
+      "coordinatesRaw": "50.52, 9.91",
+      "coordinates": {
+        "lat": 50.52,
+        "lon": 9.91
+      },
+      "altitude": "760 m",
+      "serviced": null,
+      "totalBedsInfo": "50",
+      "info": null
+    },
+    {
+      "hutId": 323,
+      "hutName": "Erfurter Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.441667, 11.763056",
+      "coordinates": {
+        "lat": 47.441667,
+        "lon": 11.763056
+      },
+      "altitude": "1834 m",
+      "serviced": null,
+      "totalBedsInfo": "83",
+      "info": null
+    },
+    {
+      "hutId": 721,
+      "hutName": "Erlanger Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.14472, 10.84722",
+      "coordinates": {
+        "lat": 47.14472,
+        "lon": 10.84722
+      },
+      "altitude": "2550",
+      "serviced": null,
+      "totalBedsInfo": "40",
+      "info": null
+    },
+    {
+      "hutId": 133,
+      "hutName": "Essener und Rostocker Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.055000, 12.297778",
+      "coordinates": {
+        "lat": 47.055,
+        "lon": 12.297778
+      },
+      "altitude": "2208 m",
+      "serviced": null,
+      "totalBedsInfo": "106",
+      "info": null
+    },
+    {
+      "hutId": 488,
+      "hutName": "E.-T.-Compton-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.696, 13.157",
+      "coordinates": {
+        "lat": 46.696,
+        "lon": 13.157
+      },
+      "altitude": "1585m",
+      "serviced": null,
+      "totalBedsInfo": "18",
+      "info": null
+    },
+    {
+      "hutId": 398,
+      "hutName": "Etzlihütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.71/08.72",
+      "coordinates": {
+        "lat": 46.71,
+        "lon": 8.72
+      },
+      "altitude": "2052 H.ü.M",
+      "serviced": null,
+      "totalBedsInfo": "75",
+      "info": null
+    },
+    {
+      "hutId": 354,
+      "hutName": "Falkenhütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.400031, 11.498835",
+      "coordinates": {
+        "lat": 47.400031,
+        "lon": 11.498835
+      },
+      "altitude": "1848 m",
+      "serviced": null,
+      "totalBedsInfo": "120",
+      "info": null
+    },
+    {
+      "hutId": 383,
+      "hutName": "Feichtau-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.801406, 14.317450",
+      "coordinates": {
+        "lat": 47.801406,
+        "lon": 14.31745
+      },
+      "altitude": "1360 m",
+      "serviced": null,
+      "totalBedsInfo": "0",
+      "info": null
+    },
+    {
+      "hutId": 241,
+      "hutName": "Fergenhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.86/9.96",
+      "coordinates": {
+        "lat": 46.86,
+        "lon": 9.96
+      },
+      "altitude": "2141 m",
+      "serviced": null,
+      "totalBedsInfo": "21",
+      "info": null
+    },
+    {
+      "hutId": 489,
+      "hutName": "Filmoor-Standschützen-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.6712/12.5362",
+      "coordinates": {
+        "lat": 46.6712,
+        "lon": 12.5362
+      },
+      "altitude": "2350 m",
+      "serviced": null,
+      "totalBedsInfo": "14",
+      "info": null
+    },
+    {
+      "hutId": 213,
+      "hutName": "Finsteraarhornhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.52 / 8.11",
+      "coordinates": {
+        "lat": 46.52,
+        "lon": 8.11
+      },
+      "altitude": "3048 m. ü. M.",
+      "serviced": null,
+      "totalBedsInfo": "116",
+      "info": null
+    },
+    {
+      "hutId": 656,
+      "hutName": "Fluhseehütte",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.41125 / 7.49946",
+      "coordinates": {
+        "lat": 46.41125,
+        "lon": 7.49946
+      },
+      "altitude": "2049 m",
+      "serviced": null,
+      "totalBedsInfo": "12",
+      "info": null
+    },
+    {
+      "hutId": 316,
+      "hutName": "Fraganter Schutzhaus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.950921,13.027661",
+      "coordinates": {
+        "lat": 46.950921,
+        "lon": 13.027661
+      },
+      "altitude": "1.810 m",
+      "serviced": null,
+      "totalBedsInfo": "72",
+      "info": null
+    },
+    {
+      "hutId": 317,
+      "hutName": "Franz-Fischer-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.200214, 13.364550",
+      "coordinates": {
+        "lat": 47.200214,
+        "lon": 13.36455
+      },
+      "altitude": "2020 m",
+      "serviced": null,
+      "totalBedsInfo": "45",
+      "info": null
+    },
+    {
+      "hutId": 675,
+      "hutName": "Franz-Senn-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.085192, 11.168758",
+      "coordinates": {
+        "lat": 47.085192,
+        "lon": 11.168758
+      },
+      "altitude": "2147m",
+      "serviced": null,
+      "totalBedsInfo": "130",
+      "info": null
+    },
+    {
+      "hutId": 86,
+      "hutName": "Frassen-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.185596, 9.828919",
+      "coordinates": {
+        "lat": 47.185596,
+        "lon": 9.828919
+      },
+      "altitude": "1.725 m",
+      "serviced": null,
+      "totalBedsInfo": "50",
+      "info": null
+    },
+    {
+      "hutId": 686,
+      "hutName": "Frederic-Simms-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.210307/10.355494",
+      "coordinates": {
+        "lat": 47.210307,
+        "lon": 10.355494
+      },
+      "altitude": "2004",
+      "serviced": null,
+      "totalBedsInfo": "45",
+      "info": null
+    },
+    {
+      "hutId": 97,
+      "hutName": "Freiburgerhütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.162723,9.99041",
+      "coordinates": {
+        "lat": 47.162723,
+        "lon": 9.99041
+      },
+      "altitude": "1918 m",
+      "serviced": null,
+      "totalBedsInfo": "103",
+      "info": null
+    },
+    {
+      "hutId": 90,
+      "hutName": "Freschen-Haus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.298512,9.775530",
+      "coordinates": {
+        "lat": 47.298512,
+        "lon": 9.77553
+      },
+      "altitude": "1846 m",
+      "serviced": null,
+      "totalBedsInfo": "53",
+      "info": null
+    },
+    {
+      "hutId": 217,
+      "hutName": "Friedrichshafener Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.994722/10.215833",
+      "coordinates": {
+        "lat": 46.994722,
+        "lon": 10.215833
+      },
+      "altitude": "2138 m",
+      "serviced": null,
+      "totalBedsInfo": "55",
+      "info": null
+    },
+    {
+      "hutId": 170,
+      "hutName": "Friesenberghaus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.067386, 11.702097",
+      "coordinates": {
+        "lat": 47.067386,
+        "lon": 11.702097
+      },
+      "altitude": "2.498 m",
+      "serviced": null,
+      "totalBedsInfo": "56",
+      "info": null
+    },
+    {
+      "hutId": 528,
+      "hutName": "Fritz-Pflaum-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.564187,12.337136",
+      "coordinates": {
+        "lat": 47.564187,
+        "lon": 12.337136
+      },
+      "altitude": "1868 m",
+      "serviced": null,
+      "totalBedsInfo": "17",
+      "info": null
+    },
+    {
+      "hutId": 83,
+      "hutName": "Fritz-Putz Hütte",
+      "hutCountry": "DE",
+      "coordinatesRaw": "47.53806, 10.77347",
+      "coordinates": {
+        "lat": 47.53806,
+        "lon": 10.77347
+      },
+      "altitude": "1180 m",
+      "serviced": null,
+      "totalBedsInfo": "39",
+      "info": null
+    },
+    {
+      "hutId": 350,
+      "hutName": "Fromatthütte",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.54601/7.43279",
+      "coordinates": {
+        "lat": 46.54601,
+        "lon": 7.43279
+      },
+      "altitude": "1800 m",
+      "serviced": null,
+      "totalBedsInfo": "20",
+      "info": null
+    },
+    {
+      "hutId": 19,
+      "hutName": "Fründenhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "7.44, 31.1",
+      "coordinates": {
+        "lat": 7.44,
+        "lon": 31.1
+      },
+      "altitude": "2562 m",
+      "serviced": null,
+      "totalBedsInfo": "58",
+      "info": null
+    },
+    {
+      "hutId": 180,
+      "hutName": "Furtschaglhaus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.0039, 11.7478",
+      "coordinates": {
+        "lat": 47.0039,
+        "lon": 11.7478
+      },
+      "altitude": "2.295 m",
+      "serviced": null,
+      "totalBedsInfo": "70",
+      "info": null
+    },
+    {
+      "hutId": 454,
+      "hutName": "Fusshornbiwak",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.253/ 8.033",
+      "coordinates": {
+        "lat": 46.253,
+        "lon": 8.033
+      },
+      "altitude": "2788 m",
+      "serviced": null,
+      "totalBedsInfo": "8",
+      "info": null
+    },
+    {
+      "hutId": 108,
+      "hutName": "Gablonzer Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.53327/13.47980",
+      "coordinates": {
+        "lat": 47.53327,
+        "lon": 13.4798
+      },
+      "altitude": "1.550 m",
+      "serviced": null,
+      "totalBedsInfo": "69",
+      "info": null
+    },
+    {
+      "hutId": 472,
+      "hutName": "Galmihornhütte",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.489456, 8.242922",
+      "coordinates": {
+        "lat": 46.489456,
+        "lon": 8.242922
+      },
+      "altitude": "2113 m",
+      "serviced": null,
+      "totalBedsInfo": "25",
+      "info": null
+    },
+    {
+      "hutId": 169,
+      "hutName": "Gamshütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.130481, 11.807152",
+      "coordinates": {
+        "lat": 47.130481,
+        "lon": 11.807152
+      },
+      "altitude": "1921",
+      "serviced": null,
+      "totalBedsInfo": "38",
+      "info": null
+    },
+    {
+      "hutId": 555,
+      "hutName": "Gamskarkogel-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.161786, 13.158782",
+      "coordinates": {
+        "lat": 47.161786,
+        "lon": 13.158782
+      },
+      "altitude": "2.467 m",
+      "serviced": null,
+      "totalBedsInfo": "24",
+      "info": null
+    },
+    {
+      "hutId": 100,
+      "hutName": "Gaudeamushütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.549167,12.324722",
+      "coordinates": {
+        "lat": 47.549167,
+        "lon": 12.324722
+      },
+      "altitude": "1.263 m",
+      "serviced": null,
+      "totalBedsInfo": "43",
+      "info": null
+    },
+    {
+      "hutId": 571,
+      "hutName": "Gauenhütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.059304 / 9.864445",
+      "coordinates": {
+        "lat": 47.059304,
+        "lon": 9.864445
+      },
+      "altitude": "1235 m",
+      "serviced": null,
+      "totalBedsInfo": "26",
+      "info": null
+    },
+    {
+      "hutId": 27,
+      "hutName": "Gaulihütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.623745/8.216584",
+      "coordinates": {
+        "lat": 46.623745,
+        "lon": 8.216584
+      },
+      "altitude": "2205 m",
+      "serviced": null,
+      "totalBedsInfo": "63",
+      "info": null
+    },
+    {
+      "hutId": 66,
+      "hutName": "Gelmerhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.631195, 8.342758",
+      "coordinates": {
+        "lat": 46.631195,
+        "lon": 8.342758
+      },
+      "altitude": "2412 m",
+      "serviced": null,
+      "totalBedsInfo": "50",
+      "info": null
+    },
+    {
+      "hutId": 17,
+      "hutName": "Geltenhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.36/07.33",
+      "coordinates": {
+        "lat": 46.36,
+        "lon": 7.33
+      },
+      "altitude": "2002 m",
+      "serviced": null,
+      "totalBedsInfo": "85",
+      "info": null
+    },
+    {
+      "hutId": 173,
+      "hutName": "Gepatschhaus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.901389 / 10.7375",
+      "coordinates": {
+        "lat": 46.901389,
+        "lon": 10.7375
+      },
+      "altitude": "1.928",
+      "serviced": null,
+      "totalBedsInfo": "87",
+      "info": null
+    },
+    {
+      "hutId": 110,
+      "hutName": "Geraerhütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.0236/11.3741",
+      "coordinates": {
+        "lat": 47.0236,
+        "lon": 11.3741
+      },
+      "altitude": "2324 m",
+      "serviced": null,
+      "totalBedsInfo": "70",
+      "info": null
+    },
+    {
+      "hutId": 563,
+      "hutName": "Giessener Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.59733 / 13.19733",
+      "coordinates": {
+        "lat": 46.59733,
+        "lon": 13.19733
+      },
+      "altitude": "2215m",
+      "serviced": null,
+      "totalBedsInfo": "37",
+      "info": null
+    },
+    {
+      "hutId": 634,
+      "hutName": "Giorgio Graffer al Grosté",
+      "hutCountry": "IT",
+      "coordinatesRaw": "46.219654, 10.889412",
+      "coordinates": {
+        "lat": 46.219654,
+        "lon": 10.889412
+      },
+      "altitude": "2.261 m",
+      "serviced": null,
+      "totalBedsInfo": "25",
+      "info": null
+    },
+    {
+      "hutId": 39,
+      "hutName": "Glattalphütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.916885,8.875034",
+      "coordinates": {
+        "lat": 46.916885,
+        "lon": 8.875034
+      },
+      "altitude": "1896 m",
+      "serviced": null,
+      "totalBedsInfo": "51",
+      "info": null
+    },
+    {
+      "hutId": 2,
+      "hutName": "Glecksteinhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.625111, 8.096502",
+      "coordinates": {
+        "lat": 46.625111,
+        "lon": 8.096502
+      },
+      "altitude": "2317 m",
+      "serviced": null,
+      "totalBedsInfo": "88",
+      "info": null
+    },
+    {
+      "hutId": 223,
+      "hutName": "Gleiwitzer Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.21827 / 12.76900",
+      "coordinates": {
+        "lat": 47.21827,
+        "lon": 12.769
+      },
+      "altitude": "2176 m",
+      "serviced": null,
+      "totalBedsInfo": "45",
+      "info": null
+    },
+    {
+      "hutId": 342,
+      "hutName": "Glorer Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.030833/12.715556",
+      "coordinates": {
+        "lat": 47.030833,
+        "lon": 12.715556
+      },
+      "altitude": "2.642 m",
+      "serviced": null,
+      "totalBedsInfo": "39",
+      "info": null
+    },
+    {
+      "hutId": 62,
+      "hutName": "Glungezer-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.20, 11.52",
+      "coordinates": {
+        "lat": 47.2,
+        "lon": 11.52
+      },
+      "altitude": "2610 m",
+      "serviced": null,
+      "totalBedsInfo": "48",
+      "info": null
+    },
+    {
+      "hutId": 718,
+      "hutName": "Gmundner Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.872943,13.833801",
+      "coordinates": {
+        "lat": 47.872943,
+        "lon": 13.833801
+      },
+      "altitude": "1666m",
+      "serviced": null,
+      "totalBedsInfo": "39",
+      "info": null
+    },
+    {
+      "hutId": 106,
+      "hutName": "Goiserer Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.37, 13.33",
+      "coordinates": {
+        "lat": 47.37,
+        "lon": 13.33
+      },
+      "altitude": "1.592 m",
+      "serviced": null,
+      "totalBedsInfo": "22",
+      "info": null
+    },
+    {
+      "hutId": 410,
+      "hutName": "Gollinghütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.2866, 13.7693",
+      "coordinates": {
+        "lat": 47.2866,
+        "lon": 13.7693
+      },
+      "altitude": "1641m",
+      "serviced": null,
+      "totalBedsInfo": "70",
+      "info": null
+    },
+    {
+      "hutId": 183,
+      "hutName": "Göppinger Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.214813, 10.045557",
+      "coordinates": {
+        "lat": 47.214813,
+        "lon": 10.045557
+      },
+      "altitude": "2245m",
+      "serviced": null,
+      "totalBedsInfo": "69",
+      "info": null
+    },
+    {
+      "hutId": 567,
+      "hutName": "Grassenbiwak SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.77020,8.44665",
+      "coordinates": {
+        "lat": 46.7702,
+        "lon": 8.44665
+      },
+      "altitude": "2647 m",
+      "serviced": null,
+      "totalBedsInfo": "18",
+      "info": null
+    },
+    {
+      "hutId": 122,
+      "hutName": "Greizer Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.04330, 11.8853",
+      "coordinates": {
+        "lat": 47.0433,
+        "lon": 11.8853
+      },
+      "altitude": "2.227 m",
+      "serviced": null,
+      "totalBedsInfo": "81",
+      "info": null
+    },
+    {
+      "hutId": 444,
+      "hutName": "Grialetsch-Hütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.71052/9.96057",
+      "coordinates": {
+        "lat": 46.71052,
+        "lon": 9.96057
+      },
+      "altitude": "2542 m",
+      "serviced": null,
+      "totalBedsInfo": "58",
+      "info": null
+    },
+    {
+      "hutId": 196,
+      "hutName": "Grubenberghütte",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.54939,7",
+      "coordinates": {
+        "lat": 46.54939,
+        "lon": 7
+      },
+      "altitude": "1840 m",
+      "serviced": null,
+      "totalBedsInfo": "23",
+      "info": null
+    },
+    {
+      "hutId": 312,
+      "hutName": "Gruebenhütte AACBs",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.60589/8.259318",
+      "coordinates": {
+        "lat": 46.60589,
+        "lon": 8.259318
+      },
+      "altitude": "2512 m",
+      "serviced": null,
+      "totalBedsInfo": "16",
+      "info": null
+    },
+    {
+      "hutId": 154,
+      "hutName": "Gruttenhütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.55363 / 12.31104",
+      "coordinates": {
+        "lat": 47.55363,
+        "lon": 12.31104
+      },
+      "altitude": "1.620 m",
+      "serviced": null,
+      "totalBedsInfo": "90",
+      "info": null
+    },
+    {
+      "hutId": 44,
+      "hutName": "Gspaltenhornhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.5/7.81",
+      "coordinates": {
+        "lat": 46.5,
+        "lon": 7.81
+      },
+      "altitude": "2455 m",
+      "serviced": null,
+      "totalBedsInfo": "60",
+      "info": null
+    },
+    {
+      "hutId": 148,
+      "hutName": "Gufferthütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.58, 11.79",
+      "coordinates": {
+        "lat": 47.58,
+        "lon": 11.79
+      },
+      "altitude": "1475 m",
+      "serviced": null,
+      "totalBedsInfo": "64",
+      "info": null
+    },
+    {
+      "hutId": 665,
+      "hutName": "Guggihütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.562740/7.974400",
+      "coordinates": {
+        "lat": 46.56274,
+        "lon": 7.9744
+      },
+      "altitude": "2791 m",
+      "serviced": null,
+      "totalBedsInfo": "24",
+      "info": null
+    },
+    {
+      "hutId": 260,
+      "hutName": "Guttenberg-Haus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.450945/13.683718",
+      "coordinates": {
+        "lat": 47.450945,
+        "lon": 13.683718
+      },
+      "altitude": "2146 m",
+      "serviced": null,
+      "totalBedsInfo": "65",
+      "info": null
+    },
+    {
+      "hutId": 424,
+      "hutName": "Habsburg-Haus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.42795/15.41917",
+      "coordinates": {
+        "lat": 47.42795,
+        "lon": 15.41917
+      },
+      "altitude": "1785 m",
+      "serviced": null,
+      "totalBedsInfo": "69",
+      "info": null
+    },
+    {
+      "hutId": 716,
+      "hutName": "Hagener Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.02/13.09",
+      "coordinates": {
+        "lat": 47.02,
+        "lon": 13.09
+      },
+      "altitude": "2446",
+      "serviced": null,
+      "totalBedsInfo": "33",
+      "info": null
+    },
+    {
+      "hutId": 492,
+      "hutName": "Haindlkar-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.567150 / 14.611917",
+      "coordinates": {
+        "lat": 47.56715,
+        "lon": 14.611917
+      },
+      "altitude": "1121 m",
+      "serviced": null,
+      "totalBedsInfo": "35",
+      "info": null
+    },
+    {
+      "hutId": 616,
+      "hutName": "Haldenseehaus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.487397 / 10.598373",
+      "coordinates": {
+        "lat": 47.487397,
+        "lon": 10.598373
+      },
+      "altitude": "1150 m",
+      "serviced": null,
+      "totalBedsInfo": "64",
+      "info": null
+    },
+    {
+      "hutId": 82,
+      "hutName": "Hallerangerhaus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.354722, 11.477222",
+      "coordinates": {
+        "lat": 47.354722,
+        "lon": 11.477222
+      },
+      "altitude": "1768 m",
+      "serviced": null,
+      "totalBedsInfo": "73",
+      "info": null
+    },
+    {
+      "hutId": 121,
+      "hutName": "Hannoverhaus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.040684/13.215527",
+      "coordinates": {
+        "lat": 47.040684,
+        "lon": 13.215527
+      },
+      "altitude": "2.565 m",
+      "serviced": null,
+      "totalBedsInfo": "50",
+      "info": null
+    },
+    {
+      "hutId": 537,
+      "hutName": "Hanslberghütte",
+      "hutCountry": "DE",
+      "coordinatesRaw": "48.953357/12.005885",
+      "coordinates": {
+        "lat": 48.953357,
+        "lon": 12.005885
+      },
+      "altitude": "344 m",
+      "serviced": null,
+      "totalBedsInfo": "1",
+      "info": null
+    },
+    {
+      "hutId": 504,
+      "hutName": "Hans Wödlhütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.36/13.81",
+      "coordinates": {
+        "lat": 47.36,
+        "lon": 13.81
+      },
+      "altitude": "1533 m",
+      "serviced": null,
+      "totalBedsInfo": "40",
+      "info": null
+    },
+    {
+      "hutId": 611,
+      "hutName": "Haus Don Bosco",
+      "hutCountry": "DE",
+      "coordinatesRaw": "47.323, 9.997",
+      "coordinates": {
+        "lat": 47.323,
+        "lon": 9.997
+      },
+      "altitude": "851 m",
+      "serviced": null,
+      "totalBedsInfo": "46",
+      "info": null
+    },
+    {
+      "hutId": 282,
+      "hutName": "Haus und Hütte Hammer",
+      "hutCountry": "DE",
+      "coordinatesRaw": "47.70373,11.94016",
+      "coordinates": {
+        "lat": 47.70373,
+        "lon": 11.94016
+      },
+      "altitude": "750 m",
+      "serviced": null,
+      "totalBedsInfo": "81",
+      "info": null
+    },
+    {
+      "hutId": 610,
+      "hutName": "Haus Unken",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.661749, 12.744579",
+      "coordinates": {
+        "lat": 47.661749,
+        "lon": 12.744579
+      },
+      "altitude": "564 m",
+      "serviced": null,
+      "totalBedsInfo": "15",
+      "info": null
+    },
+    {
+      "hutId": 439,
+      "hutName": "Haus Wäldele",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.34859, 10.14563",
+      "coordinates": {
+        "lat": 47.34859,
+        "lon": 10.14563
+      },
+      "altitude": "1.250 m",
+      "serviced": null,
+      "totalBedsInfo": "16",
+      "info": null
+    },
+    {
+      "hutId": 456,
+      "hutName": "Heidelberger Hütte",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.90976, 10.25948",
+      "coordinates": {
+        "lat": 46.90976,
+        "lon": 10.25948
+      },
+      "altitude": "2364 m",
+      "serviced": null,
+      "totalBedsInfo": "120",
+      "info": null
+    },
+    {
+      "hutId": 89,
+      "hutName": "Heinrich-Hueter-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.078800, 9.783688",
+      "coordinates": {
+        "lat": 47.0788,
+        "lon": 9.783688
+      },
+      "altitude": "1.766 m",
+      "serviced": null,
+      "totalBedsInfo": "80",
+      "info": null
+    },
+    {
+      "hutId": 152,
+      "hutName": "Heinrich-Schwaiger-Haus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.162783 / 12.738883",
+      "coordinates": {
+        "lat": 47.162783,
+        "lon": 12.738883
+      },
+      "altitude": "2802 m",
+      "serviced": null,
+      "totalBedsInfo": "71",
+      "info": null
+    },
+    {
+      "hutId": 727,
+      "hutName": "Hermann-von-Barth-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "10.40 / 47.31",
+      "coordinates": {
+        "lat": 10.4,
+        "lon": 47.31
+      },
+      "altitude": "2131",
+      "serviced": null,
+      "totalBedsInfo": "57",
+      "info": null
+    },
+    {
+      "hutId": 306,
+      "hutName": "Hess-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.56, 14.65",
+      "coordinates": {
+        "lat": 47.56,
+        "lon": 14.65
+      },
+      "altitude": "1.699 m",
+      "serviced": null,
+      "totalBedsInfo": "99",
+      "info": null
+    },
+    {
+      "hutId": 377,
+      "hutName": "Hexenseehütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.018826, 10.481156",
+      "coordinates": {
+        "lat": 47.018826,
+        "lon": 10.481156
+      },
+      "altitude": "2588",
+      "serviced": null,
+      "totalBedsInfo": "18",
+      "info": null
+    },
+    {
+      "hutId": 369,
+      "hutName": "Hildesheimer Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.966545, 11.117297",
+      "coordinates": {
+        "lat": 46.966545,
+        "lon": 11.117297
+      },
+      "altitude": "2.899 m",
+      "serviced": null,
+      "totalBedsInfo": "70",
+      "info": null
+    },
+    {
+      "hutId": 496,
+      "hutName": "Hinterbalmhütte",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.779620, 8.798549",
+      "coordinates": {
+        "lat": 46.77962,
+        "lon": 8.798549
+      },
+      "altitude": "1817 müM",
+      "serviced": null,
+      "totalBedsInfo": "32",
+      "info": null
+    },
+    {
+      "hutId": 257,
+      "hutName": "Hochfeilerhütte",
+      "hutCountry": "IT",
+      "coordinatesRaw": "46.962, 11.7085",
+      "coordinates": {
+        "lat": 46.962,
+        "lon": 11.7085
+      },
+      "altitude": "2715 m",
+      "serviced": null,
+      "totalBedsInfo": "88",
+      "info": null
+    },
+    {
+      "hutId": 370,
+      "hutName": "Hochjoch Hospiz",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.82516,10.83393",
+      "coordinates": {
+        "lat": 46.82516,
+        "lon": 10.83393
+      },
+      "altitude": "2.413 m",
+      "serviced": null,
+      "totalBedsInfo": "65",
+      "info": null
+    },
+    {
+      "hutId": 725,
+      "hutName": "Hochlandhütte",
+      "hutCountry": "DE",
+      "coordinatesRaw": "47.450916/11.318772",
+      "coordinates": {
+        "lat": 47.450916,
+        "lon": 11.318772
+      },
+      "altitude": "1630",
+      "serviced": null,
+      "totalBedsInfo": "41",
+      "info": null
+    },
+    {
+      "hutId": 343,
+      "hutName": "Hochlecken-Haus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.828875/13.605526",
+      "coordinates": {
+        "lat": 47.828875,
+        "lon": 13.605526
+      },
+      "altitude": "1.572 m",
+      "serviced": null,
+      "totalBedsInfo": "45",
+      "info": null
+    },
+    {
+      "hutId": 130,
+      "hutName": "Hochrieshütte",
+      "hutCountry": "DE",
+      "coordinatesRaw": "47.747500, 12.248889",
+      "coordinates": {
+        "lat": 47.7475,
+        "lon": 12.248889
+      },
+      "altitude": "1569 m",
+      "serviced": null,
+      "totalBedsInfo": "39",
+      "info": null
+    },
+    {
+      "hutId": 328,
+      "hutName": "Hochweißstein-Haus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.64307, 12.7401",
+      "coordinates": {
+        "lat": 46.64307,
+        "lon": 12.7401
+      },
+      "altitude": "1.868 m",
+      "serviced": null,
+      "totalBedsInfo": "52",
+      "info": null
+    },
+    {
+      "hutId": 503,
+      "hutName": "Hofalm-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.65004/14.37131",
+      "coordinates": {
+        "lat": 47.65004,
+        "lon": 14.37131
+      },
+      "altitude": "1305 m",
+      "serviced": null,
+      "totalBedsInfo": "23",
+      "info": null
+    },
+    {
+      "hutId": 111,
+      "hutName": "Hofpürgl-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.482214, 13.519027",
+      "coordinates": {
+        "lat": 47.482214,
+        "lon": 13.519027
+      },
+      "altitude": "1.703 m",
+      "serviced": null,
+      "totalBedsInfo": "70",
+      "info": null
+    },
+    {
+      "hutId": 612,
+      "hutName": "Hohenzollernhaus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.90201/ 10.63496",
+      "coordinates": {
+        "lat": 46.90201,
+        "lon": 10.63496
+      },
+      "altitude": "2123m",
+      "serviced": null,
+      "totalBedsInfo": "53",
+      "info": null
+    },
+    {
+      "hutId": 24,
+      "hutName": "Hohganthütte",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.78547,7.90609",
+      "coordinates": {
+        "lat": 46.78547,
+        "lon": 7.90609
+      },
+      "altitude": "1805 m",
+      "serviced": null,
+      "totalBedsInfo": "24",
+      "info": null
+    },
+    {
+      "hutId": 374,
+      "hutName": "Hollandiahütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.4753 / 7.9603",
+      "coordinates": {
+        "lat": 46.4753,
+        "lon": 7.9603
+      },
+      "altitude": "3238 m",
+      "serviced": null,
+      "totalBedsInfo": "72",
+      "info": null
+    },
+    {
+      "hutId": 73,
+      "hutName": "Höllentalangerhütte",
+      "hutCountry": "DE",
+      "coordinatesRaw": "47.4380, 11.02523",
+      "coordinates": {
+        "lat": 47.438,
+        "lon": 11.02523
+      },
+      "altitude": "1387m",
+      "serviced": null,
+      "totalBedsInfo": "108",
+      "info": null
+    },
+    {
+      "hutId": 425,
+      "hutName": "Hubertus-Haus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.81199, 16.02510",
+      "coordinates": {
+        "lat": 47.81199,
+        "lon": 16.0251
+      },
+      "altitude": "946 m",
+      "serviced": null,
+      "totalBedsInfo": "26",
+      "info": null
+    },
+    {
+      "hutId": 388,
+      "hutName": "Hüfihütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.802200, 8.819044",
+      "coordinates": {
+        "lat": 46.8022,
+        "lon": 8.819044
+      },
+      "altitude": "2334 m",
+      "serviced": null,
+      "totalBedsInfo": "32",
+      "info": null
+    },
+    {
+      "hutId": 32,
+      "hutName": "Hundsteinhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "47.25512/9.42217",
+      "coordinates": {
+        "lat": 47.25512,
+        "lon": 9.42217
+      },
+      "altitude": "1554 m",
+      "serviced": null,
+      "totalBedsInfo": "42",
+      "info": null
+    },
+    {
+      "hutId": 526,
+      "hutName": "Hüttenrunde Gipfelwege",
+      "hutCountry": "DE",
+      "coordinatesRaw": "00.000000/0.000000",
+      "coordinates": {
+        "lat": 0,
+        "lon": 0
+      },
+      "altitude": "- Gipfelwege bis max. 2368 m",
+      "serviced": null,
+      "totalBedsInfo": "15",
+      "info": null
+    },
+    {
+      "hutId": 53,
+      "hutName": "Igloo des Pantalons Blancs",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.04055/7.36853",
+      "coordinates": {
+        "lat": 46.04055,
+        "lon": 7.36853
+      },
+      "altitude": "3285 m",
+      "serviced": null,
+      "totalBedsInfo": "14",
+      "info": null
+    },
+    {
+      "hutId": 577,
+      "hutName": "Ignaz-Mattis-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.28485/13.648433",
+      "coordinates": {
+        "lat": 47.28485,
+        "lon": 13.648433
+      },
+      "altitude": "1986 m",
+      "serviced": null,
+      "totalBedsInfo": "45",
+      "info": null
+    },
+    {
+      "hutId": 144,
+      "hutName": "Ingolstädter Haus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.50170,12.88744",
+      "coordinates": {
+        "lat": 47.5017,
+        "lon": 12.88744
+      },
+      "altitude": "2119 m",
+      "serviced": null,
+      "totalBedsInfo": "109",
+      "info": null
+    },
+    {
+      "hutId": 320,
+      "hutName": "Innsbrucker Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.043137/11.310835",
+      "coordinates": {
+        "lat": 47.043137,
+        "lon": 11.310835
+      },
+      "altitude": "2.369 m",
+      "serviced": null,
+      "totalBedsInfo": "98",
+      "info": null
+    },
+    {
+      "hutId": 556,
+      "hutName": "Ischler Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.7000, 13.76060",
+      "coordinates": {
+        "lat": 47.7,
+        "lon": 13.7606
+      },
+      "altitude": "1368 m",
+      "serviced": null,
+      "totalBedsInfo": "40",
+      "info": null
+    },
+    {
+      "hutId": 191,
+      "hutName": "Jamtalhütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.88676, 10.17645",
+      "coordinates": {
+        "lat": 46.88676,
+        "lon": 10.17645
+      },
+      "altitude": "2165 m",
+      "serviced": null,
+      "totalBedsInfo": "180",
+      "info": null
+    },
+    {
+      "hutId": 258,
+      "hutName": "Jonsdorfer Hütte",
+      "hutCountry": "DE",
+      "coordinatesRaw": "50.8513 / 14.6952",
+      "coordinates": {
+        "lat": 50.8513,
+        "lon": 14.6952
+      },
+      "altitude": "452 m",
+      "serviced": null,
+      "totalBedsInfo": "21",
+      "info": null
+    },
+    {
+      "hutId": 344,
+      "hutName": "Jugendbildungsstätte Winterraum",
+      "hutCountry": "DE",
+      "coordinatesRaw": "47.506154/10.385326",
+      "coordinates": {
+        "lat": 47.506154,
+        "lon": 10.385326
+      },
+      "altitude": "857 m",
+      "serviced": null,
+      "totalBedsInfo": "8",
+      "info": null
+    },
+    {
+      "hutId": 687,
+      "hutName": "Julius Payer Hütte (Rif. Julius Payer)",
+      "hutCountry": "IT",
+      "coordinatesRaw": "46.527460/10.543438",
+      "coordinates": {
+        "lat": 46.52746,
+        "lon": 10.543438
+      },
+      "altitude": "3029",
+      "serviced": null,
+      "totalBedsInfo": "62",
+      "info": null
+    },
+    {
+      "hutId": 147,
+      "hutName": "Julius-Seitner-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.960490/15.441089",
+      "coordinates": {
+        "lat": 47.96049,
+        "lon": 15.441089
+      },
+      "altitude": "1.185 m",
+      "serviced": null,
+      "totalBedsInfo": "26",
+      "info": null
+    },
+    {
+      "hutId": 95,
+      "hutName": "Kaltenberghütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.0709/10.0836",
+      "coordinates": {
+        "lat": 47.0709,
+        "lon": 10.0836
+      },
+      "altitude": "2.089 m",
+      "serviced": null,
+      "totalBedsInfo": "63",
+      "info": null
+    },
+    {
+      "hutId": 177,
+      "hutName": "Kampthaler-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "48.131607/16.199331",
+      "coordinates": {
+        "lat": 48.131607,
+        "lon": 16.199331
+      },
+      "altitude": "313 m",
+      "serviced": null,
+      "totalBedsInfo": "1",
+      "info": null
+    },
+    {
+      "hutId": 195,
+      "hutName": "Kärlingerhaus",
+      "hutCountry": "DE",
+      "coordinatesRaw": "47.495556  / 12.937222",
+      "coordinates": {
+        "lat": 47.495556,
+        "lon": 12.937222
+      },
+      "altitude": "1631 m",
+      "serviced": null,
+      "totalBedsInfo": "160",
+      "info": null
+    },
+    {
+      "hutId": 461,
+      "hutName": "Karl-Stein-Hütte",
+      "hutCountry": "DE",
+      "coordinatesRaw": "50.960052 / 14.059685",
+      "coordinates": {
+        "lat": 50.960052,
+        "lon": 14.059685
+      },
+      "altitude": "144 m",
+      "serviced": null,
+      "totalBedsInfo": "30",
+      "info": null
+    },
+    {
+      "hutId": 203,
+      "hutName": "Karl-von-Edel-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.07 / 11.03",
+      "coordinates": {
+        "lat": 47.07,
+        "lon": 11.03
+      },
+      "altitude": "2238 m",
+      "serviced": null,
+      "totalBedsInfo": "60",
+      "info": null
+    },
+    {
+      "hutId": 87,
+      "hutName": "Karwendelhaus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.427447, 11.421650",
+      "coordinates": {
+        "lat": 47.427447,
+        "lon": 11.42165
+      },
+      "altitude": "1765 m",
+      "serviced": null,
+      "totalBedsInfo": "140",
+      "info": null
+    },
+    {
+      "hutId": 178,
+      "hutName": "Kasseler Hütte (im Zillertal)",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.06/11.95",
+      "coordinates": {
+        "lat": 47.06,
+        "lon": 11.95
+      },
+      "altitude": "2.177 m",
+      "serviced": null,
+      "totalBedsInfo": "85",
+      "info": null
+    },
+    {
+      "hutId": 677,
+      "hutName": "Kaufbeurer Haus",
+      "hutCountry": "DE",
+      "coordinatesRaw": "47.341847/10.456899",
+      "coordinates": {
+        "lat": 47.341847,
+        "lon": 10.456899
+      },
+      "altitude": "2007 m",
+      "serviced": null,
+      "totalBedsInfo": "29",
+      "info": null
+    },
+    {
+      "hutId": 271,
+      "hutName": "Kaunergrathütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.993889, 10.806944",
+      "coordinates": {
+        "lat": 46.993889,
+        "lon": 10.806944
+      },
+      "altitude": "2.817 m",
+      "serviced": null,
+      "totalBedsInfo": "59",
+      "info": null
+    },
+    {
+      "hutId": 669,
+      "hutName": "Keinprecht-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.274638/13.693052",
+      "coordinates": {
+        "lat": 47.274638,
+        "lon": 13.693052
+      },
+      "altitude": "1872 m",
+      "serviced": null,
+      "totalBedsInfo": "40",
+      "info": null
+    },
+    {
+      "hutId": 468,
+      "hutName": "Kelchalm (Bochumer Hütte)",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.23, 12.27",
+      "coordinates": {
+        "lat": 47.23,
+        "lon": 12.27
+      },
+      "altitude": "1432 m",
+      "serviced": null,
+      "totalBedsInfo": "58",
+      "info": null
+    },
+    {
+      "hutId": 415,
+      "hutName": "Kellerjoch-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.316541, 11.764917",
+      "coordinates": {
+        "lat": 47.316541,
+        "lon": 11.764917
+      },
+      "altitude": "2237 m",
+      "serviced": null,
+      "totalBedsInfo": "30",
+      "info": null
+    },
+    {
+      "hutId": 4,
+      "hutName": "Kesch-Hütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.645157, 9.875188",
+      "coordinates": {
+        "lat": 46.645157,
+        "lon": 9.875188
+      },
+      "altitude": "2625 m",
+      "serviced": null,
+      "totalBedsInfo": "85",
+      "info": null
+    },
+    {
+      "hutId": 505,
+      "hutName": "Kistenpasshütte",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.84037/9.02935",
+      "coordinates": {
+        "lat": 46.84037,
+        "lon": 9.02935
+      },
+      "altitude": "2714m",
+      "serviced": null,
+      "totalBedsInfo": "14",
+      "info": null
+    },
+    {
+      "hutId": 597,
+      "hutName": "Klagenfurter Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.446747/14.182995",
+      "coordinates": {
+        "lat": 46.446747,
+        "lon": 14.182995
+      },
+      "altitude": "1664 m",
+      "serviced": null,
+      "totalBedsInfo": "39",
+      "info": null
+    },
+    {
+      "hutId": 79,
+      "hutName": "Klostertaler Umwelthütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.881097, 10.065993",
+      "coordinates": {
+        "lat": 46.881097,
+        "lon": 10.065993
+      },
+      "altitude": "2362 m",
+      "serviced": null,
+      "totalBedsInfo": "15",
+      "info": null
+    },
+    {
+      "hutId": 149,
+      "hutName": "Knorrhütte",
+      "hutCountry": "DE",
+      "coordinatesRaw": "47.410012/11.012802",
+      "coordinates": {
+        "lat": 47.410012,
+        "lon": 11.012802
+      },
+      "altitude": "2051m",
+      "serviced": null,
+      "totalBedsInfo": "116",
+      "info": null
+    },
+    {
+      "hutId": 12,
+      "hutName": "Konkordiahütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.500462/ 8.053198",
+      "coordinates": {
+        "lat": 46.500462,
+        "lon": 8.053198
+      },
+      "altitude": "2850 m",
+      "serviced": null,
+      "totalBedsInfo": "159",
+      "info": null
+    },
+    {
+      "hutId": 502,
+      "hutName": "Konstanzer Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.069629, 10.189105",
+      "coordinates": {
+        "lat": 47.069629,
+        "lon": 10.189105
+      },
+      "altitude": "1688 m",
+      "serviced": null,
+      "totalBedsInfo": "80",
+      "info": null
+    },
+    {
+      "hutId": 373,
+      "hutName": "Kreuzeckhaus",
+      "hutCountry": "DE",
+      "coordinatesRaw": "47.45216/11.06610",
+      "coordinates": {
+        "lat": 47.45216,
+        "lon": 11.0661
+      },
+      "altitude": "1652 m",
+      "serviced": null,
+      "totalBedsInfo": "80",
+      "info": null
+    },
+    {
+      "hutId": 274,
+      "hutName": "Kröntenhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.8001/8.57543",
+      "coordinates": {
+        "lat": 46.8001,
+        "lon": 8.57543
+      },
+      "altitude": "1903 m",
+      "serviced": null,
+      "totalBedsInfo": "70",
+      "info": null
+    },
+    {
+      "hutId": 292,
+      "hutName": "Kürsinger-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.122847/12.300099",
+      "coordinates": {
+        "lat": 47.122847,
+        "lon": 12.300099
+      },
+      "altitude": "2558 m",
+      "serviced": null,
+      "totalBedsInfo": "140",
+      "info": null
+    },
+    {
+      "hutId": 64,
+      "hutName": "La Borbuintze",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.509920, 8.366572",
+      "coordinates": {
+        "lat": 46.50992,
+        "lon": 8.366572
+      },
+      "altitude": "1333 m",
+      "serviced": null,
+      "totalBedsInfo": "33",
+      "info": null
+    },
+    {
+      "hutId": 453,
+      "hutName": "Lämmerenhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.400329, 7.574448",
+      "coordinates": {
+        "lat": 46.400329,
+        "lon": 7.574448
+      },
+      "altitude": "2502 m",
+      "serviced": null,
+      "totalBedsInfo": "84",
+      "info": null
+    },
+    {
+      "hutId": 437,
+      "hutName": "Lamsenjochhütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.380067, 11.603557",
+      "coordinates": {
+        "lat": 47.380067,
+        "lon": 11.603557
+      },
+      "altitude": "1953 m",
+      "serviced": null,
+      "totalBedsInfo": "82",
+      "info": null
+    },
+    {
+      "hutId": 215,
+      "hutName": "Landsberger Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.4451 / 10.51438",
+      "coordinates": {
+        "lat": 47.4451,
+        "lon": 10.51438
+      },
+      "altitude": "1810 m",
+      "serviced": null,
+      "totalBedsInfo": "135",
+      "info": null
+    },
+    {
+      "hutId": 365,
+      "hutName": "Langtalereckhütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.8288 / 10.9919",
+      "coordinates": {
+        "lat": 46.8288,
+        "lon": 10.9919
+      },
+      "altitude": "2480 m",
+      "serviced": null,
+      "totalBedsInfo": "65",
+      "info": null
+    },
+    {
+      "hutId": 689,
+      "hutName": "Läntahütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.54160, 9.04190",
+      "coordinates": {
+        "lat": 46.5416,
+        "lon": 9.0419
+      },
+      "altitude": "2089",
+      "serviced": null,
+      "totalBedsInfo": "30",
+      "info": null
+    },
+    {
+      "hutId": 558,
+      "hutName": "Lauteraarhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.570068, 8.222178",
+      "coordinates": {
+        "lat": 46.570068,
+        "lon": 8.222178
+      },
+      "altitude": "2393 m",
+      "serviced": null,
+      "totalBedsInfo": "28",
+      "info": null
+    },
+    {
+      "hutId": 13,
+      "hutName": "Leglerhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.92754,9.07990",
+      "coordinates": {
+        "lat": 46.92754,
+        "lon": 9.0799
+      },
+      "altitude": "2273 m",
+      "serviced": null,
+      "totalBedsInfo": "66",
+      "info": null
+    },
+    {
+      "hutId": 139,
+      "hutName": "Lenggrieser Hütte",
+      "hutCountry": "DE",
+      "coordinatesRaw": "47.65, 11.63",
+      "coordinates": {
+        "lat": 47.65,
+        "lon": 11.63
+      },
+      "altitude": "1338m",
+      "serviced": null,
+      "totalBedsInfo": "47",
+      "info": null
+    },
+    {
+      "hutId": 717,
+      "hutName": "Leutschachhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "47.783610/8.601277",
+      "coordinates": {
+        "lat": 47.78361,
+        "lon": 8.601277
+      },
+      "altitude": "2208",
+      "serviced": null,
+      "totalBedsInfo": "60",
+      "info": null
+    },
+    {
+      "hutId": 5,
+      "hutName": "Lidernenhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.935185/8.692670",
+      "coordinates": {
+        "lat": 46.935185,
+        "lon": 8.69267
+      },
+      "altitude": "1727 m",
+      "serviced": null,
+      "totalBedsInfo": "85",
+      "info": null
+    },
+    {
+      "hutId": 684,
+      "hutName": "Lienzer Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.934975, 12.746468",
+      "coordinates": {
+        "lat": 46.934975,
+        "lon": 12.746468
+      },
+      "altitude": "1977",
+      "serviced": null,
+      "totalBedsInfo": "67",
+      "info": null
+    },
+    {
+      "hutId": 428,
+      "hutName": "Lilienfelder Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.989 / 15.589",
+      "coordinates": {
+        "lat": 47.989,
+        "lon": 15.589
+      },
+      "altitude": "943 m",
+      "serviced": null,
+      "totalBedsInfo": "22",
+      "info": null
+    },
+    {
+      "hutId": 297,
+      "hutName": "Lindauer Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.034547, 9.835456",
+      "coordinates": {
+        "lat": 47.034547,
+        "lon": 9.835456
+      },
+      "altitude": "1744 m",
+      "serviced": null,
+      "totalBedsInfo": "164",
+      "info": null
+    },
+    {
+      "hutId": 720,
+      "hutName": "Lizumer Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.16, 11.64",
+      "coordinates": {
+        "lat": 47.16,
+        "lon": 11.64
+      },
+      "altitude": "2019",
+      "serviced": null,
+      "totalBedsInfo": "76",
+      "info": null
+    },
+    {
+      "hutId": 243,
+      "hutName": "Lobhornhütte",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.618478, 7.868928",
+      "coordinates": {
+        "lat": 46.618478,
+        "lon": 7.868928
+      },
+      "altitude": "1955 m",
+      "serviced": null,
+      "totalBedsInfo": "24",
+      "info": null
+    },
+    {
+      "hutId": 548,
+      "hutName": "Lonza Biwak",
+      "hutCountry": "CH",
+      "coordinatesRaw": "45.986042, 7.635144",
+      "coordinates": {
+        "lat": 45.986042,
+        "lon": 7.635144
+      },
+      "altitude": "2975 m",
+      "serviced": null,
+      "totalBedsInfo": "8",
+      "info": null
+    },
+    {
+      "hutId": 578,
+      "hutName": "Lucknerhütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.03/12.69",
+      "coordinates": {
+        "lat": 47.03,
+        "lon": 12.69
+      },
+      "altitude": "2.241m",
+      "serviced": null,
+      "totalBedsInfo": "55",
+      "info": null
+    },
+    {
+      "hutId": 546,
+      "hutName": "Ludwigsburger Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.114722, 10.823611",
+      "coordinates": {
+        "lat": 47.114722,
+        "lon": 10.823611
+      },
+      "altitude": "1935 m",
+      "serviced": null,
+      "totalBedsInfo": "52",
+      "info": null
+    },
+    {
+      "hutId": 733,
+      "hutName": "Magdeburger Hütte (Rif. Cremona alla Stua)",
+      "hutCountry": "IT",
+      "coordinatesRaw": "46.973525, 11.284193",
+      "coordinates": {
+        "lat": 46.973525,
+        "lon": 11.284193
+      },
+      "altitude": "2423",
+      "serviced": null,
+      "totalBedsInfo": "40",
+      "info": null
+    },
+    {
+      "hutId": 641,
+      "hutName": "Mandron \"Città di Trento\"",
+      "hutCountry": "IT",
+      "coordinatesRaw": "46.202565, 10.571175",
+      "coordinates": {
+        "lat": 46.202565,
+        "lon": 10.571175
+      },
+      "altitude": "2.449 m",
+      "serviced": null,
+      "totalBedsInfo": "83",
+      "info": null
+    },
+    {
+      "hutId": 654,
+      "hutName": "Mannheimer Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.066762, 9.689749",
+      "coordinates": {
+        "lat": 47.066762,
+        "lon": 9.689749
+      },
+      "altitude": "2.679 m",
+      "serviced": null,
+      "totalBedsInfo": "87",
+      "info": null
+    },
+    {
+      "hutId": 442,
+      "hutName": "Marteller Hütte",
+      "hutCountry": "IT",
+      "coordinatesRaw": "46.4696, 10.6731",
+      "coordinates": {
+        "lat": 46.4696,
+        "lon": 10.6731
+      },
+      "altitude": "2610 m",
+      "serviced": null,
+      "totalBedsInfo": "56",
+      "info": null
+    },
+    {
+      "hutId": 476,
+      "hutName": "Martin-Busch-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.801111, 10.886944",
+      "coordinates": {
+        "lat": 46.801111,
+        "lon": 10.886944
+      },
+      "altitude": "2501m",
+      "serviced": null,
+      "totalBedsInfo": "90",
+      "info": null
+    },
+    {
+      "hutId": 615,
+      "hutName": "Martinsmadhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "27.33, 1.19",
+      "coordinates": {
+        "lat": 27.33,
+        "lon": 1.19
+      },
+      "altitude": "2002 m",
+      "serviced": null,
+      "totalBedsInfo": "40",
+      "info": null
+    },
+    {
+      "hutId": 332,
+      "hutName": "Medelserhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.640545 / 8.913761",
+      "coordinates": {
+        "lat": 46.640545,
+        "lon": 8.913761
+      },
+      "altitude": "2524 m",
+      "serviced": null,
+      "totalBedsInfo": "51",
+      "info": null
+    },
+    {
+      "hutId": 126,
+      "hutName": "Meraner Hütte",
+      "hutCountry": "IT",
+      "coordinatesRaw": "46.683048, 11.281955",
+      "coordinates": {
+        "lat": 46.683048,
+        "lon": 11.281955
+      },
+      "altitude": "1960 m",
+      "serviced": null,
+      "totalBedsInfo": "59",
+      "info": null
+    },
+    {
+      "hutId": 273,
+      "hutName": "Millstätter Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.8483/13.5942",
+      "coordinates": {
+        "lat": 46.8483,
+        "lon": 13.5942
+      },
+      "altitude": "1.880 m",
+      "serviced": null,
+      "totalBedsInfo": "24",
+      "info": null
+    },
+    {
+      "hutId": 420,
+      "hutName": "Mischabelhütte AACZ",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.10/78.88",
+      "coordinates": {
+        "lat": 46.1,
+        "lon": 78.88
+      },
+      "altitude": "3340 m",
+      "serviced": null,
+      "totalBedsInfo": "95",
+      "info": null
+    },
+    {
+      "hutId": 378,
+      "hutName": "Mischabeljochbiwak SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.074210/7.865815",
+      "coordinates": {
+        "lat": 46.07421,
+        "lon": 7.865815
+      },
+      "altitude": "3855 m",
+      "serviced": null,
+      "totalBedsInfo": "24",
+      "info": null
+    },
+    {
+      "hutId": 338,
+      "hutName": "Mittellegihütte",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.583412 / 8.022527",
+      "coordinates": {
+        "lat": 46.583412,
+        "lon": 8.022527
+      },
+      "altitude": "3'355 m",
+      "serviced": null,
+      "totalBedsInfo": "38",
+      "info": null
+    },
+    {
+      "hutId": 117,
+      "hutName": "Mödlinger Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.52, 14.55",
+      "coordinates": {
+        "lat": 47.52,
+        "lon": 14.55
+      },
+      "altitude": "1.523 m",
+      "serviced": null,
+      "totalBedsInfo": "50",
+      "info": null
+    },
+    {
+      "hutId": 77,
+      "hutName": "Mönchsjochhütte",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.554678/8.005589",
+      "coordinates": {
+        "lat": 46.554678,
+        "lon": 8.005589
+      },
+      "altitude": "3657 m",
+      "serviced": null,
+      "totalBedsInfo": "100",
+      "info": null
+    },
+    {
+      "hutId": 651,
+      "hutName": "Monte Calino \"San Pietro\"",
+      "hutCountry": "IT",
+      "coordinatesRaw": "10.50224/45.56011",
+      "coordinates": {
+        "lat": 10.50224,
+        "lon": 45.56011
+      },
+      "altitude": "973 m",
+      "serviced": null,
+      "totalBedsInfo": "16",
+      "info": null
+    },
+    {
+      "hutId": 647,
+      "hutName": "Monte Casale \"Don Zio Pisoni\"",
+      "hutCountry": "IT",
+      "coordinatesRaw": "46.030058, 10.924548",
+      "coordinates": {
+        "lat": 46.030058,
+        "lon": 10.924548
+      },
+      "altitude": "1.590 m",
+      "serviced": null,
+      "totalBedsInfo": "16",
+      "info": null
+    },
+    {
+      "hutId": 340,
+      "hutName": "Monte-Leone-Hütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.26/8.079",
+      "coordinates": {
+        "lat": 46.26,
+        "lon": 8.079
+      },
+      "altitude": "2848 m",
+      "serviced": null,
+      "totalBedsInfo": "20",
+      "info": null
+    },
+    {
+      "hutId": 6,
+      "hutName": "Monte Rosa Hütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "45.956940, 7.814543",
+      "coordinates": {
+        "lat": 45.95694,
+        "lon": 7.814543
+      },
+      "altitude": "2883 m",
+      "serviced": null,
+      "totalBedsInfo": "120",
+      "info": null
+    },
+    {
+      "hutId": 609,
+      "hutName": "Monzoni \"Torquato Taramelli\"",
+      "hutCountry": "IT",
+      "coordinatesRaw": "46.394620, 11.740311",
+      "coordinates": {
+        "lat": 46.39462,
+        "lon": 11.740311
+      },
+      "altitude": "2.046 m",
+      "serviced": null,
+      "totalBedsInfo": "12",
+      "info": null
+    },
+    {
+      "hutId": 570,
+      "hutName": "Müllerhütte - Rif. Cima Libera",
+      "hutCountry": "IT",
+      "coordinatesRaw": "46.96/11.18",
+      "coordinates": {
+        "lat": 46.96,
+        "lon": 11.18
+      },
+      "altitude": "3145 m",
+      "serviced": null,
+      "totalBedsInfo": "74",
+      "info": null
+    },
+    {
+      "hutId": 150,
+      "hutName": "Münchner Haus",
+      "hutCountry": "DE",
+      "coordinatesRaw": "47.42119, 10.98492",
+      "coordinates": {
+        "lat": 47.42119,
+        "lon": 10.98492
+      },
+      "altitude": "2959 m",
+      "serviced": null,
+      "totalBedsInfo": "10",
+      "info": null
+    },
+    {
+      "hutId": 543,
+      "hutName": "Munt la Reita",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.281955 / 8.483003",
+      "coordinates": {
+        "lat": 46.281955,
+        "lon": 8.483003
+      },
+      "altitude": "1430 m",
+      "serviced": null,
+      "totalBedsInfo": "16",
+      "info": null
+    },
+    {
+      "hutId": 160,
+      "hutName": "Muttekopf-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.26259/10.66983",
+      "coordinates": {
+        "lat": 47.26259,
+        "lon": 10.66983
+      },
+      "altitude": "1.934 m",
+      "serviced": null,
+      "totalBedsInfo": "53",
+      "info": null
+    },
+    {
+      "hutId": 14,
+      "hutName": "Mutthornhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.486554, 7.829508",
+      "coordinates": {
+        "lat": 46.486554,
+        "lon": 7.829508
+      },
+      "altitude": "2788 m.",
+      "serviced": null,
+      "totalBedsInfo": "60",
+      "info": null
+    },
+    {
+      "hutId": 229,
+      "hutName": "Muttseehütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.857500, 9.018750",
+      "coordinates": {
+        "lat": 46.8575,
+        "lon": 9.01875
+      },
+      "altitude": "2'501 m",
+      "serviced": null,
+      "totalBedsInfo": "76",
+      "info": null
+    },
+    {
+      "hutId": 746,
+      "hutName": "Nauderer Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.878056, 10.548333",
+      "coordinates": {
+        "lat": 46.878056,
+        "lon": 10.548333
+      },
+      "altitude": "1.910",
+      "serviced": null,
+      "totalBedsInfo": "1",
+      "info": null
+    },
+    {
+      "hutId": 116,
+      "hutName": "Neue Bamberger Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.30904/12.15055",
+      "coordinates": {
+        "lat": 47.30904,
+        "lon": 12.15055
+      },
+      "altitude": "1.756 m",
+      "serviced": null,
+      "totalBedsInfo": "74",
+      "info": null
+    },
+    {
+      "hutId": 162,
+      "hutName": "Neue Bonner Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.037222/13.68",
+      "coordinates": {
+        "lat": 47.037222,
+        "lon": 13.68
+      },
+      "altitude": "1712 m",
+      "serviced": null,
+      "totalBedsInfo": "29",
+      "info": null
+    },
+    {
+      "hutId": 385,
+      "hutName": "Neue Fürther Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.1654 / 12.4245",
+      "coordinates": {
+        "lat": 47.1654,
+        "lon": 12.4245
+      },
+      "altitude": "2201 m",
+      "serviced": null,
+      "totalBedsInfo": "75",
+      "info": null
+    },
+    {
+      "hutId": 103,
+      "hutName": "Neue Heilbronner Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.007216/10.138827",
+      "coordinates": {
+        "lat": 47.007216,
+        "lon": 10.138827
+      },
+      "altitude": "2320 m",
+      "serviced": null,
+      "totalBedsInfo": "104",
+      "info": null
+    },
+    {
+      "hutId": 129,
+      "hutName": "Neue Magdeburger Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.288944, 11.296524",
+      "coordinates": {
+        "lat": 47.288944,
+        "lon": 11.296524
+      },
+      "altitude": "1633 m",
+      "serviced": null,
+      "totalBedsInfo": "50",
+      "info": null
+    },
+    {
+      "hutId": 58,
+      "hutName": "Neue Prager Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.123056/12.392222",
+      "coordinates": {
+        "lat": 47.123056,
+        "lon": 12.392222
+      },
+      "altitude": "2796 m",
+      "serviced": null,
+      "totalBedsInfo": "78",
+      "info": null
+    },
+    {
+      "hutId": 275,
+      "hutName": "Neue Regensburger Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.054707, 11.198342",
+      "coordinates": {
+        "lat": 47.054707,
+        "lon": 11.198342
+      },
+      "altitude": "2286 m",
+      "serviced": null,
+      "totalBedsInfo": "101",
+      "info": null
+    },
+    {
+      "hutId": 545,
+      "hutName": "Neue Reichenberger Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.971448,12.280359",
+      "coordinates": {
+        "lat": 46.971448,
+        "lon": 12.280359
+      },
+      "altitude": "2.586 M",
+      "serviced": null,
+      "totalBedsInfo": "46",
+      "info": null
+    },
+    {
+      "hutId": 96,
+      "hutName": "Neue Reutlinger Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.07541, 10.11565",
+      "coordinates": {
+        "lat": 47.07541,
+        "lon": 10.11565
+      },
+      "altitude": "2395 m",
+      "serviced": null,
+      "totalBedsInfo": "12",
+      "info": null
+    },
+    {
+      "hutId": 237,
+      "hutName": "Neue Thüringer Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.172778 / 12.383333",
+      "coordinates": {
+        "lat": 47.172778,
+        "lon": 12.383333
+      },
+      "altitude": "2240 m",
+      "serviced": null,
+      "totalBedsInfo": "71",
+      "info": null
+    },
+    {
+      "hutId": 452,
+      "hutName": "Neue Traunsteiner Hütte",
+      "hutCountry": "DE",
+      "coordinatesRaw": "47.62830, 12.80096",
+      "coordinates": {
+        "lat": 47.6283,
+        "lon": 12.80096
+      },
+      "altitude": "1560 m",
+      "serviced": null,
+      "totalBedsInfo": "89",
+      "info": null
+    },
+    {
+      "hutId": 429,
+      "hutName": "Neunkirchner Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.27396/14.14879",
+      "coordinates": {
+        "lat": 47.27396,
+        "lon": 14.14879
+      },
+      "altitude": "1525 m",
+      "serviced": null,
+      "totalBedsInfo": "19",
+      "info": null
+    },
+    {
+      "hutId": 319,
+      "hutName": "Niedersachsenhaus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.060278,13.010278",
+      "coordinates": {
+        "lat": 47.060278,
+        "lon": 13.010278
+      },
+      "altitude": "2.471  m",
+      "serviced": null,
+      "totalBedsInfo": "54",
+      "info": null
+    },
+    {
+      "hutId": 202,
+      "hutName": "Nördlinger Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.320786/11.236693",
+      "coordinates": {
+        "lat": 47.320786,
+        "lon": 11.236693
+      },
+      "altitude": "2238 m",
+      "serviced": null,
+      "totalBedsInfo": "58",
+      "info": null
+    },
+    {
+      "hutId": 124,
+      "hutName": "Nürnberger Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.994374, 11.218299",
+      "coordinates": {
+        "lat": 46.994374,
+        "lon": 11.218299
+      },
+      "altitude": "2.278 m NHN",
+      "serviced": null,
+      "totalBedsInfo": "120",
+      "info": null
+    },
+    {
+      "hutId": 15,
+      "hutName": "Oberaarjochhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.526 , 8.173",
+      "coordinates": {
+        "lat": 46.526,
+        "lon": 8.173
+      },
+      "altitude": "3258 m",
+      "serviced": null,
+      "totalBedsInfo": "30",
+      "info": null
+    },
+    {
+      "hutId": 47,
+      "hutName": "Oberaletschhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.425217/7.973875",
+      "coordinates": {
+        "lat": 46.425217,
+        "lon": 7.973875
+      },
+      "altitude": "2640 m",
+      "serviced": null,
+      "totalBedsInfo": "58",
+      "info": null
+    },
+    {
+      "hutId": 591,
+      "hutName": "Obere Maxlraineralm",
+      "hutCountry": "DE",
+      "coordinatesRaw": "47.661461/ 11.888306",
+      "coordinates": {
+        "lat": 47.661461,
+        "lon": 11.888306
+      },
+      "altitude": "1528m",
+      "serviced": null,
+      "totalBedsInfo": "56",
+      "info": null
+    },
+    {
+      "hutId": 230,
+      "hutName": "Oberetteshütte",
+      "hutCountry": "IT",
+      "coordinatesRaw": "46.764801, 10.711189",
+      "coordinates": {
+        "lat": 46.764801,
+        "lon": 10.711189
+      },
+      "altitude": "2670 m",
+      "serviced": null,
+      "totalBedsInfo": "80",
+      "info": null
+    },
+    {
+      "hutId": 138,
+      "hutName": "Oberlandhütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.37979, 12.30752",
+      "coordinates": {
+        "lat": 47.37979,
+        "lon": 12.30752
+      },
+      "altitude": "1014 m",
+      "serviced": null,
+      "totalBedsInfo": "65",
+      "info": null
+    },
+    {
+      "hutId": 300,
+      "hutName": "Oberwalder-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.105367/12.715533",
+      "coordinates": {
+        "lat": 47.105367,
+        "lon": 12.715533
+      },
+      "altitude": "2.973 m",
+      "serviced": null,
+      "totalBedsInfo": "110",
+      "info": null
+    },
+    {
+      "hutId": 655,
+      "hutName": "Oberzalimhütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.079861, 9.693361",
+      "coordinates": {
+        "lat": 47.079861,
+        "lon": 9.693361
+      },
+      "altitude": "1889m",
+      "serviced": null,
+      "totalBedsInfo": "44",
+      "info": null
+    },
+    {
+      "hutId": 268,
+      "hutName": "Obstansersee-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.684367/12.493746",
+      "coordinates": {
+        "lat": 46.684367,
+        "lon": 12.493746
+      },
+      "altitude": "2304 m",
+      "serviced": null,
+      "totalBedsInfo": "60",
+      "info": null
+    },
+    {
+      "hutId": 119,
+      "hutName": "Olpererhütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.04/11.68",
+      "coordinates": {
+        "lat": 47.04,
+        "lon": 11.68
+      },
+      "altitude": "2389 m",
+      "serviced": null,
+      "totalBedsInfo": "72",
+      "info": null
+    },
+    {
+      "hutId": 748,
+      "hutName": "Ostegghütte",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.600501, 8.041153",
+      "coordinates": {
+        "lat": 46.600501,
+        "lon": 8.041153
+      },
+      "altitude": "2317",
+      "serviced": null,
+      "totalBedsInfo": "15",
+      "info": null
+    },
+    {
+      "hutId": 482,
+      "hutName": "Ostello Fusio",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.316398 / 8.471349",
+      "coordinates": {
+        "lat": 46.316398,
+        "lon": 8.471349
+      },
+      "altitude": "1289 m",
+      "serviced": null,
+      "totalBedsInfo": "28",
+      "info": null
+    },
+    {
+      "hutId": 585,
+      "hutName": "Ostello GiovaniBosco",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.316398 / 8.471349",
+      "coordinates": {
+        "lat": 46.316398,
+        "lon": 8.471349
+      },
+      "altitude": "1'500 m",
+      "serviced": null,
+      "totalBedsInfo": "150",
+      "info": null
+    },
+    {
+      "hutId": 617,
+      "hutName": "Ostpreussenhütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.46028/13.11603",
+      "coordinates": {
+        "lat": 47.46028,
+        "lon": 13.11603
+      },
+      "altitude": "1630m",
+      "serviced": null,
+      "totalBedsInfo": "38",
+      "info": null
+    },
+    {
+      "hutId": 536,
+      "hutName": "Ostwandlager",
+      "hutCountry": "DE",
+      "coordinatesRaw": "47.545813/12.970935",
+      "coordinates": {
+        "lat": 47.545813,
+        "lon": 12.970935
+      },
+      "altitude": "623 m",
+      "serviced": null,
+      "totalBedsInfo": "24",
+      "info": null
+    },
+    {
+      "hutId": 272,
+      "hutName": "Otto- Mayr-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.5931,10.61855",
+      "coordinates": {
+        "lat": 47.5931,
+        "lon": 10.61855
+      },
+      "altitude": "1530 m",
+      "serviced": null,
+      "totalBedsInfo": "60",
+      "info": null
+    },
+    {
+      "hutId": 742,
+      "hutName": "Paludei",
+      "hutCountry": "IT",
+      "coordinatesRaw": "45.971249/11.224404",
+      "coordinates": {
+        "lat": 45.971249,
+        "lon": 11.224404
+      },
+      "altitude": "1059",
+      "serviced": null,
+      "totalBedsInfo": "14",
+      "info": null
+    },
+    {
+      "hutId": 232,
+      "hutName": "Passauer Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.474200, 12.750405",
+      "coordinates": {
+        "lat": 47.4742,
+        "lon": 12.750405
+      },
+      "altitude": "2051 m",
+      "serviced": null,
+      "totalBedsInfo": "50",
+      "info": null
+    },
+    {
+      "hutId": 430,
+      "hutName": "Peilstein-Haus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "48.014866, 16.051710",
+      "coordinates": {
+        "lat": 48.014866,
+        "lon": 16.05171
+      },
+      "altitude": "718 m",
+      "serviced": null,
+      "totalBedsInfo": "56",
+      "info": null
+    },
+    {
+      "hutId": 633,
+      "hutName": "Peller",
+      "hutCountry": "IT",
+      "coordinatesRaw": "46.322250, 10.952679",
+      "coordinates": {
+        "lat": 46.32225,
+        "lon": 10.952679
+      },
+      "altitude": "2022 Mt",
+      "serviced": null,
+      "totalBedsInfo": "15",
+      "info": null
+    },
+    {
+      "hutId": 141,
+      "hutName": "Peter-Wiechenthaler-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.463, 12.875",
+      "coordinates": {
+        "lat": 47.463,
+        "lon": 12.875
+      },
+      "altitude": "1.752 m",
+      "serviced": null,
+      "totalBedsInfo": "68",
+      "info": null
+    },
+    {
+      "hutId": 723,
+      "hutName": "Pfälzerhütte LAV",
+      "hutCountry": "LI",
+      "coordinatesRaw": "47.071327, 9.613255",
+      "coordinates": {
+        "lat": 47.071327,
+        "lon": 9.613255
+      },
+      "altitude": "2108",
+      "serviced": null,
+      "totalBedsInfo": "72",
+      "info": null
+    },
+    {
+      "hutId": 179,
+      "hutName": "Pfeis-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.330036, 11.425489",
+      "coordinates": {
+        "lat": 47.330036,
+        "lon": 11.425489
+      },
+      "altitude": "1.922 m",
+      "serviced": null,
+      "totalBedsInfo": "60",
+      "info": null
+    },
+    {
+      "hutId": 239,
+      "hutName": "Pforzheimer Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.09283/11.04350",
+      "coordinates": {
+        "lat": 47.09283,
+        "lon": 11.0435
+      },
+      "altitude": "2308 m",
+      "serviced": null,
+      "totalBedsInfo": "53",
+      "info": null
+    },
+    {
+      "hutId": 207,
+      "hutName": "Plauener Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.118333/12.096111",
+      "coordinates": {
+        "lat": 47.118333,
+        "lon": 12.096111
+      },
+      "altitude": "2.363 m",
+      "serviced": null,
+      "totalBedsInfo": "71",
+      "info": null
+    },
+    {
+      "hutId": 185,
+      "hutName": "Porze-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.659, 12.581",
+      "coordinates": {
+        "lat": 46.659,
+        "lon": 12.581
+      },
+      "altitude": "1.942 m",
+      "serviced": null,
+      "totalBedsInfo": "64",
+      "info": null
+    },
+    {
+      "hutId": 283,
+      "hutName": "Potsdamer Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.14/11.20",
+      "coordinates": {
+        "lat": 47.14,
+        "lon": 11.2
+      },
+      "altitude": "2020 m",
+      "serviced": null,
+      "totalBedsInfo": "40",
+      "info": null
+    },
+    {
+      "hutId": 402,
+      "hutName": "Preintalerhütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.3131/13.8133",
+      "coordinates": {
+        "lat": 47.3131,
+        "lon": 13.8133
+      },
+      "altitude": "1656",
+      "serviced": null,
+      "totalBedsInfo": "144",
+      "info": null
+    },
+    {
+      "hutId": 336,
+      "hutName": "Priel-Schutzhaus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.704935, 14.081894",
+      "coordinates": {
+        "lat": 47.704935,
+        "lon": 14.081894
+      },
+      "altitude": "1420 m",
+      "serviced": null,
+      "totalBedsInfo": "150",
+      "info": null
+    },
+    {
+      "hutId": 407,
+      "hutName": "Priener Hütte",
+      "hutCountry": "DE",
+      "coordinatesRaw": "47.702107/12.327922",
+      "coordinates": {
+        "lat": 47.702107,
+        "lon": 12.327922
+      },
+      "altitude": "1410 m",
+      "serviced": null,
+      "totalBedsInfo": "72",
+      "info": null
+    },
+    {
+      "hutId": 270,
+      "hutName": "Prinz-Luitpoldhaus",
+      "hutCountry": "DE",
+      "coordinatesRaw": "47.392477/10.420012",
+      "coordinates": {
+        "lat": 47.392477,
+        "lon": 10.420012
+      },
+      "altitude": "1846 m",
+      "serviced": null,
+      "totalBedsInfo": "160",
+      "info": null
+    },
+    {
+      "hutId": 607,
+      "hutName": "Prova",
+      "hutCountry": "IT",
+      "coordinatesRaw": "46.07000, 11.12331",
+      "coordinates": {
+        "lat": 46.07,
+        "lon": 11.12331
+      },
+      "altitude": "5060 m",
+      "serviced": null,
+      "totalBedsInfo": "25",
+      "info": null
+    },
+    {
+      "hutId": 509,
+      "hutName": "Pühringer-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.687077, 13.966548",
+      "coordinates": {
+        "lat": 47.687077,
+        "lon": 13.966548
+      },
+      "altitude": "1638 m",
+      "serviced": null,
+      "totalBedsInfo": "62",
+      "info": null
+    },
+    {
+      "hutId": 285,
+      "hutName": "Radlseehütte",
+      "hutCountry": "IT",
+      "coordinatesRaw": "46.707917, 11.580207",
+      "coordinates": {
+        "lat": 46.707917,
+        "lon": 11.580207
+      },
+      "altitude": "2284 m",
+      "serviced": null,
+      "totalBedsInfo": "40",
+      "info": null
+    },
+    {
+      "hutId": 246,
+      "hutName": "Ramozhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.73109, 9.64372",
+      "coordinates": {
+        "lat": 46.73109,
+        "lon": 9.64372
+      },
+      "altitude": "2293 m",
+      "serviced": null,
+      "totalBedsInfo": "23",
+      "info": null
+    },
+    {
+      "hutId": 707,
+      "hutName": "Rappenseehütte",
+      "hutCountry": "DE",
+      "coordinatesRaw": "47.288858, 10.255029",
+      "coordinates": {
+        "lat": 47.288858,
+        "lon": 10.255029
+      },
+      "altitude": "2091",
+      "serviced": null,
+      "totalBedsInfo": "200",
+      "info": null
+    },
+    {
+      "hutId": 205,
+      "hutName": "Rastkogelhütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.232162, 11.788416",
+      "coordinates": {
+        "lat": 47.232162,
+        "lon": 11.788416
+      },
+      "altitude": "2.124 m",
+      "serviced": null,
+      "totalBedsInfo": "58",
+      "info": null
+    },
+    {
+      "hutId": 76,
+      "hutName": "Refuge des Petoudes",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.020069, 7.011175",
+      "coordinates": {
+        "lat": 46.020069,
+        "lon": 7.011175
+      },
+      "altitude": "2169 m",
+      "serviced": null,
+      "totalBedsInfo": "9",
+      "info": null
+    },
+    {
+      "hutId": 592,
+      "hutName": "Refuge du lac de Derborence",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.28/07.21",
+      "coordinates": {
+        "lat": 46.28,
+        "lon": 7.21
+      },
+      "altitude": "1480 m",
+      "serviced": null,
+      "totalBedsInfo": "38",
+      "info": null
+    },
+    {
+      "hutId": 335,
+      "hutName": "Refuge Giacomini",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.288302/7.162045",
+      "coordinates": {
+        "lat": 46.288302,
+        "lon": 7.162045
+      },
+      "altitude": "1'893 m",
+      "serviced": null,
+      "totalBedsInfo": "56",
+      "info": null
+    },
+    {
+      "hutId": 666,
+      "hutName": "Reichenhaller Haus",
+      "hutCountry": "DE",
+      "coordinatesRaw": "47.755228 / 12.850100",
+      "coordinates": {
+        "lat": 47.755228,
+        "lon": 12.8501
+      },
+      "altitude": "1750m",
+      "serviced": null,
+      "totalBedsInfo": "20",
+      "info": null
+    },
+    {
+      "hutId": 128,
+      "hutName": "Reintalangerhütte",
+      "hutCountry": "DE",
+      "coordinatesRaw": "47.405306 / 11.035667",
+      "coordinates": {
+        "lat": 47.405306,
+        "lon": 11.035667
+      },
+      "altitude": "1370 m",
+      "serviced": null,
+      "totalBedsInfo": "91",
+      "info": null
+    },
+    {
+      "hutId": 136,
+      "hutName": "Richterhütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.123845, 12.133851",
+      "coordinates": {
+        "lat": 47.123845,
+        "lon": 12.133851
+      },
+      "altitude": "2.374 m",
+      "serviced": null,
+      "totalBedsInfo": "44",
+      "info": null
+    },
+    {
+      "hutId": 248,
+      "hutName": "Rieder Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.804032/13.676637",
+      "coordinates": {
+        "lat": 47.804032,
+        "lon": 13.676637
+      },
+      "altitude": "1.765 m",
+      "serviced": null,
+      "totalBedsInfo": "32",
+      "info": null
+    },
+    {
+      "hutId": 145,
+      "hutName": "Riemannhaus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.458020, 12.914580",
+      "coordinates": {
+        "lat": 47.45802,
+        "lon": 12.91458
+      },
+      "altitude": "2.177",
+      "serviced": null,
+      "totalBedsInfo": "82",
+      "info": null
+    },
+    {
+      "hutId": 412,
+      "hutName": "Rieserfernerhütte",
+      "hutCountry": "IT",
+      "coordinatesRaw": "46.89/12.07",
+      "coordinates": {
+        "lat": 46.89,
+        "lon": 12.07
+      },
+      "altitude": "2798 m",
+      "serviced": null,
+      "totalBedsInfo": "59",
+      "info": null
+    },
+    {
+      "hutId": 171,
+      "hutName": "Riffelseehütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.96112, 10.8575",
+      "coordinates": {
+        "lat": 46.96112,
+        "lon": 10.8575
+      },
+      "altitude": "2293 m",
+      "serviced": null,
+      "totalBedsInfo": "44",
+      "info": null
+    },
+    {
+      "hutId": 595,
+      "hutName": "Rifugio Alpe Compiett",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.355335, 9.002010",
+      "coordinates": {
+        "lat": 46.355335,
+        "lon": 9.00201
+      },
+      "altitude": "1517",
+      "serviced": null,
+      "totalBedsInfo": "5",
+      "info": null
+    },
+    {
+      "hutId": 539,
+      "hutName": "Rifugio Alpe Fontana",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.407211, 8.704557",
+      "coordinates": {
+        "lat": 46.407211,
+        "lon": 8.704557
+      },
+      "altitude": "1651 m",
+      "serviced": null,
+      "totalBedsInfo": "20",
+      "info": null
+    },
+    {
+      "hutId": 480,
+      "hutName": "Rifugio Alpe Masnée",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.316398 / 8.471349",
+      "coordinates": {
+        "lat": 46.316398,
+        "lon": 8.471349
+      },
+      "altitude": "2063 m",
+      "serviced": null,
+      "totalBedsInfo": "16",
+      "info": null
+    },
+    {
+      "hutId": 481,
+      "hutName": "Rifugio Alpe Spluga",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.315570, 8.679129",
+      "coordinates": {
+        "lat": 46.31557,
+        "lon": 8.679129
+      },
+      "altitude": "1838 m",
+      "serviced": null,
+      "totalBedsInfo": "24",
+      "info": null
+    },
+    {
+      "hutId": 735,
+      "hutName": "Rifugio Bassa di Nara ",
+      "hutCountry": "CH",
+      "coordinatesRaw": "2.709903 / 1.148126",
+      "coordinates": {
+        "lat": 2.709903,
+        "lon": 1.148126
+      },
+      "altitude": "2110",
+      "serviced": null,
+      "totalBedsInfo": "8",
+      "info": null
+    },
+    {
+      "hutId": 594,
+      "hutName": "Rifugio Biasagn",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.393349 / 9.036978",
+      "coordinates": {
+        "lat": 46.393349,
+        "lon": 9.036978
+      },
+      "altitude": "2023 m",
+      "serviced": null,
+      "totalBedsInfo": "4",
+      "info": null
+    },
+    {
+      "hutId": 734,
+      "hutName": "Rifugio Gana Rossa",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.506351, 8.845722",
+      "coordinates": {
+        "lat": 46.506351,
+        "lon": 8.845722
+      },
+      "altitude": "2272",
+      "serviced": null,
+      "totalBedsInfo": "12",
+      "info": null
+    },
+    {
+      "hutId": 698,
+      "hutName": "Rifugio Garzonera",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.499504,8.661362",
+      "coordinates": {
+        "lat": 46.499504,
+        "lon": 8.661362
+      },
+      "altitude": "1973",
+      "serviced": null,
+      "totalBedsInfo": "20",
+      "info": null
+    },
+    {
+      "hutId": 581,
+      "hutName": "Rifugio Giümela",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.371613, 9.081973",
+      "coordinates": {
+        "lat": 46.371613,
+        "lon": 9.081973
+      },
+      "altitude": "1863.2",
+      "serviced": null,
+      "totalBedsInfo": "8",
+      "info": null
+    },
+    {
+      "hutId": 593,
+      "hutName": "Rifugio Lago",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.353786 / 9.019984",
+      "coordinates": {
+        "lat": 46.353786,
+        "lon": 9.019984
+      },
+      "altitude": "2'130 m",
+      "serviced": null,
+      "totalBedsInfo": "6",
+      "info": null
+    },
+    {
+      "hutId": 484,
+      "hutName": "Rifugio la Reggia",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.28811, 8.48671",
+      "coordinates": {
+        "lat": 46.28811,
+        "lon": 8.48671
+      },
+      "altitude": "1410 m",
+      "serviced": null,
+      "totalBedsInfo": "14",
+      "info": null
+    },
+    {
+      "hutId": 517,
+      "hutName": "Rifugio Maria Luisa",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.43477 / 8.42819",
+      "coordinates": {
+        "lat": 46.43477,
+        "lon": 8.42819
+      },
+      "altitude": "2'157 m",
+      "serviced": null,
+      "totalBedsInfo": "40",
+      "info": null
+    },
+    {
+      "hutId": 516,
+      "hutName": "Rifugio Pian di Crest",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.391138/8.487152",
+      "coordinates": {
+        "lat": 46.391138,
+        "lon": 8.487152
+      },
+      "altitude": "2108 m",
+      "serviced": null,
+      "totalBedsInfo": "35",
+      "info": null
+    },
+    {
+      "hutId": 483,
+      "hutName": "Rifugio Ribia",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.25150 / 8.54173",
+      "coordinates": {
+        "lat": 46.2515,
+        "lon": 8.54173
+      },
+      "altitude": "1996 m",
+      "serviced": null,
+      "totalBedsInfo": "12",
+      "info": null
+    },
+    {
+      "hutId": 341,
+      "hutName": "Rifugio Saoseo CAS",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.39849, 10.11739",
+      "coordinates": {
+        "lat": 46.39849,
+        "lon": 10.11739
+      },
+      "altitude": "1985 m",
+      "serviced": null,
+      "totalBedsInfo": "50",
+      "info": null
+    },
+    {
+      "hutId": 584,
+      "hutName": "Rifugio Scaradra",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.555734/9.005902",
+      "coordinates": {
+        "lat": 46.555734,
+        "lon": 9.005902
+      },
+      "altitude": "2173 m",
+      "serviced": null,
+      "totalBedsInfo": "16",
+      "info": null
+    },
+    {
+      "hutId": 514,
+      "hutName": "Ringelspitzhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.865791/9.380734",
+      "coordinates": {
+        "lat": 46.865791,
+        "lon": 9.380734
+      },
+      "altitude": "1998 m",
+      "serviced": null,
+      "totalBedsInfo": "36",
+      "info": null
+    },
+    {
+      "hutId": 624,
+      "hutName": "Roda di Vael",
+      "hutCountry": "IT",
+      "coordinatesRaw": "46.420195, 11.630136",
+      "coordinates": {
+        "lat": 46.420195,
+        "lon": 11.630136
+      },
+      "altitude": "2.282 m",
+      "serviced": null,
+      "totalBedsInfo": "49",
+      "info": null
+    },
+    {
+      "hutId": 619,
+      "hutName": "Rosetta \"Giovanni Pedrotti\"",
+      "hutCountry": "IT",
+      "coordinatesRaw": "46.267422, 11.839020",
+      "coordinates": {
+        "lat": 46.267422,
+        "lon": 11.83902
+      },
+      "altitude": "2.578 m",
+      "serviced": null,
+      "totalBedsInfo": "60",
+      "info": null
+    },
+    {
+      "hutId": 662,
+      "hutName": "Rotgüldensee-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.1012, 13.4119",
+      "coordinates": {
+        "lat": 47.1012,
+        "lon": 13.4119
+      },
+      "altitude": "1739 m ü.A.",
+      "serviced": null,
+      "totalBedsInfo": "50",
+      "info": null
+    },
+    {
+      "hutId": 334,
+      "hutName": "Rothornhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.048580, 7.697374",
+      "coordinates": {
+        "lat": 46.04858,
+        "lon": 7.697374
+      },
+      "altitude": "3180 m",
+      "serviced": null,
+      "totalBedsInfo": "54",
+      "info": null
+    },
+    {
+      "hutId": 404,
+      "hutName": "Rotondohütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.54494/8.48383",
+      "coordinates": {
+        "lat": 46.54494,
+        "lon": 8.48383
+      },
+      "altitude": "2571",
+      "serviced": null,
+      "totalBedsInfo": "70",
+      "info": null
+    },
+    {
+      "hutId": 69,
+      "hutName": "Rotstockhütte",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.545135/7.838241",
+      "coordinates": {
+        "lat": 46.545135,
+        "lon": 7.838241
+      },
+      "altitude": "2039 m",
+      "serviced": null,
+      "totalBedsInfo": "43",
+      "info": null
+    },
+    {
+      "hutId": 498,
+      "hutName": "Rottalhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.31/07.56",
+      "coordinates": {
+        "lat": 46.31,
+        "lon": 7.56
+      },
+      "altitude": "2755m",
+      "serviced": null,
+      "totalBedsInfo": "28",
+      "info": null
+    },
+    {
+      "hutId": 104,
+      "hutName": "Rotwandhaus",
+      "hutCountry": "DE",
+      "coordinatesRaw": "47.646250, 11.935278",
+      "coordinates": {
+        "lat": 47.64625,
+        "lon": 11.935278
+      },
+      "altitude": "1737 m",
+      "serviced": null,
+      "totalBedsInfo": "69",
+      "info": null
+    },
+    {
+      "hutId": 41,
+      "hutName": "Rugghubelhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.846222, 8.462765",
+      "coordinates": {
+        "lat": 46.846222,
+        "lon": 8.462765
+      },
+      "altitude": "2296 m",
+      "serviced": null,
+      "totalBedsInfo": "85",
+      "info": null
+    },
+    {
+      "hutId": 115,
+      "hutName": "Rüsselsheimer Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.994137/10.888199",
+      "coordinates": {
+        "lat": 46.994137,
+        "lon": 10.888199
+      },
+      "altitude": "2.323 m",
+      "serviced": null,
+      "totalBedsInfo": "47",
+      "info": null
+    },
+    {
+      "hutId": 309,
+      "hutName": "Saarbrücker Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.89845, 10.03605",
+      "coordinates": {
+        "lat": 46.89845,
+        "lon": 10.03605
+      },
+      "altitude": "2538",
+      "serviced": null,
+      "totalBedsInfo": "74",
+      "info": null
+    },
+    {
+      "hutId": 646,
+      "hutName": "Saènt \"Silvio Dorigoni\"",
+      "hutCountry": "IT",
+      "coordinatesRaw": "46.460635, 10.751911",
+      "coordinates": {
+        "lat": 46.460635,
+        "lon": 10.751911
+      },
+      "altitude": "2.436 m",
+      "serviced": null,
+      "totalBedsInfo": "65",
+      "info": null
+    },
+    {
+      "hutId": 552,
+      "hutName": "Sägässähenki Jenisberg",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.695129,9.726563",
+      "coordinates": {
+        "lat": 46.695129,
+        "lon": 9.726563
+      },
+      "altitude": "1504 m ü M",
+      "serviced": null,
+      "totalBedsInfo": "12",
+      "info": null
+    },
+    {
+      "hutId": 227,
+      "hutName": "Salbithütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.676423/8.551785",
+      "coordinates": {
+        "lat": 46.676423,
+        "lon": 8.551785
+      },
+      "altitude": "2105 m",
+      "serviced": null,
+      "totalBedsInfo": "56",
+      "info": null
+    },
+    {
+      "hutId": 559,
+      "hutName": "Salbitschijenbiwak SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.67615/8.52369",
+      "coordinates": {
+        "lat": 46.67615,
+        "lon": 8.52369
+      },
+      "altitude": "2400 m",
+      "serviced": null,
+      "totalBedsInfo": "10",
+      "info": null
+    },
+    {
+      "hutId": 159,
+      "hutName": "Salm-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.046972/12.720417",
+      "coordinates": {
+        "lat": 47.046972,
+        "lon": 12.720417
+      },
+      "altitude": "2.644 m",
+      "serviced": null,
+      "totalBedsInfo": "50",
+      "info": null
+    },
+    {
+      "hutId": 486,
+      "hutName": "Sardonahütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.9156/9.27556",
+      "coordinates": {
+        "lat": 46.9156,
+        "lon": 9.27556
+      },
+      "altitude": "2158 m",
+      "serviced": null,
+      "totalBedsInfo": "48",
+      "info": null
+    },
+    {
+      "hutId": 88,
+      "hutName": "Sarotla-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.104134/ 9.787181",
+      "coordinates": {
+        "lat": 47.104134,
+        "lon": 9.787181
+      },
+      "altitude": "1.611 m",
+      "serviced": null,
+      "totalBedsInfo": "38",
+      "info": null
+    },
+    {
+      "hutId": 101,
+      "hutName": "Saupsdorfer Hütte",
+      "hutCountry": "DE",
+      "coordinatesRaw": "50.927783, 14.335000",
+      "coordinates": {
+        "lat": 50.927783,
+        "lon": 14.335
+      },
+      "altitude": "285 m",
+      "serviced": null,
+      "totalBedsInfo": "25",
+      "info": null
+    },
+    {
+      "hutId": 348,
+      "hutName": "Schalijochbiwak SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.093315, 7.709522",
+      "coordinates": {
+        "lat": 46.093315,
+        "lon": 7.709522
+      },
+      "altitude": "3786 m",
+      "serviced": null,
+      "totalBedsInfo": "8",
+      "info": null
+    },
+    {
+      "hutId": 75,
+      "hutName": "Schesaplana Hütte",
+      "hutCountry": "CH",
+      "coordinatesRaw": "47.0442, 9.684209",
+      "coordinates": {
+        "lat": 47.0442,
+        "lon": 9.684209
+      },
+      "altitude": "1908 m",
+      "serviced": null,
+      "totalBedsInfo": "63",
+      "info": null
+    },
+    {
+      "hutId": 446,
+      "hutName": "Schilthornhütte",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.5701/7.86251",
+      "coordinates": {
+        "lat": 46.5701,
+        "lon": 7.86251
+      },
+      "altitude": "2433",
+      "serviced": null,
+      "totalBedsInfo": "19",
+      "info": null
+    },
+    {
+      "hutId": 284,
+      "hutName": "Schlernbödelehütte",
+      "hutCountry": "IT",
+      "coordinatesRaw": "46.52/11.58",
+      "coordinates": {
+        "lat": 46.52,
+        "lon": 11.58
+      },
+      "altitude": "1693 m",
+      "serviced": null,
+      "totalBedsInfo": "20",
+      "info": null
+    },
+    {
+      "hutId": 353,
+      "hutName": "Schneealpen-Haus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.696318/15.609628",
+      "coordinates": {
+        "lat": 47.696318,
+        "lon": 15.609628
+      },
+      "altitude": "1788m",
+      "serviced": null,
+      "totalBedsInfo": "34",
+      "info": null
+    },
+    {
+      "hutId": 327,
+      "hutName": "Schneibsteinhaus",
+      "hutCountry": "DE",
+      "coordinatesRaw": "47.572147/13.039249",
+      "coordinates": {
+        "lat": 47.572147,
+        "lon": 13.039249
+      },
+      "altitude": "1.670 m",
+      "serviced": null,
+      "totalBedsInfo": "66",
+      "info": null
+    },
+    {
+      "hutId": 308,
+      "hutName": "Schönbielhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.001980, 7.628976",
+      "coordinates": {
+        "lat": 46.00198,
+        "lon": 7.628976
+      },
+      "altitude": "2694 m",
+      "serviced": null,
+      "totalBedsInfo": "45",
+      "info": null
+    },
+    {
+      "hutId": 204,
+      "hutName": "Schreckhornhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.582222/8.098848",
+      "coordinates": {
+        "lat": 46.582222,
+        "lon": 8.098848
+      },
+      "altitude": "2530 m",
+      "serviced": null,
+      "totalBedsInfo": "56",
+      "info": null
+    },
+    {
+      "hutId": 562,
+      "hutName": "Schwarzenberghütte (DAV)",
+      "hutCountry": "DE",
+      "coordinatesRaw": "47.42930/10.40679",
+      "coordinates": {
+        "lat": 47.4293,
+        "lon": 10.40679
+      },
+      "altitude": "1.380 m",
+      "serviced": null,
+      "totalBedsInfo": "58",
+      "info": null
+    },
+    {
+      "hutId": 685,
+      "hutName": "Schwarzensteinhütte (Rif. al Sasso Nero)",
+      "hutCountry": "IT",
+      "coordinatesRaw": "47.01300, 11.885647",
+      "coordinates": {
+        "lat": 47.013,
+        "lon": 11.885647
+      },
+      "altitude": "3026",
+      "serviced": null,
+      "totalBedsInfo": "50",
+      "info": null
+    },
+    {
+      "hutId": 189,
+      "hutName": "Schwarzwasserhütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.331169/10.087352",
+      "coordinates": {
+        "lat": 47.331169,
+        "lon": 10.087352
+      },
+      "altitude": "1621m",
+      "serviced": null,
+      "totalBedsInfo": "75",
+      "info": null
+    },
+    {
+      "hutId": 242,
+      "hutName": "Seetalhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.8739/10.0093",
+      "coordinates": {
+        "lat": 46.8739,
+        "lon": 10.0093
+      },
+      "altitude": "2065 m",
+      "serviced": null,
+      "totalBedsInfo": "10",
+      "info": null
+    },
+    {
+      "hutId": 261,
+      "hutName": "Seethalerhütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.473614 / 13.612779",
+      "coordinates": {
+        "lat": 47.473614,
+        "lon": 13.612779
+      },
+      "altitude": "2740 m",
+      "serviced": null,
+      "totalBedsInfo": "21",
+      "info": null
+    },
+    {
+      "hutId": 276,
+      "hutName": "Sesvennahütte",
+      "hutCountry": "IT",
+      "coordinatesRaw": "46.73449, 10.43552",
+      "coordinates": {
+        "lat": 46.73449,
+        "lon": 10.43552
+      },
+      "altitude": "2256 m",
+      "serviced": null,
+      "totalBedsInfo": "58",
+      "info": null
+    },
+    {
+      "hutId": 627,
+      "hutName": "Sette Selle",
+      "hutCountry": "IT",
+      "coordinatesRaw": "46.132330, 11.392361",
+      "coordinates": {
+        "lat": 46.13233,
+        "lon": 11.392361
+      },
+      "altitude": "2.014 m",
+      "serviced": null,
+      "totalBedsInfo": "15",
+      "info": null
+    },
+    {
+      "hutId": 269,
+      "hutName": "Sewenhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.74/08.52",
+      "coordinates": {
+        "lat": 46.74,
+        "lon": 8.52
+      },
+      "altitude": "2150 m",
+      "serviced": null,
+      "totalBedsInfo": "58",
+      "info": null
+    },
+    {
+      "hutId": 614,
+      "hutName": "Sidelenhütte",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.59/84.26",
+      "coordinates": {
+        "lat": 46.59,
+        "lon": 84.26
+      },
+      "altitude": "2708 m",
+      "serviced": null,
+      "totalBedsInfo": "35",
+      "info": null
+    },
+    {
+      "hutId": 705,
+      "hutName": "Siegerlandhütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.94083 / 11.14778",
+      "coordinates": {
+        "lat": 46.94083,
+        "lon": 11.14778
+      },
+      "altitude": "2710",
+      "serviced": null,
+      "totalBedsInfo": "51",
+      "info": null
+    },
+    {
+      "hutId": 515,
+      "hutName": "Silberhornhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.54901, 7.93364",
+      "coordinates": {
+        "lat": 46.54901,
+        "lon": 7.93364
+      },
+      "altitude": "2663 m",
+      "serviced": null,
+      "totalBedsInfo": "10",
+      "info": null
+    },
+    {
+      "hutId": 466,
+      "hutName": "Sillianer Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.705993/12.406326",
+      "coordinates": {
+        "lat": 46.705993,
+        "lon": 12.406326
+      },
+      "altitude": "2447 m",
+      "serviced": null,
+      "totalBedsInfo": "63",
+      "info": null
+    },
+    {
+      "hutId": 80,
+      "hutName": "Silvrettahütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.854500/10.041452",
+      "coordinates": {
+        "lat": 46.8545,
+        "lon": 10.041452
+      },
+      "altitude": "2341 m",
+      "serviced": null,
+      "totalBedsInfo": "69",
+      "info": null
+    },
+    {
+      "hutId": 219,
+      "hutName": "Simony-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.50/13.62",
+      "coordinates": {
+        "lat": 47.5,
+        "lon": 13.62
+      },
+      "altitude": "2203m",
+      "serviced": null,
+      "totalBedsInfo": "94",
+      "info": null
+    },
+    {
+      "hutId": 405,
+      "hutName": "Skihütte Elm",
+      "hutCountry": "CH",
+      "coordinatesRaw": "2.729805/1.198227",
+      "coordinates": {
+        "lat": 2.729805,
+        "lon": 1.198227
+      },
+      "altitude": "1745 m",
+      "serviced": null,
+      "totalBedsInfo": "15",
+      "info": null
+    },
+    {
+      "hutId": 417,
+      "hutName": "Ski- und Ferienhaus Obergestelen",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.58672/7.43225",
+      "coordinates": {
+        "lat": 46.58672,
+        "lon": 7.43225
+      },
+      "altitude": "1800 m",
+      "serviced": null,
+      "totalBedsInfo": "30",
+      "info": null
+    },
+    {
+      "hutId": 287,
+      "hutName": "Soiernhaus",
+      "hutCountry": "DE",
+      "coordinatesRaw": "47.49/11.35",
+      "coordinates": {
+        "lat": 47.49,
+        "lon": 11.35
+      },
+      "altitude": "1616m",
+      "serviced": null,
+      "totalBedsInfo": "45",
+      "info": null
+    },
+    {
+      "hutId": 294,
+      "hutName": "Sölden-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.484067 / 13.290367",
+      "coordinates": {
+        "lat": 47.484067,
+        "lon": 13.290367
+      },
+      "altitude": "1.550m",
+      "serviced": null,
+      "totalBedsInfo": "24",
+      "info": null
+    },
+    {
+      "hutId": 714,
+      "hutName": "Solstein-Haus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.308092/11.288141",
+      "coordinates": {
+        "lat": 47.308092,
+        "lon": 11.288141
+      },
+      "altitude": "1805m",
+      "serviced": null,
+      "totalBedsInfo": "85",
+      "info": null
+    },
+    {
+      "hutId": 469,
+      "hutName": "Sonnschienhütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.5866, 15.03900",
+      "coordinates": {
+        "lat": 47.5866,
+        "lon": 15.039
+      },
+      "altitude": "1523 m",
+      "serviced": null,
+      "totalBedsInfo": "38",
+      "info": null
+    },
+    {
+      "hutId": 244,
+      "hutName": "Spannorthütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.799824 / 8.509767",
+      "coordinates": {
+        "lat": 46.799824,
+        "lon": 8.509767
+      },
+      "altitude": "1956 m",
+      "serviced": null,
+      "totalBedsInfo": "40",
+      "info": null
+    },
+    {
+      "hutId": 682,
+      "hutName": "Spitzmeilenhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "47.0342/9.25065",
+      "coordinates": {
+        "lat": 47.0342,
+        "lon": 9.25065
+      },
+      "altitude": "2087 ",
+      "serviced": null,
+      "totalBedsInfo": "50",
+      "info": null
+    },
+    {
+      "hutId": 57,
+      "hutName": "Spitzsteinhaus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.70463, 12.24388",
+      "coordinates": {
+        "lat": 47.70463,
+        "lon": 12.24388
+      },
+      "altitude": "1.252 m",
+      "serviced": null,
+      "totalBedsInfo": "53",
+      "info": null
+    },
+    {
+      "hutId": 304,
+      "hutName": "Staldenmaadhütte",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.5960 / 7.4996",
+      "coordinates": {
+        "lat": 46.596,
+        "lon": 7.4996
+      },
+      "altitude": "1120 m",
+      "serviced": null,
+      "totalBedsInfo": "38",
+      "info": null
+    },
+    {
+      "hutId": 693,
+      "hutName": "Starkenburger Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.126944, 11.279444",
+      "coordinates": {
+        "lat": 47.126944,
+        "lon": 11.279444
+      },
+      "altitude": "2237m",
+      "serviced": null,
+      "totalBedsInfo": "59",
+      "info": null
+    },
+    {
+      "hutId": 85,
+      "hutName": "Staufner Haus",
+      "hutCountry": "DE",
+      "coordinatesRaw": "47.491583 /10.069167",
+      "coordinates": {
+        "lat": 47.491583,
+        "lon": 10.069167
+      },
+      "altitude": "1634 m",
+      "serviced": null,
+      "totalBedsInfo": "70",
+      "info": null
+    },
+    {
+      "hutId": 639,
+      "hutName": "Stavèl \"Francesco Denza\"",
+      "hutCountry": "IT",
+      "coordinatesRaw": "46.243415, 10.655236",
+      "coordinates": {
+        "lat": 46.243415,
+        "lon": 10.655236
+      },
+      "altitude": "2.298 m",
+      "serviced": null,
+      "totalBedsInfo": "82",
+      "info": null
+    },
+    {
+      "hutId": 497,
+      "hutName": "Steinsee-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.226122/10.587251",
+      "coordinates": {
+        "lat": 47.226122,
+        "lon": 10.587251
+      },
+      "altitude": "2061 m",
+      "serviced": null,
+      "totalBedsInfo": "84",
+      "info": null
+    },
+    {
+      "hutId": 547,
+      "hutName": "Steinwaldhütte",
+      "hutCountry": "DE",
+      "coordinatesRaw": "49.877729/12.035445",
+      "coordinates": {
+        "lat": 49.877729,
+        "lon": 12.035445
+      },
+      "altitude": "701 m",
+      "serviced": null,
+      "totalBedsInfo": "22",
+      "info": null
+    },
+    {
+      "hutId": 691,
+      "hutName": "Stickler-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.148372/13.378154",
+      "coordinates": {
+        "lat": 47.148372,
+        "lon": 13.378154
+      },
+      "altitude": "1750m",
+      "serviced": null,
+      "totalBedsInfo": "42",
+      "info": null
+    },
+    {
+      "hutId": 527,
+      "hutName": "Stockhornbiwak SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.377958, 7.881010",
+      "coordinates": {
+        "lat": 46.377958,
+        "lon": 7.88101
+      },
+      "altitude": "2598 m",
+      "serviced": null,
+      "totalBedsInfo": "18",
+      "info": null
+    },
+    {
+      "hutId": 84,
+      "hutName": "Stöhrhaus",
+      "hutCountry": "DE",
+      "coordinatesRaw": "47.693111, 12.980639",
+      "coordinates": {
+        "lat": 47.693111,
+        "lon": 12.980639
+      },
+      "altitude": "1.894 m",
+      "serviced": null,
+      "totalBedsInfo": "58",
+      "info": null
+    },
+    {
+      "hutId": 200,
+      "hutName": "Straubinger Haus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.620128, 12.499493",
+      "coordinates": {
+        "lat": 47.620128,
+        "lon": 12.499493
+      },
+      "altitude": "1558 m",
+      "serviced": null,
+      "totalBedsInfo": "50",
+      "info": null
+    },
+    {
+      "hutId": 184,
+      "hutName": "Stripsenjoch-Haus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.34/12.18",
+      "coordinates": {
+        "lat": 47.34,
+        "lon": 12.18
+      },
+      "altitude": "1.580 m",
+      "serviced": null,
+      "totalBedsInfo": "126",
+      "info": null
+    },
+    {
+      "hutId": 220,
+      "hutName": "Stüdlhütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.05494, 12.68159",
+      "coordinates": {
+        "lat": 47.05494,
+        "lon": 12.68159
+      },
+      "altitude": "2.802 m",
+      "serviced": null,
+      "totalBedsInfo": "118",
+      "info": null
+    },
+    {
+      "hutId": 192,
+      "hutName": "Stuttgarter Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.18041, 10.20460",
+      "coordinates": {
+        "lat": 47.18041,
+        "lon": 10.2046
+      },
+      "altitude": "2310 m",
+      "serviced": null,
+      "totalBedsInfo": "54",
+      "info": null
+    },
+    {
+      "hutId": 190,
+      "hutName": "Sudetendeutsche Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.049352, 12.576295",
+      "coordinates": {
+        "lat": 47.049352,
+        "lon": 12.576295
+      },
+      "altitude": "2.656",
+      "serviced": null,
+      "totalBedsInfo": "47",
+      "info": null
+    },
+    {
+      "hutId": 648,
+      "hutName": "Sulzenauhütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.995920, 11.181911",
+      "coordinates": {
+        "lat": 46.99592,
+        "lon": 11.181911
+      },
+      "altitude": "2191 m",
+      "serviced": null,
+      "totalBedsInfo": "102",
+      "info": null
+    },
+    {
+      "hutId": 326,
+      "hutName": "Sunnehüsi",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.643720, 7.446150",
+      "coordinates": {
+        "lat": 46.64372,
+        "lon": 7.44615
+      },
+      "altitude": "1125 m",
+      "serviced": null,
+      "totalBedsInfo": "15",
+      "info": null
+    },
+    {
+      "hutId": 525,
+      "hutName": "Sustlihütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.751682 / 8.470734",
+      "coordinates": {
+        "lat": 46.751682,
+        "lon": 8.470734
+      },
+      "altitude": "2257m",
+      "serviced": null,
+      "totalBedsInfo": "67",
+      "info": null
+    },
+    {
+      "hutId": 387,
+      "hutName": "Sylvan-Hütte",
+      "hutCountry": "DE",
+      "coordinatesRaw": "49.902413/9.479421",
+      "coordinates": {
+        "lat": 49.902413,
+        "lon": 9.479421
+      },
+      "altitude": "374 m",
+      "serviced": null,
+      "totalBedsInfo": "1",
+      "info": null
+    },
+    {
+      "hutId": 495,
+      "hutName": "Talherberge Zwieselstein",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.939372/11.027146",
+      "coordinates": {
+        "lat": 46.939372,
+        "lon": 11.027146
+      },
+      "altitude": "1472 m",
+      "serviced": null,
+      "totalBedsInfo": "32",
+      "info": null
+    },
+    {
+      "hutId": 676,
+      "hutName": "Tannheimer Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.49, 10.61",
+      "coordinates": {
+        "lat": 47.49,
+        "lon": 10.61
+      },
+      "altitude": "1713 m",
+      "serviced": null,
+      "totalBedsInfo": "26",
+      "info": null
+    },
+    {
+      "hutId": 231,
+      "hutName": "Taschachhaus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.90985, 10.81760",
+      "coordinates": {
+        "lat": 46.90985,
+        "lon": 10.8176
+      },
+      "altitude": "2434m",
+      "serviced": null,
+      "totalBedsInfo": "154",
+      "info": null
+    },
+    {
+      "hutId": 51,
+      "hutName": "Täschhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.05159/7.82994",
+      "coordinates": {
+        "lat": 46.05159,
+        "lon": 7.82994
+      },
+      "altitude": "2701 m",
+      "serviced": null,
+      "totalBedsInfo": "73",
+      "info": null
+    },
+    {
+      "hutId": 507,
+      "hutName": "Taubensteinhaus",
+      "hutCountry": "DE",
+      "coordinatesRaw": "47.66083, 11.92530",
+      "coordinates": {
+        "lat": 47.66083,
+        "lon": 11.9253
+      },
+      "altitude": "1567 m",
+      "serviced": null,
+      "totalBedsInfo": "46",
+      "info": null
+    },
+    {
+      "hutId": 16,
+      "hutName": "Terrihütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.634529, 9.005067",
+      "coordinates": {
+        "lat": 46.634529,
+        "lon": 9.005067
+      },
+      "altitude": "2170 m",
+      "serviced": null,
+      "totalBedsInfo": "90",
+      "info": null
+    },
+    {
+      "hutId": 587,
+      "hutName": "Testhütte Carolin",
+      "hutCountry": "AT",
+      "coordinatesRaw": "12.34, 23.56",
+      "coordinates": {
+        "lat": 12.34,
+        "lon": 23.56
+      },
+      "altitude": "123 m",
+      "serviced": null,
+      "totalBedsInfo": "48",
+      "info": null
+    },
+    {
+      "hutId": 403,
+      "hutName": "Theodor-Körner-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.5055/13.4783",
+      "coordinates": {
+        "lat": 47.5055,
+        "lon": 13.4783
+      },
+      "altitude": "1456",
+      "serviced": null,
+      "totalBedsInfo": "32",
+      "info": null
+    },
+    {
+      "hutId": 301,
+      "hutName": "Tiefrastenhütte",
+      "hutCountry": "IT",
+      "coordinatesRaw": "46.87628, 11.78159",
+      "coordinates": {
+        "lat": 46.87628,
+        "lon": 11.78159
+      },
+      "altitude": "2312 m",
+      "serviced": null,
+      "totalBedsInfo": "50",
+      "info": null
+    },
+    {
+      "hutId": 305,
+      "hutName": "Tierberglihütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.702072/8.414224",
+      "coordinates": {
+        "lat": 46.702072,
+        "lon": 8.414224
+      },
+      "altitude": "2795 m",
+      "serviced": null,
+      "totalBedsInfo": "78",
+      "info": null
+    },
+    {
+      "hutId": 553,
+      "hutName": "Tigias Plang Faller",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.503695,9",
+      "coordinates": {
+        "lat": 46.503695,
+        "lon": 9
+      },
+      "altitude": "1922 m.ü.M.",
+      "serviced": null,
+      "totalBedsInfo": "12",
+      "info": null
+    },
+    {
+      "hutId": 91,
+      "hutName": "Tilisuna-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.024591, 9.872610",
+      "coordinates": {
+        "lat": 47.024591,
+        "lon": 9.87261
+      },
+      "altitude": "2.211 m",
+      "serviced": null,
+      "totalBedsInfo": "110",
+      "info": null
+    },
+    {
+      "hutId": 163,
+      "hutName": "Tölzer Hütte am Schafreuter",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.505092/11.491381",
+      "coordinates": {
+        "lat": 47.505092,
+        "lon": 11.491381
+      },
+      "altitude": "1825 m",
+      "serviced": null,
+      "totalBedsInfo": "68",
+      "info": null
+    },
+    {
+      "hutId": 166,
+      "hutName": "Topalihütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.15717/7.76206",
+      "coordinates": {
+        "lat": 46.15717,
+        "lon": 7.76206
+      },
+      "altitude": "2674 m",
+      "serviced": null,
+      "totalBedsInfo": "38",
+      "info": null
+    },
+    {
+      "hutId": 636,
+      "hutName": "Tosa \"Tommaso Pedrotti\"",
+      "hutCountry": "IT",
+      "coordinatesRaw": "46.154130, 10.898766",
+      "coordinates": {
+        "lat": 46.15413,
+        "lon": 10.898766
+      },
+      "altitude": "2.500 m",
+      "serviced": null,
+      "totalBedsInfo": "10",
+      "info": null
+    },
+    {
+      "hutId": 92,
+      "hutName": "Totalp-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.052701/9.727139",
+      "coordinates": {
+        "lat": 47.052701,
+        "lon": 9.727139
+      },
+      "altitude": "2.385 m",
+      "serviced": null,
+      "totalBedsInfo": "87",
+      "info": null
+    },
+    {
+      "hutId": 324,
+      "hutName": "Traunsteiner Skihütte/ Winklmoosalm",
+      "hutCountry": "DE",
+      "coordinatesRaw": "47.65/12.58",
+      "coordinates": {
+        "lat": 47.65,
+        "lon": 12.58
+      },
+      "altitude": "1160 m",
+      "serviced": null,
+      "totalBedsInfo": "25",
+      "info": null
+    },
+    {
+      "hutId": 688,
+      "hutName": "Treschhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.71863/8.64950",
+      "coordinates": {
+        "lat": 46.71863,
+        "lon": 8.6495
+      },
+      "altitude": "1475",
+      "serviced": null,
+      "totalBedsInfo": "34",
+      "info": null
+    },
+    {
+      "hutId": 28,
+      "hutName": "Trifthütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.674023, 8.371172",
+      "coordinates": {
+        "lat": 46.674023,
+        "lon": 8.371172
+      },
+      "altitude": "2420 m",
+      "serviced": null,
+      "totalBedsInfo": "62",
+      "info": null
+    },
+    {
+      "hutId": 487,
+      "hutName": "Tschiervahütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.40388/9.880131",
+      "coordinates": {
+        "lat": 46.40388,
+        "lon": 9.880131
+      },
+      "altitude": "2583 m",
+      "serviced": null,
+      "totalBedsInfo": "90",
+      "info": null
+    },
+    {
+      "hutId": 236,
+      "hutName": "Tübinger Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.911669/10.003486",
+      "coordinates": {
+        "lat": 46.911669,
+        "lon": 10.003486
+      },
+      "altitude": "2193",
+      "serviced": null,
+      "totalBedsInfo": "80",
+      "info": null
+    },
+    {
+      "hutId": 530,
+      "hutName": "Turtmannhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.160075/7.699618",
+      "coordinates": {
+        "lat": 46.160075,
+        "lon": 7.699618
+      },
+      "altitude": "2519 m",
+      "serviced": null,
+      "totalBedsInfo": "72",
+      "info": null
+    },
+    {
+      "hutId": 212,
+      "hutName": "Tutzinger Hütte",
+      "hutCountry": "DE",
+      "coordinatesRaw": "47.657722/11.462417",
+      "coordinates": {
+        "lat": 47.657722,
+        "lon": 11.462417
+      },
+      "altitude": "1.327m",
+      "serviced": null,
+      "totalBedsInfo": "91",
+      "info": null
+    },
+    {
+      "hutId": 637,
+      "hutName": "Val d'Ambiez \"Silvio Agostini\"",
+      "hutCountry": "IT",
+      "coordinatesRaw": "46.142434, 10.869477",
+      "coordinates": {
+        "lat": 46.142434,
+        "lon": 10.869477
+      },
+      "altitude": "2.410 m",
+      "serviced": null,
+      "totalBedsInfo": "50",
+      "info": null
+    },
+    {
+      "hutId": 640,
+      "hutName": "Val d'Amola \"Giovanni Segantini\"",
+      "hutCountry": "IT",
+      "coordinatesRaw": "46.209112, 10.710788",
+      "coordinates": {
+        "lat": 46.209112,
+        "lon": 10.710788
+      },
+      "altitude": "2.371 m",
+      "serviced": null,
+      "totalBedsInfo": "42",
+      "info": null
+    },
+    {
+      "hutId": 643,
+      "hutName": "Val di Fumo",
+      "hutCountry": "IT",
+      "coordinatesRaw": "46.084492, 10.562531",
+      "coordinates": {
+        "lat": 46.084492,
+        "lon": 10.562531
+      },
+      "altitude": "1.910 m",
+      "serviced": null,
+      "totalBedsInfo": "30",
+      "info": null
+    },
+    {
+      "hutId": 396,
+      "hutName": "Valentinalm",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.6816/13.0097",
+      "coordinates": {
+        "lat": 46.6816,
+        "lon": 13.0097
+      },
+      "altitude": "1215 m",
+      "serviced": null,
+      "totalBedsInfo": "39",
+      "info": null
+    },
+    {
+      "hutId": 318,
+      "hutName": "Vermigelhütte",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.59709/8.65678",
+      "coordinates": {
+        "lat": 46.59709,
+        "lon": 8.65678
+      },
+      "altitude": "2042 m",
+      "serviced": null,
+      "totalBedsInfo": "34",
+      "info": null
+    },
+    {
+      "hutId": 238,
+      "hutName": "Vernagthütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.853611, 10.823889",
+      "coordinates": {
+        "lat": 46.853611,
+        "lon": 10.823889
+      },
+      "altitude": "2755 m",
+      "serviced": null,
+      "totalBedsInfo": "74",
+      "info": null
+    },
+    {
+      "hutId": 644,
+      "hutName": "Vioz \"Mantova\"",
+      "hutCountry": "IT",
+      "coordinatesRaw": "46.399200, 10.635780",
+      "coordinates": {
+        "lat": 46.3992,
+        "lon": 10.63578
+      },
+      "altitude": "3.531 m",
+      "serviced": null,
+      "totalBedsInfo": "57",
+      "info": null
+    },
+    {
+      "hutId": 490,
+      "hutName": "Voisthaler-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.612553, 15.180726",
+      "coordinates": {
+        "lat": 47.612553,
+        "lon": 15.180726
+      },
+      "altitude": "1654 m",
+      "serviced": null,
+      "totalBedsInfo": "46",
+      "info": null
+    },
+    {
+      "hutId": 724,
+      "hutName": "von-Schmidt-Zabierow-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.55, 12.65",
+      "coordinates": {
+        "lat": 47.55,
+        "lon": 12.65
+      },
+      "altitude": "1966 m",
+      "serviced": null,
+      "totalBedsInfo": "42",
+      "info": null
+    },
+    {
+      "hutId": 259,
+      "hutName": "Voralphütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.690552, 8.487712",
+      "coordinates": {
+        "lat": 46.690552,
+        "lon": 8.487712
+      },
+      "altitude": "2126 m",
+      "serviced": null,
+      "totalBedsInfo": "40",
+      "info": null
+    },
+    {
+      "hutId": 224,
+      "hutName": "Wanderheim Kreuzmoos",
+      "hutCountry": "DE",
+      "coordinatesRaw": "48.18936 / 7.97712",
+      "coordinates": {
+        "lat": 48.18936,
+        "lon": 7.97712
+      },
+      "altitude": "725 m",
+      "serviced": null,
+      "totalBedsInfo": "50",
+      "info": null
+    },
+    {
+      "hutId": 683,
+      "hutName": "Wangenitzsee-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.9306, 12.79967",
+      "coordinates": {
+        "lat": 46.9306,
+        "lon": 12.79967
+      },
+      "altitude": "2508",
+      "serviced": null,
+      "totalBedsInfo": "46",
+      "info": null
+    },
+    {
+      "hutId": 151,
+      "hutName": "Watzmannhaus",
+      "hutCountry": "DE",
+      "coordinatesRaw": "47.57133, 12.93399",
+      "coordinates": {
+        "lat": 47.57133,
+        "lon": 12.93399
+      },
+      "altitude": "1930 m",
+      "serviced": null,
+      "totalBedsInfo": "160",
+      "info": null
+    },
+    {
+      "hutId": 216,
+      "hutName": "Weidener Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.223772/11.708977",
+      "coordinates": {
+        "lat": 47.223772,
+        "lon": 11.708977
+      },
+      "altitude": "1799 m",
+      "serviced": null,
+      "totalBedsInfo": "56",
+      "info": null
+    },
+    {
+      "hutId": 672,
+      "hutName": "Weisshornhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.086247, 7.743592",
+      "coordinates": {
+        "lat": 46.086247,
+        "lon": 7.743592
+      },
+      "altitude": "2933 m",
+      "serviced": null,
+      "totalBedsInfo": "30",
+      "info": null
+    },
+    {
+      "hutId": 209,
+      "hutName": "Weissmieshütten SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.143814/7.977938",
+      "coordinates": {
+        "lat": 46.143814,
+        "lon": 7.977938
+      },
+      "altitude": "2726 m",
+      "serviced": null,
+      "totalBedsInfo": "99",
+      "info": null
+    },
+    {
+      "hutId": 508,
+      "hutName": "Welser Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.723, 14.049",
+      "coordinates": {
+        "lat": 47.723,
+        "lon": 14.049
+      },
+      "altitude": "1740 m",
+      "serviced": null,
+      "totalBedsInfo": "83",
+      "info": null
+    },
+    {
+      "hutId": 541,
+      "hutName": "Westfalenhaus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.107917 , 11.100111",
+      "coordinates": {
+        "lat": 47.107917,
+        "lon": 11.100111
+      },
+      "altitude": "2273 m",
+      "serviced": null,
+      "totalBedsInfo": "50",
+      "info": null
+    },
+    {
+      "hutId": 434,
+      "hutName": "Wetterkogler-Haus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.53041/15.914399",
+      "coordinates": {
+        "lat": 47.53041,
+        "lon": 15.914399
+      },
+      "altitude": "1743 m",
+      "serviced": null,
+      "totalBedsInfo": "34",
+      "info": null
+    },
+    {
+      "hutId": 234,
+      "hutName": "Wiesbadener Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.8684, 10.1161",
+      "coordinates": {
+        "lat": 46.8684,
+        "lon": 10.1161
+      },
+      "altitude": "2.443 m",
+      "serviced": null,
+      "totalBedsInfo": "160",
+      "info": null
+    },
+    {
+      "hutId": 164,
+      "hutName": "Wildhornhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.37929/7.38801",
+      "coordinates": {
+        "lat": 46.37929,
+        "lon": 7.38801
+      },
+      "altitude": "2303 m",
+      "serviced": null,
+      "totalBedsInfo": "79",
+      "info": null
+    },
+    {
+      "hutId": 65,
+      "hutName": "Wildstrubelhütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.383, 7.469",
+      "coordinates": {
+        "lat": 46.383,
+        "lon": 7.469
+      },
+      "altitude": "2789 m",
+      "serviced": null,
+      "totalBedsInfo": "68",
+      "info": null
+    },
+    {
+      "hutId": 214,
+      "hutName": "Windegghütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.69500,8.34803",
+      "coordinates": {
+        "lat": 46.695,
+        "lon": 8.34803
+      },
+      "altitude": "1887 m",
+      "serviced": null,
+      "totalBedsInfo": "36",
+      "info": null
+    },
+    {
+      "hutId": 45,
+      "hutName": "Windgällenhütte AACZ",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.79/08.76",
+      "coordinates": {
+        "lat": 46.79,
+        "lon": 8.76
+      },
+      "altitude": "2032 m",
+      "serviced": null,
+      "totalBedsInfo": "55",
+      "info": null
+    },
+    {
+      "hutId": 263,
+      "hutName": "Winteregghütte",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.460438, 7.649975",
+      "coordinates": {
+        "lat": 46.460438,
+        "lon": 7.649975
+      },
+      "altitude": "1897 m",
+      "serviced": null,
+      "totalBedsInfo": "30",
+      "info": null
+    },
+    {
+      "hutId": 267,
+      "hutName": "Wolayersee-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.6124, 12.8670",
+      "coordinates": {
+        "lat": 46.6124,
+        "lon": 12.867
+      },
+      "altitude": "1.960 m",
+      "serviced": null,
+      "totalBedsInfo": "64",
+      "info": null
+    },
+    {
+      "hutId": 372,
+      "hutName": "Wolfratshauser Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.39111, 10.84861",
+      "coordinates": {
+        "lat": 47.39111,
+        "lon": 10.84861
+      },
+      "altitude": "1752 m",
+      "serviced": null,
+      "totalBedsInfo": "42",
+      "info": null
+    },
+    {
+      "hutId": 667,
+      "hutName": "Wormser Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.063889, 9.974722",
+      "coordinates": {
+        "lat": 47.063889,
+        "lon": 9.974722
+      },
+      "altitude": "2307 m",
+      "serviced": null,
+      "totalBedsInfo": "64",
+      "info": null
+    },
+    {
+      "hutId": 520,
+      "hutName": "Würgauer Haus",
+      "hutCountry": "DE",
+      "coordinatesRaw": "49.98222, 11.08992",
+      "coordinates": {
+        "lat": 49.98222,
+        "lon": 11.08992
+      },
+      "altitude": "440 m",
+      "serviced": null,
+      "totalBedsInfo": "1",
+      "info": null
+    },
+    {
+      "hutId": 298,
+      "hutName": "Württembergerhaus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.210277/10.535555",
+      "coordinates": {
+        "lat": 47.210277,
+        "lon": 10.535555
+      },
+      "altitude": "2220m",
+      "serviced": null,
+      "totalBedsInfo": "59",
+      "info": null
+    },
+    {
+      "hutId": 638,
+      "hutName": "XII Apostoli \"Fratelli Garbari\"",
+      "hutCountry": "IT",
+      "coordinatesRaw": "46.150640, 10.847428",
+      "coordinates": {
+        "lat": 46.15064,
+        "lon": 10.847428
+      },
+      "altitude": "2.489 m",
+      "serviced": null,
+      "totalBedsInfo": "20",
+      "info": null
+    },
+    {
+      "hutId": 253,
+      "hutName": "Ybbstaler-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.807240/15.025475",
+      "coordinates": {
+        "lat": 47.80724,
+        "lon": 15.025475
+      },
+      "altitude": "1343 m",
+      "serviced": null,
+      "totalBedsInfo": "43",
+      "info": null
+    },
+    {
+      "hutId": 371,
+      "hutName": "Zapporthütte SAC",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.500000, 9.093930",
+      "coordinates": {
+        "lat": 46.5,
+        "lon": 9.09393
+      },
+      "altitude": "2276 m",
+      "serviced": null,
+      "totalBedsInfo": "24",
+      "info": null
+    },
+    {
+      "hutId": 211,
+      "hutName": "Zeller-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.678, 14.226",
+      "coordinates": {
+        "lat": 47.678,
+        "lon": 14.226
+      },
+      "altitude": "1.575 m",
+      "serviced": null,
+      "totalBedsInfo": "28",
+      "info": null
+    },
+    {
+      "hutId": 295,
+      "hutName": "Zeppezauer-Haus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.724573, 13.007448",
+      "coordinates": {
+        "lat": 47.724573,
+        "lon": 13.007448
+      },
+      "altitude": "1.663",
+      "serviced": null,
+      "totalBedsInfo": "34",
+      "info": null
+    },
+    {
+      "hutId": 266,
+      "hutName": "Zittauer Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.163473, 12.124178",
+      "coordinates": {
+        "lat": 47.163473,
+        "lon": 12.124178
+      },
+      "altitude": "2.328 m",
+      "serviced": null,
+      "totalBedsInfo": "59",
+      "info": null
+    },
+    {
+      "hutId": 695,
+      "hutName": "Zittel-Haus",
+      "hutCountry": "AT",
+      "coordinatesRaw": "47.054 /12.957",
+      "coordinates": {
+        "lat": 47.054,
+        "lon": 12.957
+      },
+      "altitude": "3106m",
+      "serviced": null,
+      "totalBedsInfo": "60",
+      "info": null
+    },
+    {
+      "hutId": 109,
+      "hutName": "Zollnersee-Hütte",
+      "hutCountry": "AT",
+      "coordinatesRaw": "46.605, 13.070",
+      "coordinates": {
+        "lat": 46.605,
+        "lon": 13.07
+      },
+      "altitude": "1.750 m",
+      "serviced": null,
+      "totalBedsInfo": "32",
+      "info": null
+    },
+    {
+      "hutId": 337,
+      "hutName": "Zsigmondyhütte (Rif. Comici)",
+      "hutCountry": "IT",
+      "coordinatesRaw": "46.628530, 12.357851",
+      "coordinates": {
+        "lat": 46.62853,
+        "lon": 12.357851
+      },
+      "altitude": "2224 m",
+      "serviced": null,
+      "totalBedsInfo": "62",
+      "info": null
+    },
+    {
+      "hutId": 30,
+      "hutName": "Zwinglipasshütte",
+      "hutCountry": "CH",
+      "coordinatesRaw": "47.23/09.37",
+      "coordinates": {
+        "lat": 47.23,
+        "lon": 9.37
+      },
+      "altitude": "1999 m",
+      "serviced": null,
+      "totalBedsInfo": "35",
+      "info": null
+    },
+    {
+      "hutId": 346,
+      "hutName": "ZZZ TEST Monbijouhütte",
+      "hutCountry": "CH",
+      "coordinatesRaw": "46.944618, 7.435092",
+      "coordinates": {
+        "lat": 46.944618,
+        "lon": 7.435092
+      },
+      "altitude": "1256 m",
+      "serviced": null,
+      "totalBedsInfo": "40",
+      "info": null
+    }
+  ],
   "failures": []
 }

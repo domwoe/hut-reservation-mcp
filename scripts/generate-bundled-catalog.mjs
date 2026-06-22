@@ -24,10 +24,18 @@ console.log("Fetching hut catalog from hut-reservation.org…");
 const service = createService(config);
 const catalog = await service.refreshHutCatalog();
 
-// Strip the bundled flag (we're writing the canonical file).
-const { bundled: _bundled, ...clean } = catalog;
+// Drop the heavy per-hut `info` blob (bed categories + multilingual
+// descriptions are ~90% of the size and aren't used for search or
+// availability). Search keeps name/coordinates/altitude/serviced/beds from the
+// top-level fields; an authenticated refresh_hut_catalog restores full info.
+const { bundled: _bundled, ...rest } = catalog;
+const clean = {
+  ...rest,
+  huts: rest.huts.map((hut) => ({ ...hut, info: null }))
+};
 
 await fs.mkdir(path.dirname(outputPath), { recursive: true });
 await fs.writeFile(outputPath, `${JSON.stringify(clean, null, 2)}\n`, "utf8");
-console.log(`Wrote ${catalog.huts.length} huts to ${outputPath} (${catalog.failures.length} failures).`);
+const sizeKb = Math.round((await fs.stat(outputPath)).size / 1024);
+console.log(`Wrote ${catalog.huts.length} huts to ${outputPath} (${catalog.failures.length} failures, ${sizeKb} KB).`);
 console.log("Commit data/catalog.json and bump the package version before publishing.");
