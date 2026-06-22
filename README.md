@@ -2,8 +2,6 @@
 
 > Find, check, and book Swiss Alpine Club (SAC) huts straight from your AI agent — **write-safe by default**.
 
-[![npm version](https://img.shields.io/npm/v/hut-reservation-mcp.svg)](https://www.npmjs.com/package/hut-reservation-mcp)
-[![license](https://img.shields.io/npm/l/hut-reservation-mcp.svg)](./LICENSE)
 [![MCP](https://img.shields.io/badge/MCP-server-blue)](https://modelcontextprotocol.io)
 
 A [Model Context Protocol](https://modelcontextprotocol.io) server that gives any MCP-capable agent (Claude, Codex, Cursor, …) the ability to search huts on [`hut-reservation.org`](https://www.hut-reservation.org), check exact-date availability, and prepare bookings and cancellations.
