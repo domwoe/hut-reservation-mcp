@@ -1,6 +1,6 @@
 {
   "name": "hut-reservation-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Local-first MCP server for hut-reservation.org search, availability, and safe booking workflows.",
   "type": "module",
   "license": "MIT",
