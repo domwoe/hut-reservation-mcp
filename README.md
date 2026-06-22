@@ -87,7 +87,7 @@ Most clients accept a config of this shape:
 ```
 </details>
 
-**The package ships with a bundled hut catalog** so `search_huts` and `search_hut_availability` work immediately without logging in. Availability lookups are also unauthenticated. You'll get a warning in results that the bundled catalog may be stale — run `refresh_hut_catalog` with credentials to update it. Everything else (booking, cancellation, listing reservations, refreshing the catalog) requires authentication. See [Configuration & authentication](#configuration--authentication).
+**The package ships with a bundled hut catalog** so `search_huts` and `search_hut_availability` work immediately without logging in. Availability lookups are also unauthenticated. You'll get a warning in results that the bundled catalog may be stale — run `refresh_hut_catalog` with credentials to update it. Booking, cancellation, listing your reservations, and refreshing the catalog require authentication. See [Configuration & authentication](#configuration--authentication).
 
 ---
 
@@ -101,7 +101,7 @@ All tool-facing dates use ISO `YYYY-MM-DD`. The server translates to the upstrea
 | `search_huts` | Search cached huts by text, country, canton, or distance around coordinates. Uses bundled catalog if no local cache. | No¹ | — |
 | `search_hut_availability` | Search exact-period availability for matched huts. Availability lookups are unauthenticated. | No¹ | — |
 | `refresh_hut_catalog` | Refresh cached hut metadata from the upstream hut list. Replaces the bundled catalog with fresh data. | **Yes** | — |
-| `refresh_area_cache` | Refresh canton/country area data via a configured reverse geocoder. Needs `NOMINATIM_BASE_URL`. | **Yes** | — |
+| `refresh_area_cache` | Refresh canton/country area data via a reverse geocoder. Needs `NOMINATIM_BASE_URL`, not login. | No² | — |
 | `prepare_booking` | Create a safe booking **draft** (does not confirm). | **Yes** | — |
 | `confirm_booking` | Confirm a prepared booking, or return a browser handoff URL. | **Yes** | ⚠️ |
 | `list_bookings` | List your reservations via the authenticated endpoint. | **Yes** | — |
@@ -109,6 +109,7 @@ All tool-facing dates use ISO `YYYY-MM-DD`. The server translates to the upstrea
 | `confirm_cancellation` | Confirm a prepared cancellation, or return a browser handoff URL. | **Yes** | ⚠️ |
 
 ¹ Works without credentials using the bundled catalog. Results include a staleness warning; run `refresh_hut_catalog` with credentials to update.
+² Requires a configured Nominatim-compatible geocoder (`NOMINATIM_BASE_URL`), but no hut-reservation.org login.
 
 > ⚠️ Confirmation tools return a **browser handoff URL** by default. They only perform a real upstream write when [experimental writes](#safety-model) are explicitly enabled *and* a raw payload is supplied.
 
@@ -121,8 +122,8 @@ All tool-facing dates use ISO `YYYY-MM-DD`. The server translates to the upstrea
 **Find huts with availability** (no login needed for steps 1–2)
 
 1. `search_huts` → 2. `search_hut_availability`. The bundled catalog is used automatically if no local cache exists; watch for the staleness warning.
-3. Optionally: authenticate → `refresh_hut_catalog` → repeat for fresh results.
-4. For canton filters: configure reverse geocoder → `refresh_area_cache` (requires auth for the catalog).
+3. Optionally: authenticate → `refresh_hut_catalog` → repeat for the latest hut list.
+4. For canton filters: configure a reverse geocoder → `refresh_area_cache` (no login needed).
 
 **Prepare a booking**
 
@@ -151,16 +152,17 @@ Treat session cookies, XSRF tokens, passwords, and raw booking payloads as beare
 
 ### Do I need to authenticate?
 
-**Yes, to do anything useful.** Here's what actually requires a login:
+**No — searching works out of the box.** The package bundles a hut catalog, and hut availability is a public endpoint, so you can find huts and check dates with zero setup. Add credentials only when you want fresher data or to touch your own reservations.
 
-| What you want to do | Tools | Auth required? |
+| What you want to do | Tools | Credentials |
 | --- | --- | :---: |
-| Build/refresh the hut catalog | `refresh_hut_catalog` | **Yes** — the upstream `hutsList` endpoint is auth-gated |
-| Search huts & availability | `search_huts`, `search_hut_availability` | **Yes**, indirectly — they read the cached catalog, which only exists after an authenticated `refresh_hut_catalog` |
-| List / cancel your reservations | `list_bookings`, `prepare_cancellation`, … | **Yes** |
-| Prepare / confirm a booking | `prepare_booking`, `confirm_booking` | **Yes** |
+| Search huts & check availability | `search_huts`, `search_hut_availability` | Not needed (uses the bundled catalog) |
+| Update the catalog to the latest hut list | `refresh_hut_catalog` | **Required** |
+| Get canton filters | `refresh_area_cache` | Not needed — but requires a geocoder |
+| List your reservations | `list_bookings` | **Required** |
+| Prepare / confirm a booking or cancellation | `prepare_booking`, `confirm_booking`, … | **Required** |
 
-The underlying availability lookups (`hutInfo`, `hutStatus`, `checkAvailability`) are themselves public, but you can't reach them through the tools without a catalog first — so in practice **configure credentials before anything else.**
+The bundled catalog only changes when huts open, close, or get renamed — rarely. Search results flag when it's getting old so your agent can suggest a `refresh_hut_catalog`.
 
 ### Which auth mode?
 
