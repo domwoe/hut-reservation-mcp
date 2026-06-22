@@ -3,12 +3,42 @@
   "version": "0.1.0",
   "description": "Local-first MCP server for hut-reservation.org search, availability, and safe booking workflows.",
   "type": "module",
+  "license": "MIT",
+  "author": "Dominic Wörner",
+  "homepage": "https://github.com/domwoe/hut-reservation-mcp#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domwoe/hut-reservation-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/domwoe/hut-reservation-mcp/issues"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "hut-reservation",
+    "sac",
+    "swiss-alpine-club",
+    "hiking",
+    "huts",
+    "llm",
+    "ai-agent"
+  ],
   "packageManager": "pnpm@6.11.0",
   "bin": {
     "hut-reservation-mcp": "./dist/index.js"
   },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
-    "build": "tsc -p tsconfig.build.json",
+    "build": "rm -rf dist && tsc -p tsconfig.build.json",
+    "prepublishOnly": "pnpm build",
     "dev": "tsx src/index.ts",
     "lint": "tsc --noEmit",
     "evaluate:personas": "node scripts/evaluate-personas.mjs -- tsx src/index.ts",
