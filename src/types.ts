@@ -69,6 +69,7 @@ export interface CatalogCache {
   source: "hut-reservation.org";
   huts: HutRecord[];
   failures: CatalogFailure[];
+  bundled?: true;
 }
 
 export interface CatalogFailure {

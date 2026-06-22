@@ -30,6 +30,7 @@
   },
   "files": [
     "dist",
+    "data",
     "README.md",
     "LICENSE"
   ],
@@ -38,6 +39,7 @@
   },
   "scripts": {
     "build": "rm -rf dist && tsc -p tsconfig.build.json",
+    "generate:catalog": "tsx scripts/generate-bundled-catalog.mjs",
     "prepublishOnly": "pnpm build",
     "dev": "tsx src/index.ts",
     "lint": "tsc --noEmit",

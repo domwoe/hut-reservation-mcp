@@ -154,7 +154,9 @@ export class HutReservationClient {
   }
 
   async getHutsList(): Promise<HutListItem[]> {
-    return this.request<HutListItem[]>("GET", "/api/v1/manage/hutsList");
+    // hutsList is auth-gated upstream (401 "Full authentication is required" when
+    // anonymous), unlike the public hutInfo/hutStatus reads. Attach the session.
+    return this.request<HutListItem[]>("GET", "/api/v1/manage/hutsList", { authenticated: true });
   }
 
   async getHutInfo(hutId: number): Promise<HutInfo> {

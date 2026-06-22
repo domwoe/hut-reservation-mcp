@@ -63,8 +63,8 @@ describe("HutReservationClient authentication", () => {
     });
   });
 
-  it("does not authenticate read-only hut catalog requests when credentials are configured", async () => {
-    const requests: Array<{ url: string; method: string; body?: string }> = [];
+  it("authenticates the hut catalog request (hutsList is auth-gated upstream)", async () => {
+    const requests: Array<{ url: string; method: string; cookie: string | null; body?: string }> = [];
     const client = new HutReservationClient(
       {
         baseUrl: "https://www.hut-reservation.org",
@@ -72,7 +72,12 @@ describe("HutReservationClient authentication", () => {
       },
       async (input, init = {}) => {
         const url = String(input);
-        requests.push({ url, method: init.method ?? "GET", body: init.body?.toString() });
+        requests.push({
+          url,
+          method: init.method ?? "GET",
+          cookie: new Headers(init.headers).get("Cookie"),
+          body: init.body?.toString()
+        });
 
         if (url.endsWith("/api/v1/csrf")) {
           return Response.json(
@@ -99,11 +104,18 @@ describe("HutReservationClient authentication", () => {
     await expect(client.getHutsList()).resolves.toEqual([
       { hutId: 603, hutName: "Berggasthaus Bruesti", hutCountry: "CH" }
     ]);
+
+    // Standard credentials trigger a login (csrf + login) before the catalog read.
     expect(requests.map((request) => [request.method, new URL(request.url).pathname])).toEqual([
+      ["GET", "/api/v1/csrf"],
+      ["POST", "/api/v1/users/login"],
       ["GET", "/api/v1/manage/hutsList"]
     ]);
-    expect(requests).toHaveLength(1);
-    expect(requests[0]?.body).toBeUndefined();
+
+    // The catalog read must carry the authenticated session cookie.
+    const hutsListRequest = requests.find((request) => request.url.endsWith("/api/v1/manage/hutsList"));
+    expect(hutsListRequest?.cookie).toContain("JSESSIONID=session-id");
+    expect(hutsListRequest?.body).toBeUndefined();
   });
 
   it("omits SAC session cookies for public hut availability reads", async () => {
@@ -144,10 +156,11 @@ describe("HutReservationClient authentication", () => {
         })
     );
 
-    const request = expect(client.getHutsList()).rejects.toMatchObject({
+    // Use a public read (hutInfo) so the test exercises transport timeout, not auth.
+    const request = expect(client.getHutInfo(603)).rejects.toMatchObject({
       name: "UpstreamApiError",
       status: 0,
-      message: "hut-reservation.org request timed out after 50 ms for /api/v1/manage/hutsList"
+      message: "hut-reservation.org request timed out after 50 ms for /api/v1/reservation/hutInfo/603"
     } satisfies Partial<UpstreamApiError>);
     await vi.advanceTimersByTimeAsync(50);
 
@@ -162,12 +175,15 @@ describe("HutReservationClient authentication", () => {
         credentials: null,
         requestTimeoutMs: 1_000
       },
-      async () => Response.json([{ hutId: 603, hutName: "Berggasthaus Bruesti", hutCountry: "CH" }])
+      async () => Response.json({ hutId: 603, hutName: "Berggasthaus Bruesti", hutCountry: "CH" })
     );
 
-    await expect(client.getHutsList()).resolves.toEqual([
-      { hutId: 603, hutName: "Berggasthaus Bruesti", hutCountry: "CH" }
-    ]);
+    // Public read (hutInfo) — no auth required.
+    await expect(client.getHutInfo(603)).resolves.toEqual({
+      hutId: 603,
+      hutName: "Berggasthaus Bruesti",
+      hutCountry: "CH"
+    });
     expect(vi.getTimerCount()).toBe(0);
   });
 });

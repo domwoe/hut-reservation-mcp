@@ -87,7 +87,7 @@ Most clients accept a config of this shape:
 ```
 </details>
 
-Authenticated tools (your reservations, cancellations) need credentials — see [Configuration](#configuration). Searching and availability work without logging in.
+**The package ships with a bundled hut catalog** so `search_huts` and `search_hut_availability` work immediately without logging in. Availability lookups are also unauthenticated. You'll get a warning in results that the bundled catalog may be stale — run `refresh_hut_catalog` with credentials to update it. Everything else (booking, cancellation, listing reservations, refreshing the catalog) requires authentication. See [Configuration & authentication](#configuration--authentication).
 
 ---
 
@@ -95,18 +95,20 @@ Authenticated tools (your reservations, cancellations) need credentials — see 
 
 All tool-facing dates use ISO `YYYY-MM-DD`. The server translates to the upstream Swiss `DD.MM.YYYY` format internally.
 
-| Tool | Purpose | Auth | Writes? |
+| Tool | Purpose | Auth required | Writes? |
 | --- | --- | :---: | :---: |
-| `auth_status` | Report login, catalog, geocoder, area-cache, and draft-cache readiness. Run this first when diagnosing setup. | — | — |
-| `refresh_hut_catalog` | Refresh cached hut metadata from the upstream hut list + detail endpoints. | — | — |
-| `refresh_area_cache` | Refresh canton/country area data via a configured reverse geocoder. Needs `NOMINATIM_BASE_URL`. | — | — |
-| `search_huts` | Search cached huts by text, country, canton, or distance around coordinates. | — | — |
-| `search_hut_availability` | Search exact-period availability for matched huts. Checks every matched hut by default. | — | — |
-| `prepare_booking` | Create a safe booking **draft** (does not confirm). | — | — |
-| `confirm_booking` | Confirm a prepared booking, or return a browser handoff URL. | ✅ | ⚠️ |
-| `list_bookings` | List your reservations via the authenticated `myReservations` endpoint. | ✅ | — |
-| `prepare_cancellation` | Create a safe cancellation **draft** (does not confirm). | ✅ | — |
-| `confirm_cancellation` | Confirm a prepared cancellation, or return a browser handoff URL. | ✅ | ⚠️ |
+| `auth_status` | Report login, catalog, geocoder, area-cache, and draft-cache readiness. Run this first when diagnosing setup. | No | — |
+| `search_huts` | Search cached huts by text, country, canton, or distance around coordinates. Uses bundled catalog if no local cache. | No¹ | — |
+| `search_hut_availability` | Search exact-period availability for matched huts. Availability lookups are unauthenticated. | No¹ | — |
+| `refresh_hut_catalog` | Refresh cached hut metadata from the upstream hut list. Replaces the bundled catalog with fresh data. | **Yes** | — |
+| `refresh_area_cache` | Refresh canton/country area data via a configured reverse geocoder. Needs `NOMINATIM_BASE_URL`. | **Yes** | — |
+| `prepare_booking` | Create a safe booking **draft** (does not confirm). | **Yes** | — |
+| `confirm_booking` | Confirm a prepared booking, or return a browser handoff URL. | **Yes** | ⚠️ |
+| `list_bookings` | List your reservations via the authenticated endpoint. | **Yes** | — |
+| `prepare_cancellation` | Create a safe cancellation **draft** (does not confirm). | **Yes** | — |
+| `confirm_cancellation` | Confirm a prepared cancellation, or return a browser handoff URL. | **Yes** | ⚠️ |
+
+¹ Works without credentials using the bundled catalog. Results include a staleness warning; run `refresh_hut_catalog` with credentials to update.
 
 > ⚠️ Confirmation tools return a **browser handoff URL** by default. They only perform a real upstream write when [experimental writes](#safety-model) are explicitly enabled *and* a raw payload is supplied.
 
@@ -116,9 +118,11 @@ All tool-facing dates use ISO `YYYY-MM-DD`. The server translates to the upstrea
 
 ## Suggested workflows
 
-**Find huts with availability**
+**Find huts with availability** (no login needed for steps 1–2)
 
-1. `auth_status` → 2. `refresh_hut_catalog` (if catalog is missing/stale) → 3. `refresh_area_cache` (only if you need canton filters) → 4. `search_huts` → 5. `search_hut_availability`.
+1. `search_huts` → 2. `search_hut_availability`. The bundled catalog is used automatically if no local cache exists; watch for the staleness warning.
+3. Optionally: authenticate → `refresh_hut_catalog` → repeat for fresh results.
+4. For canton filters: configure reverse geocoder → `refresh_area_cache` (requires auth for the catalog).
 
 **Prepare a booking**
 
@@ -143,9 +147,76 @@ Treat session cookies, XSRF tokens, passwords, and raw booking payloads as beare
 
 ---
 
-## Configuration
+## Configuration & authentication
 
-The server loads `.env` from the current working directory before reading environment variables. See [`.env.example`](./.env.example) for a template.
+### Do I need to authenticate?
+
+**Yes, to do anything useful.** Here's what actually requires a login:
+
+| What you want to do | Tools | Auth required? |
+| --- | --- | :---: |
+| Build/refresh the hut catalog | `refresh_hut_catalog` | **Yes** — the upstream `hutsList` endpoint is auth-gated |
+| Search huts & availability | `search_huts`, `search_hut_availability` | **Yes**, indirectly — they read the cached catalog, which only exists after an authenticated `refresh_hut_catalog` |
+| List / cancel your reservations | `list_bookings`, `prepare_cancellation`, … | **Yes** |
+| Prepare / confirm a booking | `prepare_booking`, `confirm_booking` | **Yes** |
+
+The underlying availability lookups (`hutInfo`, `hutStatus`, `checkAvailability`) are themselves public, but you can't reach them through the tools without a catalog first — so in practice **configure credentials before anything else.**
+
+### Which auth mode?
+
+> **⚠️ If you log in to hut-reservation.org via the Swiss Alpine Club (i.e. your account is an SAC account), you must use `sac` mode.** The `standard` username/password flow only works for native hut-reservation.org accounts; an SAC-linked email will authenticate but the session is rejected as "Invalid Session". When in doubt, use `sac`.
+
+**`standard`** — a native hut-reservation.org account (username + password):
+
+```bash
+HUT_RESERVATION_AUTH_MODE=standard
+HUT_RESERVATION_USERNAME=person@example.com
+HUT_RESERVATION_PASSWORD=...
+```
+
+**`sac`** — an SAC account, via browser-session cookies. Log in at `hut-reservation.org` through SAC in your browser, then open DevTools → **Application → Cookies → `https://www.hut-reservation.org`** and copy the `SESSION` and `XSRF-TOKEN` values:
+
+```bash
+HUT_RESERVATION_AUTH_MODE=sac
+HUT_RESERVATION_SESSION_COOKIE=...
+HUT_RESERVATION_XSRF_TOKEN=...
+# or, equivalently, both in one header:
+# HUT_RESERVATION_COOKIE_HEADER="SESSION=...; XSRF-TOKEN=..."
+```
+
+SAC cookies expire — when catalog refresh starts failing with an auth error, grab fresh cookie values from the browser.
+
+### Setting these variables with the `npx` install
+
+Because your MCP client (not your shell) spawns the server, set credentials in the client config rather than relying on a shell environment. Two options:
+
+**1. Inline in the client's `env` block** (or `-e KEY=val` with `claude mcp add`):
+
+```json
+{
+  "mcpServers": {
+    "hut-reservation": {
+      "command": "npx",
+      "args": ["-y", "hut-reservation-mcp"],
+      "env": {
+        "HUT_RESERVATION_AUTH_MODE": "sac",
+        "HUT_RESERVATION_SESSION_COOKIE": "...",
+        "HUT_RESERVATION_XSRF_TOKEN": "..."
+      }
+    }
+  }
+}
+```
+
+**2. Point at a `.env` file by absolute path** — keeps secrets out of the client config:
+
+```json
+"env": { "HUT_RESERVATION_DOTENV_PATH": "/Users/me/.config/hut-reservation/.env" }
+```
+
+The server auto-loads `.env` from its working directory too, but under `npx` that directory is unpredictable, so prefer `HUT_RESERVATION_DOTENV_PATH`. Values from the `env` block override values from the `.env` file. See [`.env.example`](./.env.example) for a template, and treat cookies, tokens, and passwords as secrets — never commit them.
+
+### All environment variables
 
 | Variable | Description |
 | --- | --- |
@@ -159,24 +230,6 @@ The server loads `.env` from the current working directory before reading enviro
 | `HUT_RESERVATION_DOTENV_PATH` / `HUT_RESERVATION_DOTENV_DISABLED` | Point at a specific `.env`, or disable dotenv loading. |
 | `NOMINATIM_BASE_URL` | Reverse geocoder base URL. Required before `refresh_area_cache` can geocode. |
 | `NOMINATIM_USER_AGENT` / `NOMINATIM_EMAIL` / `NOMINATIM_MIN_INTERVAL_MS` | Identifying User-Agent, contact email, and rate limit for geocoder requests. |
-
-### Standard account login
-
-```bash
-HUT_RESERVATION_AUTH_MODE=standard
-HUT_RESERVATION_USERNAME=person@example.com
-HUT_RESERVATION_PASSWORD=...
-```
-
-### SAC browser-session login
-
-```bash
-HUT_RESERVATION_AUTH_MODE=sac
-HUT_RESERVATION_SESSION_COOKIE=...
-HUT_RESERVATION_XSRF_TOKEN=...
-```
-
-Copy these from DevTools after logging in through SAC: **Application → Cookies → `https://www.hut-reservation.org` → `SESSION` and `XSRF-TOKEN`.** Or pass both as one header via `HUT_RESERVATION_COOKIE_HEADER`.
 
 ### Reverse geocoder (optional, for canton filters)
 
@@ -194,7 +247,9 @@ The server **never** uses public Nominatim implicitly. Configure an explicit pro
 
 | Symptom | Fix |
 | --- | --- |
-| `auth_status` reports no catalog | Run `refresh_hut_catalog`. |
+| Search results include a stale bundled catalog warning | The bundled catalog is being used. Run `refresh_hut_catalog` with valid credentials to populate a local up-to-date copy. |
+| `refresh_hut_catalog` fails with "Full authentication is required" | You're not authenticated. Configure credentials; the catalog endpoint is auth-gated. |
+| Auth fails with "Invalid Session" | Your account is likely an SAC account — switch to `sac` mode with fresh browser cookies, or your SAC cookies have expired. |
 | Canton filters return nothing | Configure a Nominatim-compatible geocoder, then run `refresh_area_cache`. |
 | Availability searches are slow | Narrow your search filters first, or set `maxCandidates` for an intentional partial search. |
 | Authenticated tools fail | Check `HUT_RESERVATION_AUTH_MODE` and credentials, then restart the client so it respawns the server with the new env. |
@@ -206,7 +261,7 @@ The server **never** uses public Nominatim implicitly. Configure an explicit pro
 ## Develop from source
 
 ```bash
-git clone https://github.com/<you>/hut-reservation-mcp.git
+git clone https://github.com/domwoe/hut-reservation-mcp.git
 cd hut-reservation-mcp
 pnpm install
 pnpm dev          # run over stdio from TypeScript source
@@ -220,6 +275,18 @@ claude mcp add hut-reservation -- pnpm --dir /absolute/path/to/hut-reservation-m
 pnpm build
 claude mcp add hut-reservation -- node /absolute/path/to/hut-reservation-mcp/dist/index.js
 ```
+
+### Regenerating the bundled catalog
+
+The package ships `data/catalog.json` so users can search without authenticating. Regenerate it before releasing a new version:
+
+```bash
+# Requires valid credentials in .env (standard or sac mode)
+pnpm generate:catalog
+# then commit data/catalog.json and bump the version
+```
+
+The hut catalog changes rarely (new huts open, names change). Regenerating once per release is sufficient.
 
 ### Verification
 

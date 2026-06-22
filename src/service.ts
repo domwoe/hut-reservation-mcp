@@ -1,3 +1,4 @@
+import fs from "node:fs/promises";
 import type {
   AppConfig,
   AreaFilter,
@@ -124,6 +125,13 @@ export class HutReservationService {
     const catalog = await this.requireCatalog();
     const areaCache = await this.cache.readAreaCache();
     const warnings: string[] = [];
+
+    if (catalog.bundled) {
+      const age = Math.floor((Date.now() - Date.parse(catalog.refreshedAt)) / (1000 * 60 * 60 * 24));
+      warnings.push(
+        `Using the bundled hut catalog (generated ${age} days ago). Run refresh_hut_catalog with valid credentials to get the latest hut list.`
+      );
+    }
     let cantonMisses = 0;
     let huts: SearchHut[] = catalog.huts.map((hut) => ({ ...hut, area: areaCache.entries[String(hut.hutId)] ?? null }));
 
@@ -383,10 +391,21 @@ export class HutReservationService {
 
   private async requireCatalog(): Promise<CatalogCache> {
     const catalog = await this.cache.readCatalog();
-    if (!catalog) {
-      throw new Error("Local hut catalog is empty. Run refresh_hut_catalog first.");
+    if (catalog) return catalog;
+
+    // Fall back to the bundled catalog shipped with the package. The bundled
+    // catalog is generated at release time and may be months old — surfaced as
+    // a warning in search results so the agent can tell the user.
+    const bundledPath = new URL("../data/catalog.json", import.meta.url);
+    try {
+      const content = await fs.readFile(bundledPath, "utf8");
+      const bundled = JSON.parse(content) as CatalogCache;
+      return { ...bundled, bundled: true };
+    } catch {
+      // No bundled catalog present (dev environment without generated data).
     }
-    return catalog;
+
+    throw new Error("Local hut catalog is empty. Run refresh_hut_catalog first.");
   }
 
   private async checkHutAvailabilityById(
