@@ -456,10 +456,12 @@ function normalizeNights(response: AvailabilityResponse, expectedIsoNights: stri
         return false;
       }
     });
+    const freePlaces = Number(upstream?.freePlaces ?? 0);
+    const availableForReservation = upstream ? upstream.availableForReservation !== false : false;
     return {
       date: isoDate,
-      freePlaces: Number(upstream?.freePlaces ?? 0),
-      availableForReservation: upstream?.availableForReservation !== false
+      freePlaces: Number.isFinite(freePlaces) ? freePlaces : 0,
+      availableForReservation
     };
   });
 }

@@ -22,6 +22,7 @@ interface RequestOptions {
   authenticated?: boolean;
   body?: unknown;
   headers?: Record<string, string>;
+  includeSession?: boolean;
   query?: Record<string, string | number | boolean | null | undefined>;
 }
 
@@ -153,15 +154,11 @@ export class HutReservationClient {
   }
 
   async getHutsList(): Promise<HutListItem[]> {
-    return this.request<HutListItem[]>("GET", "/api/v1/manage/hutsList", {
-      authenticated: this.config.credentials !== null
-    });
+    return this.request<HutListItem[]>("GET", "/api/v1/manage/hutsList");
   }
 
   async getHutInfo(hutId: number): Promise<HutInfo> {
-    return this.request<HutInfo>("GET", `/api/v1/reservation/hutInfo/${hutId}`, {
-      authenticated: this.config.credentials !== null
-    });
+    return this.request<HutInfo>("GET", `/api/v1/reservation/hutInfo/${hutId}`);
   }
 
   async getHutStatus(hutId: number, arrivalDate: string, departureDate: string): Promise<HutStatusResponse> {
@@ -258,7 +255,12 @@ export class HutReservationClient {
 
     const response = await this.rawFetch(path, {
       method,
-      headers: this.buildHeaders(method, options.headers, options.body !== undefined),
+      headers: this.buildHeaders(
+        method,
+        options.headers,
+        options.body !== undefined,
+        options.includeSession ?? options.authenticated === true
+      ),
       body: options.body === undefined ? undefined : JSON.stringify(options.body),
       query: options.query
     });
@@ -269,7 +271,7 @@ export class HutReservationClient {
       await this.ensureAuthenticated();
       const retry = await this.rawFetch(path, {
         method,
-        headers: this.buildHeaders(method, options.headers, options.body !== undefined),
+        headers: this.buildHeaders(method, options.headers, options.body !== undefined, true),
         body: options.body === undefined ? undefined : JSON.stringify(options.body),
         query: options.query
       });
@@ -313,17 +315,18 @@ export class HutReservationClient {
   private buildHeaders(
     method: string,
     extra: Record<string, string> | undefined,
-    hasJsonBody: boolean
+    hasJsonBody: boolean,
+    includeSession: boolean
   ): Record<string, string> {
     const headers: Record<string, string> = {
       Accept: "application/json",
       ...extra
     };
 
-    const cookie = this.jar.header();
+    const cookie = includeSession ? this.jar.header() : null;
     if (cookie) headers.Cookie = cookie;
     if (hasJsonBody) headers["Content-Type"] = "application/json";
-    if (method !== "GET" && this.csrfToken) headers["X-XSRF-TOKEN"] = this.csrfToken;
+    if (includeSession && method !== "GET" && this.csrfToken) headers["X-XSRF-TOKEN"] = this.csrfToken;
     return headers;
   }
 

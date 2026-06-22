@@ -25,12 +25,12 @@ describe("HutReservationClient authentication", () => {
       }
     );
 
-    await expect(client.getHutsList()).resolves.toEqual([
+    await expect(client.listReservations({ dateFrom: "2026-07-01", dateTo: "2026-07-31" })).resolves.toEqual([
       { hutId: 603, hutName: "Berggasthaus Bruesti", hutCountry: "CH" }
     ]);
     expect(requests).toEqual([
       {
-        url: "https://www.hut-reservation.org/api/v1/manage/hutsList",
+        url: "https://www.hut-reservation.org/api/v1/reservation/myReservations?researchFilter=&page=1&size=20&open=true&dateFrom=01.07.2026&dateTo=31.07.2026&sortList=arrivalDate&sortOrder=ASC&profiId=",
         method: "GET",
         cookie: "SESSION=session-value; XSRF-TOKEN=xsrf-token",
         xsrf: null
@@ -55,7 +55,7 @@ describe("HutReservationClient authentication", () => {
       }
     );
 
-    await client.getHutStatus(603, "2026-07-04", "2026-07-05");
+    await client.preBook({ hutId: 603 });
     expect(requests[0]).toEqual({
       method: "POST",
       cookie: "SESSION=session-value; XSRF-TOKEN=xsrf-token",
@@ -63,7 +63,7 @@ describe("HutReservationClient authentication", () => {
     });
   });
 
-  it("authenticates hut catalog requests when credentials are configured", async () => {
+  it("does not authenticate read-only hut catalog requests when credentials are configured", async () => {
     const requests: Array<{ url: string; method: string; body?: string }> = [];
     const client = new HutReservationClient(
       {
@@ -100,11 +100,32 @@ describe("HutReservationClient authentication", () => {
       { hutId: 603, hutName: "Berggasthaus Bruesti", hutCountry: "CH" }
     ]);
     expect(requests.map((request) => [request.method, new URL(request.url).pathname])).toEqual([
-      ["GET", "/api/v1/csrf"],
-      ["POST", "/api/v1/users/login"],
       ["GET", "/api/v1/manage/hutsList"]
     ]);
-    expect(requests[1]?.body).toBe("username=person%40example.com&password=secret");
+    expect(requests).toHaveLength(1);
+    expect(requests[0]?.body).toBeUndefined();
+  });
+
+  it("omits SAC session cookies for public hut availability reads", async () => {
+    const requests: Array<{ method: string; cookie: string | null; xsrf: string | null }> = [];
+    const client = new HutReservationClient(
+      {
+        baseUrl: "https://www.hut-reservation.org",
+        credentials: { mode: "sac", sessionCookie: "stale-session", xsrfToken: "stale-xsrf" }
+      },
+      async (_input, init = {}) => {
+        requests.push({
+          method: init.method ?? "GET",
+          cookie: new Headers(init.headers).get("Cookie"),
+          xsrf: new Headers(init.headers).get("X-XSRF-TOKEN")
+        });
+        return Response.json({ hutStatus: "SERVICED", categories: [] });
+      }
+    );
+
+    await client.getHutStatus(603, "2026-07-04", "2026-07-05");
+
+    expect(requests).toEqual([{ method: "POST", cookie: null, xsrf: null }]);
   });
 
   it("aborts upstream requests after the configured timeout", async () => {

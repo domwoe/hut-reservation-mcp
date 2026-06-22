@@ -185,6 +185,38 @@ describe("HutReservationService", () => {
     expect(result.truncated).toBe(false);
   });
 
+  it("treats missing nightly availability rows as unavailable", async () => {
+    const client: Partial<HutReservationClient> = {
+      getHutStatus: async (): Promise<HutStatusResponse> => ({
+        hutStatus: "SERVICED",
+        categories: [{ categoryID: 10 }]
+      }),
+      checkAvailability: async () => ({
+        availabilityPerDayDTOs: [{ day: "05.07.2026", freePlaces: 3, availableForReservation: true }]
+      })
+    };
+    const { service, cache } = await makeService(client);
+    await cache.writeCatalog({
+      refreshedAt: "2026-06-18T00:00:00.000Z",
+      source: "hut-reservation.org",
+      failures: [],
+      huts: [catalogHut(1, "Missing Row Hut")]
+    });
+
+    const result = await service.searchAvailability({
+      country: "CH",
+      arrivalDate: "2026-07-04",
+      departureDate: "2026-07-05",
+      partySize: 1
+    });
+
+    expect(result.available).toHaveLength(0);
+    expect(result.unavailable).toHaveLength(1);
+    expect(result.unavailable[0]?.nights).toEqual([
+      { date: "2026-07-04", freePlaces: 0, availableForReservation: false }
+    ]);
+  });
+
   it("checks all matched huts by default instead of silently stopping at the first page", async () => {
     const checkedHutIds: number[] = [];
     const client: Partial<HutReservationClient> = {
